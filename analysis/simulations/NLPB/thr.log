@@ -1,0 +1,19 @@
+2024-12-23 14:33:54,336 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2024-12-23 14:33:54,336 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-12-23 14:33:54,336 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-12-23 14:33:54,336 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2024-12-23 14:33:54,336 INFO:main.py:772:main_driver:Loading topology files.
+2024-12-23 14:33:54,385 INFO:main.py:774:main_driver:Loading molecule: thr_for_pdb2pqr.pdb
+2024-12-23 14:33:54,436 INFO:main.py:779:main_driver:Setting up molecule.
+2024-12-23 14:33:54,493 INFO:main.py:417:setup_molecule:Created biomolecule object with 387 residues and 12442 atoms.
+2024-12-23 14:33:54,494 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2024-12-23 14:33:54,507 INFO:main.py:613:non_trivial:Loading forcefield.
+2024-12-23 14:33:54,513 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2024-12-23 14:33:54,515 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2024-12-23 14:33:54,516 WARNING:biomolecule.py:741:apply_force_field:Residue RG5 N 22 has non-integer charge: -0.3081 deviates by 0.3081 from integral, exceeding error tolerance 0.001. 
+2024-12-23 14:33:54,524 WARNING:biomolecule.py:741:apply_force_field:Residue RG3 N 408 has non-integer charge: -0.6919 deviates by 0.30810000000000004 from integral, exceeding error tolerance 0.001. 
+2024-12-23 14:33:54,525 WARNING:main.py:708:non_trivial:Residue RG5 N 22 has non-integer charge:  -0.3081 deviates by 0.3081 from integral, exceeding error tolerance 0.001
+2024-12-23 14:33:54,527 WARNING:main.py:708:non_trivial:Residue RG3 N 408 has non-integer charge:  -0.6919 deviates by 0.30810000000000004 from integral, exceeding error tolerance 0.001
+2024-12-23 14:33:54,527 INFO:main.py:722:non_trivial:Regenerating headers.
+2024-12-23 14:33:54,530 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2024-12-23 14:33:54,581 WARNING:main.py:320:print_pqr:Ignoring 393 header lines in output.

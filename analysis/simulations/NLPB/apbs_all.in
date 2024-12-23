@@ -1,0 +1,33 @@
+read
+    mol pqr thr.pqr
+end
+elec 
+    mg-auto                             # automatically configured finite difference PB calculation
+    dime 289 225 225                    # number grid points per processor
+    cglen 211.3491 158.7399 151.6798    # length of course grid (caculated by pdb2pqr)
+    fglen 144.3230 113.3764 109.2234    # fine mesh domain length (calculated by pdb2pqr)
+    cgcent mol 1                        # center grid on first mol read
+    fgcent mol 1                        # center of fine grif on first mol read
+    mol 1                               # calculation on first mol read
+    npbe                                # ! solve linearized PB (lpde, npbe is non-linear)
+    bcfl sdh                            # “Single Debye-Hückel” boundary condition
+    pdie 2.0000                         # ! dielectric constant of molecule (2 to 20) (low on electronic polariztion, higher considered polarization due to intramolecular motion)
+    sdie 78.5400                        # ! dielectric of solvant (>1) (78 to 80)
+    srfm smol                           # ! how dielectric and ion-accessibility coefficients calculated mol, smol (mol but smoothed to reduce grid dependence), spl2, spl4
+    chgm spl2                           # ! how point charges (delta functions) are mapped to grid, spl0 (only closest grid) spl2 (closest +next), spl4 (closest +nextnext)
+    sdens 10.00                         # number of quadrature points per A^2 to use in surface term calculation
+    srad 1.40                           # radius of solvent molecules to define solvent-related surfaces (1.4=water 0=VDW surface)
+    swin 0.30                           # used for spline-based surface def srfm=spl2/4
+    temp 298.15                         # in K
+    ion charge 2 conc 0.010 radius 0.72      # ! ion in bulk -- must be net neutral, 10mM Mg
+    ion charge 1 conc 0.0275 radius 1.02        # 50mM Na-HEPES pH 8.0
+    ion charge -1 conc 0.0475 radius 1.81       # Cl to neutralize
+    calcenergy no
+    calcforce no
+    write pot dx potential          # in kbT/e
+    write lap dx laplacian_potential
+    write ndens dx ion-density_X
+    write qdens dx charge-density
+    write charge dx charge
+end
+quit
