@@ -12,7 +12,7 @@ from MDAnalysis.analysis import distances
 # inputs
 per_res_file = "../analysis/per_residue_comparison/per_residue_summary.csv"
 consensus_criteria = "both" #either
-consensus_status_file = "../analysis/water_consensus/all_solvent_consensus_status.csv"
+consensus_status_file = "../analysis/water_consensus/all_solvent_consensus_status_withconsensus.csv"
 
 # outputs
 rmsf_22_out = "bfactor_models/22_rmsf.pdb"
@@ -104,7 +104,7 @@ our23df['3A bfactor'] = our23df.apply(lambda row: get_bfactor_based_on_overlap(r
 our23df['xray bfactor'] = our23df.apply(lambda row: get_bfactor_based_on_overlap(row,to_draw["xray"],"mg") if row.solvent=="MG" else get_bfactor_based_on_overlap(row,to_draw["xray"],"wat"),axis=1)
 
 u22 = PandasPdb().read_pdb(PDB22_F).df["ATOM"]
-u23 = PandasPdb().read_pdb('../models/aligned_models/consensus_23.pdb').df["ATOM"]
+u23 = PandasPdb().read_pdb(PDB23_ALIGNED).df["ATOM"]
 
 # get RMSD
 cryoem_3_struct = [f'../models/aligned_models/{pdb}.pdb' for pdb in to_draw['3A']]
@@ -235,3 +235,11 @@ u22.atoms.write(consensus_X_22_rmsd)
 # print out region to hide for xray (not present in any xray structure)
 print(",".join([str(x) for x in residues_xray_count if residues_xray_count[x]==0]))
 print(",".join([str(x) for x in residues_xray_count_wat if residues_xray_count_wat[x]==0]))
+
+'''
+double check same
+22,23,24,25,26,27,28,29,30,31,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51,52,57,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,287,288,289,290,291,332,333,334,335,336,337,338,339,340,341,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401
+22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,143,144,260,262,263,264,266,267,268,270,271,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408
+
+'''
+
