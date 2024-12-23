@@ -1,0 +1,15 @@
+# Comparing water and ions from various models of tetrahymena ribozyme
+
+## Analysis of water and mg positions
+
+To get the list of closest bound RNA atoms to each ion and water run `python get_mg_water_closest_atoms.py` which produces [22A_mg_water_closest_atoms.csv](22A_mg_water_closest_atoms.csv) and [23A_mg_water_closest_atoms.csv](23A_mg_water_closest_atoms.csv) for the 2.2 and 2.3 Å structures respectively.
+
+## Overlap of water and ion positions
+
+First, run `python get_all_binding_sites.py` to produce [all_solvent_bindingsite.csv](all_solvent_bindingsite.csv) which contains binding site information for all structures. 
+
+Next, run `python bind_sites_parra.py X Y` on all model pairs (X=0-28,Y=0-28) which will produce `X_Y_all_solvent_consensus_status.csv` which can be all combined with `python quick_combine_bind_sites.py` to create [all_solvent_consensus_status.csv](all_solvent_consensus_status.csv) and PDBs with water and ions locally aligned to the opposite model ([22in23.pdb](../../models/22in23.pdb) and [23in22.pdb](../../models/23in22.pdb)). 
+
+For the MD simulations, run `python get_md_summaries.py` which will save `Mg_reports_dist2.2_time10_skip1.csv` `Na_reports_dist2.5_time10_skip1.csv` `wat_reports_dist3.2_time10_skip1.csv`, which contain each water-RNA atom interaction with distance at each time point. There are also files produced with  `_rmsdcut3.4` which ignore any frames too far from the cryo-EM structures as measured by RMSD which are saved in [22_23_core_rmsds.csv](22_23_core_rmsds.csv).
+
+Once both these have been run, `python get_md_binding_times_summary.py` can be run to get the comparison between the 2. It will produce `Mg_reports_bind_dist2.2_time10_skip1_rmsdcut3.4.csv`,`Na_reports_bind_dist2.5_time10_skip1_rmsdcut3.4.csv`, and `wat_reports_bind_dist3.2_time10_skip1_rmsdcut3.4.csv` which contains for each water or ion in each simulation what RNA atoms it is bound to for each frame of simulation. Then it produces `Mg_binding_spots_and_cooords_agreement_md_dist2.2_time10_skip1_rmsdcut3.4.csv` and `wat_binding_spots_and_cooords_agreement_md_dist3.2_time10_skip1_rmsdcut3.4.csv` which is a spreadsheet with each binding site found in the cryo-EM structures, their previously discovered agreement to past structure and now additionally agreement and time bound in simulation. A final spread sheet summarizes all MD binding sites, the residence time and how it matches the cryo-EM waters or ions [Mg_md_dist2.2_time10_skip1_rmsdcut3.4.csv](Mg_md_dist2.2_time10_skip1_rmsdcut3.4.csv) and [wat_md_dist3.2_time10_skip1_rmsdcut3.4.csv](wat_md_dist3.2_time10_skip1_rmsdcut3.4.csv).

@@ -1,12 +1,20 @@
 # Calculate the Q-score of models
 
-## Qscore
-
 Note to enable no loss of significant figures in Q-score, a function was added to the Q-score scripts, [added_function_to_qscores.txt](added_function_to_qscores.txt) to save this information. This produces a csv files which is then easily readable in future scripts.
 
 ### Q-score of maps
 
 To calculate the Q-score of water, magnesium, and RNA atoms, of our and previous models we used the simply command `python $MAPQ_CMD $CHIMERA_LOC map=$MRC $PDB np=24`, full commands used can be found in [Qscore.sh](Qscore.sh).
+
+
+
+### Local resolution and density value calcualtions
+We also calculated the density values and local resolution values of each atom using [get_map_value.py](get_map_value.py).
+
+```
+chimerax --nogui --script "get_map_value.py ../../maps/2.2A-cryosparc_P5_J1243_map_locres.mrc ../2.2A_SWIM.pdb localresolution"
+chimerax --nogui --script "get_map_value.py ../../maps/2.3A-cryosparc_P5_J1242_map_locres.mrc ../2.3A_SWIM.pdb localresolution"
+```
 
 ### Q-score of random solvent positions
 To test to strigency of SWIM, we wanted to know what the Qscore of sampling of positions in the RNA solvent shell was (1.5-3.5A for any RNA heavy-atom). First get a pdb of potential solvent locations for both the 2.2A and 2.3A structure using [get_random_solvent.py](get_random_solvent.py). Note, the pdb included in this repository were generated for earlier models, results do not differ significantly, but pdbs prodcued with deposited structures may differ.

@@ -1,0 +1,61 @@
+# this script creates images of atomic models with
+# the water and Mg colored by the bfactor
+# in this case the bfactor represents consensus status
+
+
+# open all relevant files
+close all
+open ../maps/Con1_2.3A_sh.mrc
+open ../maps/Con2-2.2A_sh.mrc
+open bfactor_models/22_mg_water_consensus.pdb
+open bfactor_models/23_aligned_mg_water_consensus.pdb
+open bfactor_models/23_unaligned_mg_water_consensus.pdb
+
+
+# style the atomic model
+
+hide pseudobonds 
+nucleotides #!4 fill
+cartoon style ~:HOH,MG  xsect oval width 2.5 thick 1.5
+hide ~:MG,HOH atoms
+size :MG atomRadius 1 
+style :HOH sphere
+size :HOH atomRadius 1
+
+
+# color by bfactor
+
+color byattribute bfactor :MG palette 0,#b2e7bf:1,#00af2b key false
+color byattribute bfactor :HOH palette 0,#f29a9a:1,#df0303 key false
+color ~:MG,HOH lightgrey
+
+
+# set general parameters
+
+set bgColor white
+lighting soft
+lighting shadows false
+graphics silhouettes false
+
+
+# set view and take images
+
+view matrix camera -0.87796,0.096473,0.46891,232.27,-0.28088,0.68936,-0.66775,-72.871,-0.38767,-0.71797,-0.57814,-42.305
+hide all models,cartoon,atoms
+show #!3 models,cartoon,atoms
+hide ~:MG,HOH atoms
+save figure_panels/wat_mg_by_consensus_22A_viewA.png pixelsize 0.05 transparentBackground true
+hide all models,cartoon,atoms
+show #!4 models,cartoon,atoms
+hide ~:MG,HOH atoms
+save figure_panels/wat_mg_by_consensus_23A_viewA.png pixelsize 0.05 transparentBackground true
+
+view matrix camera -0.87796,-0.46891,0.09648,129.73,-0.28088,0.66775,0.68936,297.77,-0.38767,0.57813,-0.71797,-75.717
+hide all models,cartoon,atoms
+show #!3 models,cartoon,atoms
+hide ~:MG,HOH atoms
+save figure_panels/wat_mg_by_consensus_22A_viewB.png pixelsize 0.05 transparentBackground true
+hide all models,cartoon,atoms
+show #!4 models,cartoon,atoms
+hide ~:MG,HOH atoms
+save figure_panels/wat_mg_by_consensus_23A_viewB.png pixelsize 0.05 transparentBackground true

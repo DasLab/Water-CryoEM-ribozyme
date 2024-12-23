@@ -5,16 +5,18 @@ from biopandas.pdb import PandasPdb
 from math import floor,ceil
 from tqdm import tqdm
 from sys import argv
+from os import path
 
+crd=parent_dir = path.dirname(__file__)
 
 ###############################################################################
 # Models
 ###############################################################################
 
-PDB23_F = '../models/2.3A-G414_cdist3.2_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb' #'../models/Con1_230717_all_SWIM.pdb'
-PDB22_F = '../models/2.2A-G414_cdist3.2_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb' #'../models/Con2_230717_all_SWIM.pdb'
-PDB23_ALIGNED = '../models/aligned_models/consensus_23.pdb'
-OTHER_STRUCTS = glob('../models/other_models/*.pdb')
+PDB23_F = f'{crd}/../models/2.3A_SWIM.pdb' #'../models/2.3A-G414_cdist3.2_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb' #'../models/Con1_230717_all_SWIM.pdb'
+PDB22_F = f'{crd}/../models/2.2A_SWIM.pdb' #'../models/2.2A-G414_cdist3.2_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb' #'../models/Con2_230717_all_SWIM.pdb'
+PDB23_ALIGNED = f'{crd}/../models/consensus_23_aligned.pdb'
+OTHER_STRUCTS = glob(f'{crd}/../models/other_models/*.pdb')
 if "\\" in OTHER_STRUCTS[0]:
     MODEL_RENAME = {struct:struct.rsplit("/",1)[1].rsplit("\\",1)[1].rsplit(".",1)[0] for struct in OTHER_STRUCTS}
 else:
@@ -29,16 +31,16 @@ SIMULATIONS = ["n2ed1","n2ed2","n2ed3","n2ed4",
         "n2rn1","n2rn2","n2rn3","n2rn4","n2rn5","n2rn6",
         "n2rm1","n2rm2","n2rm3","n2rm4","n2rm5","n2rm6"]
 
-MRC22_F = '../maps/Con2-2.2A_sh.mrc'
-MRC23_F = '../maps/Con1_2.3A_sh.mrc'
+MRC22_F = f'{crd}/../maps/Con2-2.2A_sh.mrc'
+MRC23_F = f'{crd}/../maps/Con1_2.3A_sh.mrc'
 
 # and Q of phase
-QSCORE_22 = "../analysis/Qscore/Con2hf-4b_is2__Con2-2.2A_sh__thr2.000_Q0.70_0.60_rQ0.60__hA__hB__297-water__54-ion--.pdb__Q__Con2-2.2A_sh.mrc.csv"
-QSCORE_23 = "../analysis/Qscore/Con3_is_4__Con1_2.3A_sh__thr2.000_Q0.70_0.60_rQ0.60__hA__hB__328-water__56-ion--.pdb__Q__Con1_2.3A_sh.ccp4.csv"
-QSCORE_31 = "../analysis/Qscore/7ez0.pdb__Q__emd_31385.map.csv"
+QSCORE_22 = f"{crd}/../models/Qscore/outputs/2.2A_SWIM.pdb__Q__Con2-2.2A_sh.mrc.csv" # Con2hf-4b_is2__Con2-2.2A_sh__thr2.000_Q0.70_0.60_rQ0.60__hA__hB__297-water__54-ion--.pdb__Q__Con2-2.2A_sh.mrc.csv"
+QSCORE_23 = f"{crd}/../models/Qscore/outputs/2.3A_SWIM.pdb__Q__Con1_2.3A_sh.mrc.csv" #"../analysis/Qscore/Con3_is_4__Con1_2.3A_sh__thr2.000_Q0.70_0.60_rQ0.60__hA__hB__328-water__56-ion--.pdb__Q__Con1_2.3A_sh.ccp4.csv"
+QSCORE_31 = f"{crd}/../models/Qscore/outputs/7ez0.pdb__Q__emd_31385.map.csv"
 
-LOCALRES_22 = 'localres/Con2hf-4b_is2__Con2-2.2A_sh__thr2.000_Q0.70_0.60_rQ0.60__hA__hB__297-water__54-ion--.pdb__mapvalue__2.2A-cryosparc_P5_J1243_map_locres.mrc.csv'
-LOCALRES_23 = 'localres/Con3_is_4__Con1_2.3A_sh__thr2.000_Q0.70_0.60_rQ0.60__hA__hB__328-water__56-ion--.pdb__mapvalue__2.3A-cryosparc_P5_J1242_map_locres.mrc.csv'
+LOCALRES_22 = f'{crd}/../models/Qscore/outputs/2.2A_SWIM.pdb__localresolution__2.2A-cryosparc_P5_J1243_map_locres.mrc.csv' #'localres/Con2hf-4b_is2__Con2-2.2A_sh__thr2.000_Q0.70_0.60_rQ0.60__hA__hB__297-water__54-ion--.pdb__mapvalue__2.2A-cryosparc_P5_J1243_map_locres.mrc.csv'
+LOCALRES_23 = f'{crd}/../models/Qscore/outputs/2.3A_SWIM.pdb__localresolution__2.3A-cryosparc_P5_J1242_map_locres.mrc.csv' #'localres/Con3_is_4__Con1_2.3A_sh__thr2.000_Q0.70_0.60_rQ0.60__hA__hB__328-water__56-ion--.pdb__mapvalue__2.3A-cryosparc_P5_J1242_map_locres.mrc.csv'
 
 ###############################################################################
 # Geometric, simulation criteria
