@@ -25,23 +25,23 @@ A-103:N3 A-269:N6,0.0010833333333333333,0.03,0,2,0,2,Water binding site not foun
 A-103:N6,0.002416666666666667,0.065,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-103:N6 A-269:C8,0.00075,0.0225,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-103:N6 A-269:C8 A-269:N7,0.00025,0.0075,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-103:N6 A-269:C8 A-269:O5' A-269:OP,0.0008333333333333334,0.025,0,1,0,2,Water binding site not found in any cryoEM maps.
-A-103:N6 A-269:C8 A-269:OP,0.0005833333333333334,0.0175,0,1,0,2,Water binding site not found in any cryoEM maps.
+A-103:N6 A-269:C8 A-269:O5' A-269:OP,0.0008333333333333334,0.025,0,1,0,3,Water binding site not found in any cryoEM maps.
+A-103:N6 A-269:C8 A-269:OP,0.0005833333333333334,0.0175,0,1,0,3,Water binding site not found in any cryoEM maps.
 A-103:N6 A-269:N3,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-103:N6 A-269:N3 A-269:O2' A-270:N7,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-103:N6 A-269:N3 A-270:N7,0.0003333333333333333,0.01,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-103:N6 A-269:N7,8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-103:N6 A-269:O2' A-270:N7,0.0009166666666666666,0.0275,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-103:N6 A-269:O5',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
-A-103:N6 A-269:O5' A-269:OP,0.0006666666666666666,0.02,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-103:N6 A-269:OP,0.0020833333333333333,0.0625,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-103:N6 A-269:O5' A-269:OP,0.0006666666666666666,0.02,0,1,0,2,Water binding site not found in any cryoEM maps.
+A-103:N6 A-269:OP,0.0020833333333333333,0.0625,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-103:N6 A-270:N7,0.00075,0.0225,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-103:N6 A-270:OP,0.0016666666666666668,0.05,0,3,0,1,Water binding site not found in any cryoEM maps.
 A-103:N7,0.14125,0.49,1,1,1,1,Water binding site found in both cryoEM maps.
 A-103:N7 A-103:OP,0.01325,0.2025,0,3,0,2,Water binding site not found in any cryoEM maps.
 A-103:N7 A-269:O2',0.007416666666666667,0.075,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-103:N7 A-269:O5' A-269:OP,0.0008333333333333334,0.025,0,1,0,2,Water binding site not found in any cryoEM maps.
-A-103:N7 A-269:OP,0.0965,0.935,1,1,0,2,Water binding site found in only one cryoEM maps.
+A-103:N7 A-269:O5' A-269:OP,0.0008333333333333334,0.025,0,1,0,3,Water binding site not found in any cryoEM maps.
+A-103:N7 A-269:OP,0.0965,0.935,1,1,0,3,Water binding site found in only one cryoEM maps.
 A-103:O2',0.014916666666666667,0.195,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-103:O2' A-103:O3',0.0026666666666666666,0.0425,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-103:O2' A-103:O3' A-104:N7,0.0006666666666666666,0.02,0,2,0,2,Water binding site not found in any cryoEM maps.
@@ -59,19 +59,19 @@ A-103:O2' A-104:OP A-268:OP,0.004333333333333333,0.045,0,6,0,5,Water binding sit
 A-103:O2' A-104:OP A-268:OP A-269:N6,8.333333333333333e-05,0.0025,0,8,0,7,Water binding site not found in any cryoEM maps.
 A-103:O2' A-104:OP U-267:OP,0.0003333333333333333,0.01,0,7,0,7,Water binding site not found in any cryoEM maps.
 A-103:O2' A-268:N7,0.0008333333333333334,0.025,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-103:O2' A-268:O5' A-268:OP A-269:N7 A-269:OP,0.0005833333333333334,0.0175,0,4,0,3,Water binding site not found in any cryoEM maps.
-A-103:O2' A-268:O5' A-269:N7 A-269:OP,0.0003333333333333333,0.01,0,2,0,2,Water binding site not found in any cryoEM maps.
+A-103:O2' A-268:O5' A-268:OP A-269:N7 A-269:OP,0.0005833333333333334,0.0175,0,4,0,4,Water binding site not found in any cryoEM maps.
+A-103:O2' A-268:O5' A-269:N7 A-269:OP,0.0003333333333333333,0.01,0,2,0,3,Water binding site not found in any cryoEM maps.
 A-103:O2' A-268:OP,0.024666666666666667,0.22,0,3,0,2,Water binding site not found in any cryoEM maps.
 A-103:O2' A-268:OP A-269:N6,0.00775,0.225,0,5,0,4,Water binding site not found in any cryoEM maps.
 A-103:O2' A-268:OP A-269:N6 A-269:N7,0.0030833333333333333,0.0925,0,5,0,4,Water binding site not found in any cryoEM maps.
 A-103:O2' A-268:OP A-269:N7,0.005666666666666667,0.07,0,3,0,2,Water binding site not found in any cryoEM maps.
-A-103:O2' A-268:OP A-269:N7 A-269:OP,0.0028333333333333335,0.0825,0,4,0,3,Water binding site not found in any cryoEM maps.
-A-103:O2' A-268:OP A-269:OP,0.00025,0.005,0,4,0,3,Water binding site not found in any cryoEM maps.
+A-103:O2' A-268:OP A-269:N7 A-269:OP,0.0028333333333333335,0.0825,0,4,0,4,Water binding site not found in any cryoEM maps.
+A-103:O2' A-268:OP A-269:OP,0.00025,0.005,0,4,0,4,Water binding site not found in any cryoEM maps.
 A-103:O2' A-269:N6,0.004333333333333333,0.105,0,3,0,3,Water binding site not found in any cryoEM maps.
 A-103:O2' A-269:N6 A-269:N7,0.00125,0.035,0,3,0,3,Water binding site not found in any cryoEM maps.
 A-103:O2' A-269:N7,0.0004166666666666667,0.01,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-103:O2' A-269:N7 A-269:OP,0.0075,0.1125,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-103:O2' A-269:OP,0.0010833333333333333,0.0175,0,2,0,2,Water binding site not found in any cryoEM maps.
+A-103:O2' A-269:N7 A-269:OP,0.0075,0.1125,0,2,0,3,Water binding site not found in any cryoEM maps.
+A-103:O2' A-269:OP,0.0010833333333333333,0.0175,0,2,0,3,Water binding site not found in any cryoEM maps.
 A-103:O2' U-106:O4,0.0008333333333333334,0.025,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-103:O2' U-267:OP,0.002416666666666667,0.0475,0,4,0,5,Water binding site not found in any cryoEM maps.
 A-103:O2' U-267:OP A-268:OP,0.0006666666666666666,0.02,0,5,0,5,Water binding site not found in any cryoEM maps.
@@ -95,7 +95,7 @@ A-103:OP A-218:O2' A-218:O3',0.005083333333333333,0.1525,1,2,1,2,Water binding s
 A-103:OP A-218:O2' A-219:OP,0.0009166666666666666,0.0275,0,5,0,4,Water binding site not found in any cryoEM maps.
 A-103:OP A-218:O3',0.00025,0.0075,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-103:OP A-219:OP,0.002916666666666667,0.0875,0,5,0,4,Water binding site not found in any cryoEM maps.
-A-103:OP A-269:OP,0.04025,0.535,0,3,0,2,Water binding site not found in any cryoEM maps.
+A-103:OP A-269:OP,0.04025,0.535,0,3,0,3,Water binding site not found in any cryoEM maps.
 A-104:C8 A-105:N7,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-104:C8 A-105:N7 A-105:OP,0.0015833333333333333,0.0275,0,2,0,3,Water binding site not found in any cryoEM maps.
 A-104:C8 A-105:N7 A-105:OP U-106:O4,8.333333333333333e-05,0.0025,0,2,0,4,Water binding site not found in any cryoEM maps.
@@ -725,8 +725,8 @@ A-173:OP G-174:N7 G-175:N7,0.0004166666666666667,0.0125,0,0,0,1,Water binding si
 A-173:OP G-174:O6,0.0015833333333333333,0.0225,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-173:OP G-174:OP,0.012416666666666666,0.075,0,0,0,1,Water binding site not found in any cryoEM maps.
 A-173:OP G-175:N7,0.0014166666666666668,0.0425,0,0,0,1,Water binding site not found in any cryoEM maps.
-A-178:N1,0.0011666666666666668,0.035,0,0,0,0,Water binding site not found in any cryoEM maps.
-A-178:N6,0.0013333333333333333,0.0325,0,0,0,0,Water binding site not found in any cryoEM maps.
+A-178:N1,0.0011666666666666668,0.035,0,1,0,0,Water binding site not found in any cryoEM maps.
+A-178:N6,0.0013333333333333333,0.0325,0,1,0,0,Water binding site not found in any cryoEM maps.
 A-178:N7,0.030666666666666665,0.295,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-178:N7 G-180:N2 G-180:N3,8.333333333333333e-05,0.0025,0,1,0,0,Water binding site not found in any cryoEM maps.
 A-178:N7 G-180:N3,0.012666666666666666,0.16,0,1,0,0,Water binding site not found in any cryoEM maps.
@@ -978,12 +978,12 @@ A-207:OP U-305:O2',0.019333333333333334,0.2325,0,0,0,1,Water binding site not fo
 A-207:OP U-305:O2' A-306:OP,0.004833333333333334,0.0725,0,0,0,1,Water binding site not found in any cryoEM maps.
 A-210:N1,8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-210:N1 A-256:N7 A-256:OP,0.00025,0.0075,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-210:N1 A-256:N7 A-256:OP U-273:OP,0.004416666666666667,0.1325,0,3,0,2,Water binding site not found in any cryoEM maps.
-A-210:N1 A-256:N7 U-273:OP,0.0005,0.015,0,1,0,0,Water binding site not found in any cryoEM maps.
+A-210:N1 A-256:N7 A-256:OP U-273:OP,0.004416666666666667,0.1325,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-210:N1 A-256:N7 U-273:OP,0.0005,0.015,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-210:N1 A-256:OP,0.0006666666666666666,0.02,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-210:N1 A-256:OP U-273:OP,0.011333333333333334,0.34,0,3,0,2,Water binding site not found in any cryoEM maps.
+A-210:N1 A-256:OP U-273:OP,0.011333333333333334,0.34,0,3,0,3,Water binding site not found in any cryoEM maps.
 A-210:N1 G-212:OP,0.0010833333333333333,0.0325,0,0,0,2,Water binding site not found in any cryoEM maps.
-A-210:N1 U-273:OP,0.0005,0.015,0,1,0,0,Water binding site not found in any cryoEM maps.
+A-210:N1 U-273:OP,0.0005,0.015,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-210:N3,0.00025,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-210:N3 A-210:OP,0.007,0.18,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-210:N3 G-212:OP,0.00075,0.0225,0,0,0,2,Water binding site not found in any cryoEM maps.
@@ -1503,11 +1503,11 @@ A-256:C2 A-304:O2',0.004166666666666667,0.125,0,3,0,2,Water binding site not fou
 A-256:C2 U-271:O2',0.0009166666666666666,0.0275,0,2,0,1,Water binding site not found in any cryoEM maps.
 A-256:C8,8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-256:C8 A-256:N7 A-256:OP,0.0014166666666666668,0.01,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-256:C8 A-256:N7 A-256:OP U-273:OP,0.018916666666666665,0.08,0,3,0,2,Water binding site not found in any cryoEM maps.
-A-256:C8 A-256:N7 U-273:OP,0.0003333333333333333,0.005,0,1,0,0,Water binding site not found in any cryoEM maps.
-A-256:C8 A-256:O5' A-256:OP U-273:OP,0.0003333333333333333,0.01,0,3,0,2,Water binding site not found in any cryoEM maps.
+A-256:C8 A-256:N7 A-256:OP U-273:OP,0.018916666666666665,0.08,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-256:C8 A-256:N7 U-273:OP,0.0003333333333333333,0.005,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-256:C8 A-256:O5' A-256:OP U-273:OP,0.0003333333333333333,0.01,0,3,0,3,Water binding site not found in any cryoEM maps.
 A-256:C8 A-256:OP,0.00016666666666666666,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-256:C8 A-256:OP U-273:OP,0.005833333333333334,0.055,0,3,0,2,Water binding site not found in any cryoEM maps.
+A-256:C8 A-256:OP U-273:OP,0.005833333333333334,0.055,0,3,0,3,Water binding site not found in any cryoEM maps.
 A-256:N1,0.00016666666666666666,0.005,0,1,0,0,Water binding site not found in any cryoEM maps.
 A-256:N1 A-256:N6 A-301:OP A-302:OP,0.0005,0.015,0,4,0,6,Water binding site not found in any cryoEM maps.
 A-256:N1 A-256:N6 U-271:O2' U-300:OP A-301:OP A-302:OP,0.001,0.03,0,5,0,8,Water binding site not found in any cryoEM maps.
@@ -1542,12 +1542,12 @@ A-256:N3 G-303:OP U-305:OP,0.044583333333333336,0.685,0,6,0,8,Water binding site
 A-256:N3 U-305:OP,0.0020833333333333333,0.03,0,4,0,5,Water binding site not found in any cryoEM maps.
 A-256:N6,0.005916666666666666,0.0375,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-256:N6 A-256:N7 G-272:OP,0.0005,0.0075,0,3,0,4,Water binding site not found in any cryoEM maps.
-A-256:N6 A-256:N7 G-272:OP U-273:OP,0.029333333333333333,0.47,0,4,0,4,Water binding site not found in any cryoEM maps.
-A-256:N6 A-256:N7 G-272:OP U-273:OP A-299:OP,0.001,0.03,0,5,0,5,Water binding site not found in any cryoEM maps.
-A-256:N6 A-256:N7 U-273:OP,0.001,0.0175,0,2,0,1,Water binding site not found in any cryoEM maps.
-A-256:N6 A-256:N7 U-273:OP A-299:OP,0.0003333333333333333,0.01,0,3,0,2,Water binding site not found in any cryoEM maps.
-A-256:N6 A-299:OP,0.0010833333333333333,0.0325,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-256:N6 A-299:OP U-300:OP,0.0018333333333333333,0.03,0,2,0,3,Water binding site not found in any cryoEM maps.
+A-256:N6 A-256:N7 G-272:OP U-273:OP,0.029333333333333333,0.47,0,4,0,5,Water binding site not found in any cryoEM maps.
+A-256:N6 A-256:N7 G-272:OP U-273:OP A-299:OP,0.001,0.03,0,6,0,6,Water binding site not found in any cryoEM maps.
+A-256:N6 A-256:N7 U-273:OP,0.001,0.0175,0,2,0,2,Water binding site not found in any cryoEM maps.
+A-256:N6 A-256:N7 U-273:OP A-299:OP,0.0003333333333333333,0.01,0,4,0,3,Water binding site not found in any cryoEM maps.
+A-256:N6 A-299:OP,0.0010833333333333333,0.0325,0,3,0,2,Water binding site not found in any cryoEM maps.
+A-256:N6 A-299:OP U-300:OP,0.0018333333333333333,0.03,0,3,0,3,Water binding site not found in any cryoEM maps.
 A-256:N6 A-301:OP,0.006333333333333333,0.1275,0,3,0,5,Water binding site not found in any cryoEM maps.
 A-256:N6 A-301:OP A-302:OP,0.009666666666666667,0.2275,0,4,0,6,Water binding site not found in any cryoEM maps.
 A-256:N6 A-301:OP A-302:OP G-303:N1,0.0005,0.015,0,4,0,6,Water binding site not found in any cryoEM maps.
@@ -1556,7 +1556,7 @@ A-256:N6 A-302:OP,0.0023333333333333335,0.03,0,2,0,2,Water binding site not foun
 A-256:N6 A-302:OP G-303:OP,0.002416666666666667,0.0475,0,4,0,6,Water binding site not found in any cryoEM maps.
 A-256:N6 G-272:OP,0.0013333333333333333,0.04,0,3,0,4,Water binding site not found in any cryoEM maps.
 A-256:N6 G-272:OP A-301:OP,0.0015,0.045,0,5,0,7,Water binding site not found in any cryoEM maps.
-A-256:N6 G-272:OP U-273:OP,0.0014166666666666668,0.0225,0,4,0,4,Water binding site not found in any cryoEM maps.
+A-256:N6 G-272:OP U-273:OP,0.0014166666666666668,0.0225,0,4,0,5,Water binding site not found in any cryoEM maps.
 A-256:N6 G-303:N1,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-256:N6 G-303:OP,0.001,0.03,0,4,0,5,Water binding site not found in any cryoEM maps.
 A-256:N6 U-271:O2',0.003,0.05,0,2,0,2,Water binding site not found in any cryoEM maps.
@@ -1570,28 +1570,28 @@ A-256:N6 U-271:O3',0.00025,0.0075,0,1,0,1,Water binding site not found in any cr
 A-256:N6 U-271:O3' A-301:OP,0.0010833333333333333,0.0325,0,3,0,5,Water binding site not found in any cryoEM maps.
 A-256:N6 U-271:O3' A-302:OP,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-256:N6 U-271:O3' U-300:OP,0.0003333333333333333,0.01,0,1,0,2,Water binding site not found in any cryoEM maps.
-A-256:N6 U-273:OP,8.333333333333333e-05,0.0025,0,2,0,1,Water binding site not found in any cryoEM maps.
+A-256:N6 U-273:OP,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-256:N6 U-300:OP,0.024,0.1575,1,1,0,2,Water binding site found in only one cryoEM maps.
 A-256:N6 U-300:OP A-301:OP,0.0018333333333333333,0.055,0,3,0,6,Water binding site not found in any cryoEM maps.
 A-256:N6 U-300:OP A-301:OP A-302:OP,8.333333333333333e-05,0.0025,0,4,0,7,Water binding site not found in any cryoEM maps.
 A-256:N6 U-300:OP A-302:OP,0.0021666666666666666,0.0575,0,2,0,3,Water binding site not found in any cryoEM maps.
 A-256:N7,0.0016666666666666668,0.0125,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-256:N7 A-256:OP,0.023166666666666665,0.1375,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-256:N7 A-256:OP A-299:OP,0.00325,0.0775,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-256:N7 A-256:OP U-273:OP,0.316,0.87,0,3,0,2,Water binding site not found in any cryoEM maps.
-A-256:N7 A-256:OP U-273:OP A-299:OP,0.010416666666666666,0.19,0,4,0,3,Water binding site not found in any cryoEM maps.
-A-256:N7 A-299:OP,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-256:N7 A-256:OP A-299:OP,0.00325,0.0775,0,4,0,3,Water binding site not found in any cryoEM maps.
+A-256:N7 A-256:OP U-273:OP,0.316,0.87,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-256:N7 A-256:OP U-273:OP A-299:OP,0.010416666666666666,0.19,0,5,0,4,Water binding site not found in any cryoEM maps.
+A-256:N7 A-299:OP,8.333333333333333e-05,0.0025,0,2,0,1,Water binding site not found in any cryoEM maps.
 A-256:N7 G-272:OP,0.024666666666666667,0.2125,0,2,0,3,Water binding site not found in any cryoEM maps.
-A-256:N7 G-272:OP A-299:OP,0.00025,0.005,0,3,0,4,Water binding site not found in any cryoEM maps.
+A-256:N7 G-272:OP A-299:OP,0.00025,0.005,0,4,0,4,Water binding site not found in any cryoEM maps.
 A-256:N7 G-272:OP A-302:OP,0.00025,0.0075,0,3,0,4,Water binding site not found in any cryoEM maps.
-A-256:N7 G-272:OP U-273:OP,0.42625,0.865,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-256:N7 G-272:OP U-273:OP A-299:OP,0.009583333333333333,0.225,0,4,0,4,Water binding site not found in any cryoEM maps.
-A-256:N7 G-272:OP U-273:OP A-302:OP,0.007833333333333333,0.235,0,4,0,4,Water binding site not found in any cryoEM maps.
-A-256:N7 G-272:OP U-273:OP U-300:OP,0.005333333333333333,0.125,0,4,0,5,Water binding site not found in any cryoEM maps.
-A-256:N7 U-273:OP,0.020083333333333335,0.0825,0,1,0,0,Water binding site not found in any cryoEM maps.
-A-256:N7 U-273:OP A-299:OP,0.00075,0.0225,0,2,0,1,Water binding site not found in any cryoEM maps.
-A-256:N7 U-273:OP A-302:OP,8.333333333333333e-05,0.0025,0,2,0,1,Water binding site not found in any cryoEM maps.
-A-256:N7 U-273:OP U-300:OP,0.00016666666666666666,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
+A-256:N7 G-272:OP U-273:OP,0.42625,0.865,0,3,0,4,Water binding site not found in any cryoEM maps.
+A-256:N7 G-272:OP U-273:OP A-299:OP,0.009583333333333333,0.225,0,5,0,5,Water binding site not found in any cryoEM maps.
+A-256:N7 G-272:OP U-273:OP A-302:OP,0.007833333333333333,0.235,0,4,0,5,Water binding site not found in any cryoEM maps.
+A-256:N7 G-272:OP U-273:OP U-300:OP,0.005333333333333333,0.125,0,4,0,6,Water binding site not found in any cryoEM maps.
+A-256:N7 U-273:OP,0.020083333333333335,0.0825,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-256:N7 U-273:OP A-299:OP,0.00075,0.0225,0,3,0,2,Water binding site not found in any cryoEM maps.
+A-256:N7 U-273:OP A-302:OP,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
+A-256:N7 U-273:OP U-300:OP,0.00016666666666666666,0.0025,0,2,0,3,Water binding site not found in any cryoEM maps.
 A-256:N7 U-300:OP,0.00825,0.2475,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-256:O2',0.08125,0.59,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-256:O2' A-256:O3',0.0005,0.005,0,0,0,1,Water binding site not found in any cryoEM maps.
@@ -1616,18 +1616,18 @@ A-256:O3' G-257:OP,0.0010833333333333333,0.0125,0,3,0,4,Water binding site not f
 A-256:O3' G-257:OP U-305:OP,0.006833333333333334,0.075,0,4,0,5,Water binding site not found in any cryoEM maps.
 A-256:O3' U-305:OP,0.04741666666666667,0.4925,0,3,1,4,Water binding site found in only one cryoEM maps.
 A-256:O5' A-256:OP,0.0004166666666666667,0.005,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-256:O5' A-256:OP U-273:OP,0.00675,0.1,0,3,0,2,Water binding site not found in any cryoEM maps.
-A-256:O5' U-273:OP,8.333333333333333e-05,0.0025,0,1,0,0,Water binding site not found in any cryoEM maps.
+A-256:O5' A-256:OP U-273:OP,0.00675,0.1,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-256:O5' U-273:OP,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-256:OP,0.80725,1.0,2,2,2,2,Water binding site found in both cryoEM maps.
-A-256:OP A-299:OP,0.004666666666666667,0.0775,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-256:OP A-299:OP,0.004666666666666667,0.0775,0,4,0,3,Water binding site not found in any cryoEM maps.
 A-256:OP C-274:OP,0.0225,0.0825,0,3,0,5,Water binding site not found in any cryoEM maps.
 A-256:OP C-298:OP,0.0036666666666666666,0.11,0,2,0,3,Water binding site not found in any cryoEM maps.
 A-256:OP G-272:O3',0.0016666666666666668,0.05,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-256:OP G-272:O3' U-273:OP,0.0023333333333333335,0.07,0,3,0,2,Water binding site not found in any cryoEM maps.
-A-256:OP U-273:O3' U-273:OP,0.0015833333333333333,0.0475,0,4,0,3,Water binding site not found in any cryoEM maps.
-A-256:OP U-273:OP,0.4003333333333333,0.995,0,3,0,2,Water binding site not found in any cryoEM maps.
-A-256:OP U-273:OP A-299:OP,0.008833333333333334,0.165,0,4,0,3,Water binding site not found in any cryoEM maps.
-A-256:OP U-273:OP C-274:OP,0.54225,0.9625,0,4,0,5,Water binding site not found in any cryoEM maps.
+A-256:OP G-272:O3' U-273:OP,0.0023333333333333335,0.07,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-256:OP U-273:O3' U-273:OP,0.0015833333333333333,0.0475,0,4,0,4,Water binding site not found in any cryoEM maps.
+A-256:OP U-273:OP,0.4003333333333333,0.995,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-256:OP U-273:OP A-299:OP,0.008833333333333334,0.165,0,5,0,4,Water binding site not found in any cryoEM maps.
+A-256:OP U-273:OP C-274:OP,0.54225,0.9625,0,4,0,6,Water binding site not found in any cryoEM maps.
 A-261:C2,0.00025,0.0075,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-261:C2 A-261:N3,0.0005833333333333334,0.0175,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-261:C4 G-264:OP,0.0014166666666666668,0.0425,0,1,0,1,Water binding site not found in any cryoEM maps.
@@ -1934,33 +1934,33 @@ A-268:N7 A-268:OP,0.028666666666666667,0.1825,0,3,0,3,Water binding site not fou
 A-268:N7 A-268:OP A-269:N6,0.00225,0.0325,0,4,0,4,Water binding site not found in any cryoEM maps.
 A-268:N7 A-269:N6,0.00375,0.055,1,2,1,2,Water binding site found in both cryoEM maps.
 A-268:O2',0.002416666666666667,0.0425,0,1,1,1,Water binding site found in only one cryoEM maps.
-A-268:O2' A-269:OP,0.0010833333333333333,0.0325,0,2,0,2,Water binding site not found in any cryoEM maps.
+A-268:O2' A-269:OP,0.0010833333333333333,0.0325,0,2,0,3,Water binding site not found in any cryoEM maps.
 A-268:O2' A-343:OP,0.01125,0.2175,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-268:O2' G-344:OP,0.0026666666666666666,0.0575,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-268:O3' A-269:OP G-344:OP,0.00025,0.0075,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-268:O3' A-269:OP G-344:OP,0.00025,0.0075,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-268:O3' G-344:OP,0.006333333333333333,0.12,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-268:O5',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-268:O5' A-268:OP A-269:N7,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-268:O5' A-268:OP A-269:N7 A-269:OP,0.0021666666666666666,0.035,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-268:O5' A-268:OP A-269:OP,0.0009166666666666666,0.0275,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-268:O5' A-269:N7 A-269:OP,0.0010833333333333333,0.02,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-268:O5' A-269:OP,0.008916666666666666,0.085,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-268:O5' A-268:OP A-269:N7 A-269:OP,0.0021666666666666666,0.035,0,3,0,4,Water binding site not found in any cryoEM maps.
+A-268:O5' A-268:OP A-269:OP,0.0009166666666666666,0.0275,0,3,0,4,Water binding site not found in any cryoEM maps.
+A-268:O5' A-269:N7 A-269:OP,0.0010833333333333333,0.02,0,1,0,2,Water binding site not found in any cryoEM maps.
+A-268:O5' A-269:OP,0.008916666666666666,0.085,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-268:OP,0.23875,0.5525,1,2,0,2,Water binding site found in only one cryoEM maps.
 A-268:OP A-269:N6,0.006416666666666667,0.0425,0,4,0,4,Water binding site not found in any cryoEM maps.
 A-268:OP A-269:N6 A-269:N7,0.0036666666666666666,0.1025,0,4,0,4,Water binding site not found in any cryoEM maps.
 A-268:OP A-269:N7,0.06125,0.3475,0,2,0,2,Water binding site not found in any cryoEM maps.
-A-268:OP A-269:N7 A-269:OP,0.08525,0.625,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-268:OP A-269:OP,0.14175,0.9625,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-268:OP A-269:OP G-344:O2',0.036583333333333336,0.7975,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-268:OP A-269:OP G-344:OP,0.036083333333333335,0.5775,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-268:OP A-269:OP U-345:OP,0.0055,0.165,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-268:OP A-269:N7 A-269:OP,0.08525,0.625,0,3,0,4,Water binding site not found in any cryoEM maps.
+A-268:OP A-269:OP,0.14175,0.9625,0,3,0,4,Water binding site not found in any cryoEM maps.
+A-268:OP A-269:OP G-344:O2',0.036583333333333336,0.7975,0,3,0,4,Water binding site not found in any cryoEM maps.
+A-268:OP A-269:OP G-344:OP,0.036083333333333335,0.5775,0,3,0,4,Water binding site not found in any cryoEM maps.
+A-268:OP A-269:OP U-345:OP,0.0055,0.165,0,3,0,4,Water binding site not found in any cryoEM maps.
 A-268:OP G-344:O2',0.0028333333333333335,0.065,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-268:OP G-344:OP,0.017166666666666667,0.3425,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-268:OP U-345:OP,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-269:C8,0.004833333333333334,0.145,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-269:C8 A-269:N7,0.0025,0.075,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-269:C8 A-269:O5' A-269:OP,0.00016666666666666666,0.005,0,1,0,2,Water binding site not found in any cryoEM maps.
-A-269:C8 A-269:OP,0.00075,0.0225,0,1,0,2,Water binding site not found in any cryoEM maps.
+A-269:C8 A-269:O5' A-269:OP,0.00016666666666666666,0.005,0,1,0,3,Water binding site not found in any cryoEM maps.
+A-269:C8 A-269:OP,0.00075,0.0225,0,1,0,3,Water binding site not found in any cryoEM maps.
 A-269:N1,0.05358333333333333,0.435,0,0,1,1,Water binding site found in only one cryoEM maps.
 A-269:N1 A-269:N6,0.0014166666666666668,0.0425,0,2,0,3,Water binding site not found in any cryoEM maps.
 A-269:N1 U-307:O4,0.0009166666666666666,0.0275,0,1,0,2,Water binding site not found in any cryoEM maps.
@@ -1991,7 +1991,7 @@ A-269:N3 U-307:O2,0.01075,0.1325,0,2,0,2,Water binding site not found in any cry
 A-269:N6,0.005916666666666666,0.06,1,2,0,2,Water binding site found in only one cryoEM maps.
 A-269:N6 A-269:N7,0.00016666666666666666,0.005,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-269:N7,0.027833333333333335,0.22,0,0,0,0,Water binding site not found in any cryoEM maps.
-A-269:N7 A-269:OP,0.051583333333333335,0.4,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-269:N7 A-269:OP,0.051583333333333335,0.4,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-269:O2',0.0028333333333333335,0.0375,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-269:O2' A-269:O3' A-270:OP G-272:N7,8.333333333333333e-05,0.0025,0,3,0,1,Water binding site not found in any cryoEM maps.
 A-269:O2' A-269:O3' A-270:OP G-272:N7 G-272:O6,0.0006666666666666666,0.02,0,3,0,1,Water binding site not found in any cryoEM maps.
@@ -2008,13 +2008,13 @@ A-269:O3' A-270:OP G-272:O6,0.0009166666666666666,0.0275,0,3,0,1,Water binding s
 A-269:O4',0.00525,0.0975,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-269:O4' A-304:N1,0.0026666666666666666,0.05,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-269:O4' A-304:N6,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-269:O5' A-269:OP,0.0003333333333333333,0.01,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-269:OP,0.34558333333333335,1.0,0,1,1,1,Water binding site found in only one cryoEM maps.
-A-269:OP A-270:OP,0.0011666666666666668,0.035,0,4,0,2,Water binding site not found in any cryoEM maps.
-A-269:OP G-344:O2',0.0009166666666666666,0.0225,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-269:OP G-344:O3',0.00016666666666666666,0.005,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-269:OP G-344:OP,0.04025,0.5425,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-269:OP U-345:OP,0.0030833333333333333,0.0675,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-269:O5' A-269:OP,0.0003333333333333333,0.01,0,1,0,2,Water binding site not found in any cryoEM maps.
+A-269:OP,0.34558333333333335,1.0,0,1,1,2,Water binding site found in only one cryoEM maps.
+A-269:OP A-270:OP,0.0011666666666666668,0.035,0,4,0,3,Water binding site not found in any cryoEM maps.
+A-269:OP G-344:O2',0.0009166666666666666,0.0225,0,1,0,2,Water binding site not found in any cryoEM maps.
+A-269:OP G-344:O3',0.00016666666666666666,0.005,0,1,0,2,Water binding site not found in any cryoEM maps.
+A-269:OP G-344:OP,0.04025,0.5425,0,1,0,2,Water binding site not found in any cryoEM maps.
+A-269:OP U-345:OP,0.0030833333333333333,0.0675,0,1,0,2,Water binding site not found in any cryoEM maps.
 A-270:C2 A-270:N3,0.0006666666666666666,0.02,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-270:C2 A-270:N3 A-270:O2',0.0004166666666666667,0.0125,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-270:C8 A-270:N7 A-304:N6,0.00016666666666666666,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
@@ -2048,7 +2048,7 @@ A-270:N6 G-272:N3 G-272:O2',0.00025,0.0075,0,2,0,2,Water binding site not found 
 A-270:N7,0.0025,0.0675,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-270:N7 A-304:N6,0.0005,0.005,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-270:O2',0.015083333333333334,0.1,1,1,0,1,Water binding site found in only one cryoEM maps.
-A-270:O2' A-270:OP U-271:OP,0.0014166666666666668,0.0275,0,6,0,2,Water binding site not found in any cryoEM maps.
+A-270:O2' A-270:OP U-271:OP,0.0014166666666666668,0.0275,0,6,0,3,Water binding site not found in any cryoEM maps.
 A-270:O2' A-304:N6 A-304:N7,0.0006666666666666666,0.02,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-270:O2' G-272:N7,0.0019166666666666666,0.045,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-270:O2' G-272:N7 G-272:O6,0.00075,0.0225,0,1,0,1,Water binding site not found in any cryoEM maps.
@@ -2058,15 +2058,15 @@ A-270:O2' G-272:O6,0.00016666666666666666,0.005,0,1,0,1,Water binding site not f
 A-270:O2' G-272:OP,0.004166666666666667,0.0475,0,3,0,4,Water binding site not found in any cryoEM maps.
 A-270:O2' G-272:OP U-273:O4,0.0005833333333333334,0.0175,0,4,0,5,Water binding site not found in any cryoEM maps.
 A-270:O2' U-271:O2,8.333333333333333e-05,0.0025,0,3,0,3,Water binding site not found in any cryoEM maps.
-A-270:O2' U-271:OP,0.0016666666666666668,0.0175,1,3,0,1,Water binding site found in only one cryoEM maps.
+A-270:O2' U-271:OP,0.0016666666666666668,0.0175,1,3,0,2,Water binding site found in only one cryoEM maps.
 A-270:O2' U-273:O4,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
 A-270:O4',0.0085,0.255,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-270:O4' A-270:O5',0.00025,0.0075,0,2,0,1,Water binding site not found in any cryoEM maps.
 A-270:O5',0.0006666666666666666,0.0175,1,1,0,0,Water binding site found in only one cryoEM maps.
 A-270:O5' A-270:OP,0.0005833333333333334,0.01,1,3,0,1,Water binding site found in only one cryoEM maps.
 A-270:O5' A-270:OP G-272:O6,0.00016666666666666666,0.005,0,3,0,1,Water binding site not found in any cryoEM maps.
-A-270:O5' A-270:OP U-271:OP,0.0035833333333333333,0.0375,0,6,0,2,Water binding site not found in any cryoEM maps.
-A-270:O5' U-271:OP,0.0003333333333333333,0.0075,0,4,0,1,Water binding site not found in any cryoEM maps.
+A-270:O5' A-270:OP U-271:OP,0.0035833333333333333,0.0375,0,6,0,3,Water binding site not found in any cryoEM maps.
+A-270:O5' U-271:OP,0.0003333333333333333,0.0075,0,4,0,2,Water binding site not found in any cryoEM maps.
 A-270:OP,0.47383333333333333,1.0,1,3,0,1,Water binding site found in only one cryoEM maps.
 A-270:OP G-272:N7,0.019333333333333334,0.2975,0,3,0,1,Water binding site not found in any cryoEM maps.
 A-270:OP G-272:N7 G-272:O6,0.018166666666666668,0.27,0,3,0,1,Water binding site not found in any cryoEM maps.
@@ -2074,12 +2074,12 @@ A-270:OP G-272:N7 G-272:O6 U-273:O4,0.004583333333333333,0.07,0,4,0,2,Water bind
 A-270:OP G-272:N7 U-273:O4,0.0008333333333333334,0.02,0,4,0,2,Water binding site not found in any cryoEM maps.
 A-270:OP G-272:O6,0.083,0.415,0,3,0,1,Water binding site not found in any cryoEM maps.
 A-270:OP G-272:O6 U-273:O4,0.011916666666666667,0.145,0,4,0,2,Water binding site not found in any cryoEM maps.
-A-270:OP U-271:OP,0.21625,0.9025,0,6,0,2,Water binding site not found in any cryoEM maps.
-A-270:OP U-271:OP G-272:N7,0.0004166666666666667,0.01,0,6,0,2,Water binding site not found in any cryoEM maps.
-A-270:OP U-271:OP G-272:N7 G-272:O6,0.00016666666666666666,0.005,0,6,0,2,Water binding site not found in any cryoEM maps.
-A-270:OP U-271:OP G-272:O6,0.0018333333333333333,0.03,0,6,0,2,Water binding site not found in any cryoEM maps.
-A-270:OP U-271:OP G-272:O6 U-273:O4,0.0004166666666666667,0.0125,0,7,0,3,Water binding site not found in any cryoEM maps.
-A-270:OP U-271:OP U-273:O4,0.0014166666666666668,0.0425,0,7,0,3,Water binding site not found in any cryoEM maps.
+A-270:OP U-271:OP,0.21625,0.9025,0,6,0,3,Water binding site not found in any cryoEM maps.
+A-270:OP U-271:OP G-272:N7,0.0004166666666666667,0.01,0,6,0,3,Water binding site not found in any cryoEM maps.
+A-270:OP U-271:OP G-272:N7 G-272:O6,0.00016666666666666666,0.005,0,6,0,3,Water binding site not found in any cryoEM maps.
+A-270:OP U-271:OP G-272:O6,0.0018333333333333333,0.03,0,6,0,3,Water binding site not found in any cryoEM maps.
+A-270:OP U-271:OP G-272:O6 U-273:O4,0.0004166666666666667,0.0125,0,7,0,4,Water binding site not found in any cryoEM maps.
+A-270:OP U-271:OP U-273:O4,0.0014166666666666668,0.0425,0,7,0,4,Water binding site not found in any cryoEM maps.
 A-270:OP U-273:O4,0.00225,0.015,0,4,0,2,Water binding site not found in any cryoEM maps.
 A-283:N6,8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-283:N7,0.002,0.025,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -2241,18 +2241,18 @@ A-299:N3 U-300:O4',0.0005,0.015,0,0,0,0,Water binding site not found in any cryo
 A-299:N6,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-299:N6 U-300:N3,0.00016666666666666666,0.005,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-299:N7,0.0020833333333333333,0.035,1,1,0,0,Water binding site found in only one cryoEM maps.
-A-299:N7 A-299:OP,0.016666666666666666,0.4775,0,2,0,1,Water binding site not found in any cryoEM maps.
+A-299:N7 A-299:OP,0.016666666666666666,0.4775,0,3,0,1,Water binding site not found in any cryoEM maps.
 A-299:O2',0.06833333333333333,0.385,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-299:O2' A-299:O3',0.009166666666666667,0.1175,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-299:O2' A-299:O4',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-299:O2' U-300:O5',0.00016666666666666666,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-299:O3',0.003416666666666667,0.025,0,0,0,0,Water binding site not found in any cryoEM maps.
-A-299:O3' A-299:OP,0.002,0.06,0,1,0,1,Water binding site not found in any cryoEM maps.
+A-299:O3' A-299:OP,0.002,0.06,0,2,0,1,Water binding site not found in any cryoEM maps.
 A-299:O4',0.004083333333333333,0.08,0,0,0,0,Water binding site not found in any cryoEM maps.
-A-299:OP,0.05383333333333333,0.4775,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-299:OP U-300:O5',0.00475,0.1425,0,1,0,1,Water binding site not found in any cryoEM maps.
-A-299:OP U-300:O5' U-300:OP,0.003416666666666667,0.1025,0,2,0,3,Water binding site not found in any cryoEM maps.
-A-299:OP U-300:OP,0.024,0.505,0,2,0,3,Water binding site not found in any cryoEM maps.
+A-299:OP,0.05383333333333333,0.4775,0,2,0,1,Water binding site not found in any cryoEM maps.
+A-299:OP U-300:O5',0.00475,0.1425,0,2,0,1,Water binding site not found in any cryoEM maps.
+A-299:OP U-300:O5' U-300:OP,0.003416666666666667,0.1025,0,3,0,3,Water binding site not found in any cryoEM maps.
+A-299:OP U-300:OP,0.024,0.505,0,3,0,3,Water binding site not found in any cryoEM maps.
 A-29:C2 A-29:OP,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-29:N1,0.0005833333333333334,0.0175,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-29:N1 A-95:OP,0.0018333333333333333,0.0325,0,0,0,3,Water binding site not found in any cryoEM maps.
@@ -2523,7 +2523,7 @@ A-30:OP G-51:OP,0.017083333333333332,0.3275,0,1,0,0,Water binding site not found
 A-30:OP U-33:O4,0.009083333333333334,0.2725,0,1,0,1,Water binding site not found in any cryoEM maps.
 A-30:OP U-49:OP,0.0014166666666666668,0.0425,0,1,0,0,Water binding site not found in any cryoEM maps.
 A-314:N6,0.0030833333333333333,0.04,0,0,0,0,Water binding site not found in any cryoEM maps.
-A-314:N6 G-408:N3,0.008166666666666666,0.09,0,0,0,1,Water binding site not found in any cryoEM maps.
+A-314:N6 G-408:N3,0.008166666666666666,0.09,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-314:N7,0.0035,0.08,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-314:N7 A-314:OP,0.0031666666666666666,0.0575,0,0,0,0,Water binding site not found in any cryoEM maps.
 A-314:N7 A-314:OP G-408:O6,0.00075,0.0225,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -3430,7 +3430,7 @@ A-97:OP U-300:O2' U-300:O3',8.333333333333333e-05,0.0025,0,4,0,4,Water binding s
 A-97:OP U-300:O2' U-300:O3' A-301:OP,0.00016666666666666666,0.0025,0,5,0,6,Water binding site not found in any cryoEM maps.
 A-97:OP U-300:O3',0.0020833333333333333,0.0625,0,3,0,3,Water binding site not found in any cryoEM maps.
 C-102:N4,0.009333333333333334,0.11,1,1,1,1,Water binding site found in both cryoEM maps.
-C-102:N4 A-269:OP,0.008583333333333333,0.2575,0,2,0,2,Water binding site not found in any cryoEM maps.
+C-102:N4 A-269:OP,0.008583333333333333,0.2575,0,2,0,3,Water binding site not found in any cryoEM maps.
 C-102:N4 A-270:OP,0.00375,0.05,0,4,0,2,Water binding site not found in any cryoEM maps.
 C-102:N4 A-270:OP G-272:O6,0.0008333333333333334,0.02,0,4,0,2,Water binding site not found in any cryoEM maps.
 C-102:N4 A-270:OP G-272:O6 U-273:O4,0.0011666666666666668,0.0225,0,5,0,3,Water binding site not found in any cryoEM maps.
@@ -3478,10 +3478,10 @@ C-102:O2' A-218:N3,0.015666666666666666,0.1,0,0,0,0,Water binding site not found
 C-102:O2' G-272:N2,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-102:O4',0.0025,0.0475,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-102:O4' U-273:O2,0.0016666666666666668,0.0475,0,1,0,1,Water binding site not found in any cryoEM maps.
-C-102:OP,0.08533333333333333,0.9975,0,2,0,1,Water binding site not found in any cryoEM maps.
-C-102:OP A-103:OP,0.0125,0.1675,0,4,0,2,Water binding site not found in any cryoEM maps.
-C-102:OP A-269:OP,0.0006666666666666666,0.02,0,3,0,2,Water binding site not found in any cryoEM maps.
-C-102:OP G-346:OP,8.333333333333333e-05,0.0025,0,2,0,1,Water binding site not found in any cryoEM maps.
+C-102:OP,0.08533333333333333,0.9975,0,2,0,2,Water binding site not found in any cryoEM maps.
+C-102:OP A-103:OP,0.0125,0.1675,0,4,0,3,Water binding site not found in any cryoEM maps.
+C-102:OP A-269:OP,0.0006666666666666666,0.02,0,3,0,4,Water binding site not found in any cryoEM maps.
+C-102:OP G-346:OP,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
 C-109:N4,0.001,0.02,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-109:N4 C-260:OP,0.017833333333333333,0.215,0,2,0,3,Water binding site not found in any cryoEM maps.
 C-109:N4 G-110:O6,0.004916666666666666,0.11,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -3592,20 +3592,20 @@ C-127:O3' C-128:OP C-203:OP,0.0045,0.06,0,0,0,1,Water binding site not found in 
 C-127:O3' C-128:OP U-202:OP,0.005166666666666667,0.155,0,0,0,1,Water binding site not found in any cryoEM maps.
 C-127:O3' C-203:OP,0.021583333333333333,0.4625,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-127:O3' U-202:OP,0.006333333333333333,0.0425,0,0,0,0,Water binding site not found in any cryoEM maps.
-C-127:OP,0.17833333333333334,0.8875,0,0,0,1,Water binding site not found in any cryoEM maps.
-C-127:OP C-128:OP,0.05375,0.34,0,0,1,1,Water binding site found in only one cryoEM maps.
-C-127:OP C-189:OP,0.009083333333333334,0.1,0,0,0,2,Water binding site not found in any cryoEM maps.
-C-127:OP C-203:OP,0.027,0.385,0,0,0,1,Water binding site not found in any cryoEM maps.
-C-127:OP U-190:OP,0.042333333333333334,0.5,0,0,0,2,Water binding site not found in any cryoEM maps.
+C-127:OP,0.17833333333333334,0.8875,0,0,0,2,Water binding site not found in any cryoEM maps.
+C-127:OP C-128:OP,0.05375,0.34,0,0,1,2,Water binding site found in only one cryoEM maps.
+C-127:OP C-189:OP,0.009083333333333334,0.1,0,0,0,3,Water binding site not found in any cryoEM maps.
+C-127:OP C-203:OP,0.027,0.385,0,0,0,2,Water binding site not found in any cryoEM maps.
+C-127:OP U-190:OP,0.042333333333333334,0.5,0,0,0,3,Water binding site not found in any cryoEM maps.
 C-128:N4,0.0008333333333333334,0.025,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-128:O5' C-128:OP,0.0003333333333333333,0.0075,0,0,0,1,Water binding site not found in any cryoEM maps.
-C-128:O5' C-128:OP G-129:OP,0.0028333333333333335,0.03,0,0,0,1,Water binding site not found in any cryoEM maps.
-C-128:O5' G-129:OP,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
+C-128:O5' C-128:OP G-129:OP,0.0028333333333333335,0.03,0,0,0,2,Water binding site not found in any cryoEM maps.
+C-128:O5' G-129:OP,0.00016666666666666666,0.005,0,0,0,1,Water binding site not found in any cryoEM maps.
 C-128:OP,0.429,0.9925,0,0,0,1,Water binding site not found in any cryoEM maps.
 C-128:OP C-189:OP,0.00825,0.1475,0,0,0,2,Water binding site not found in any cryoEM maps.
 C-128:OP C-203:OP,0.0025833333333333333,0.0325,0,0,0,1,Water binding site not found in any cryoEM maps.
-C-128:OP G-129:OP,0.25883333333333336,0.7625,0,0,0,1,Water binding site not found in any cryoEM maps.
-C-128:OP G-129:OP U-130:O4,0.0010833333333333333,0.0325,0,0,0,1,Water binding site not found in any cryoEM maps.
+C-128:OP G-129:OP,0.25883333333333336,0.7625,0,0,0,2,Water binding site not found in any cryoEM maps.
+C-128:OP G-129:OP U-130:O4,0.0010833333333333333,0.0325,0,0,0,2,Water binding site not found in any cryoEM maps.
 C-128:OP G-188:O2',0.003916666666666666,0.0875,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-128:OP U-202:OP,0.0115,0.345,0,0,0,1,Water binding site not found in any cryoEM maps.
 C-132:OP,0.10358333333333333,0.975,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -4173,13 +4173,13 @@ C-255:O2' G-272:O2',0.06383333333333334,0.705,0,1,0,2,Water binding site not fou
 C-255:O3',0.0015,0.0175,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-255:O3' A-256:OP,0.00225,0.025,0,2,0,2,Water binding site not found in any cryoEM maps.
 C-255:O3' A-256:OP C-274:OP,0.00075,0.0225,0,3,0,5,Water binding site not found in any cryoEM maps.
-C-255:O3' A-256:OP U-273:O3' U-273:OP,0.002416666666666667,0.0725,0,4,0,3,Water binding site not found in any cryoEM maps.
-C-255:O3' A-256:OP U-273:OP,0.0575,0.49,0,3,0,2,Water binding site not found in any cryoEM maps.
-C-255:O3' A-256:OP U-273:OP C-274:OP,0.0035,0.1,0,4,0,5,Water binding site not found in any cryoEM maps.
+C-255:O3' A-256:OP U-273:O3' U-273:OP,0.002416666666666667,0.0725,0,4,0,4,Water binding site not found in any cryoEM maps.
+C-255:O3' A-256:OP U-273:OP,0.0575,0.49,0,3,0,3,Water binding site not found in any cryoEM maps.
+C-255:O3' A-256:OP U-273:OP C-274:OP,0.0035,0.1,0,4,0,6,Water binding site not found in any cryoEM maps.
 C-255:O3' G-272:O2',0.001,0.0125,0,0,0,1,Water binding site not found in any cryoEM maps.
 C-255:O3' G-272:O3',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
-C-255:O3' U-273:O3' U-273:OP,8.333333333333333e-05,0.0025,0,2,0,1,Water binding site not found in any cryoEM maps.
-C-255:O3' U-273:OP,0.00375,0.0875,0,1,0,0,Water binding site not found in any cryoEM maps.
+C-255:O3' U-273:O3' U-273:OP,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
+C-255:O3' U-273:OP,0.00375,0.0875,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-255:O4',0.007583333333333333,0.0325,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-255:O4' U-273:O2',0.005666666666666667,0.0325,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-255:O4' U-273:O2' U-273:O3',0.00375,0.0325,0,1,0,1,Water binding site not found in any cryoEM maps.
@@ -4358,7 +4358,7 @@ C-266:OP A-334:OP,0.003,0.09,0,1,0,1,Water binding site not found in any cryoEM 
 C-266:OP A-359:O3',8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-266:OP G-358:O2',0.0008333333333333334,0.025,0,2,0,3,Water binding site not found in any cryoEM maps.
 C-266:OP U-267:OP,0.04908333333333333,0.5,0,4,0,5,Water binding site not found in any cryoEM maps.
-C-274:N4,0.002,0.025,0,1,0,1,Water binding site not found in any cryoEM maps.
+C-274:N4,0.002,0.025,0,1,0,2,Water binding site not found in any cryoEM maps.
 C-274:O2,0.015666666666666666,0.1475,0,1,0,0,Water binding site not found in any cryoEM maps.
 C-274:O2 C-274:O2',0.012,0.1425,1,2,0,1,Water binding site found in only one cryoEM maps.
 C-274:O2',0.022416666666666668,0.2575,1,2,0,1,Water binding site found in only one cryoEM maps.
@@ -4408,17 +4408,17 @@ C-298:O2' A-299:N3,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not f
 C-298:O2' A-299:O2',8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-298:O2' A-299:O3',8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-298:O2' C-298:O3',0.022,0.2825,0,1,0,1,Water binding site not found in any cryoEM maps.
-C-298:O2' C-298:O3' A-299:OP,0.0025,0.075,0,2,0,2,Water binding site not found in any cryoEM maps.
-C-298:O2' C-298:O3' A-299:OP U-300:OP,0.0009166666666666666,0.0275,0,3,0,4,Water binding site not found in any cryoEM maps.
+C-298:O2' C-298:O3' A-299:OP,0.0025,0.075,0,3,0,2,Water binding site not found in any cryoEM maps.
+C-298:O2' C-298:O3' A-299:OP U-300:OP,0.0009166666666666666,0.0275,0,4,0,4,Water binding site not found in any cryoEM maps.
 C-298:O2' C-298:O3' U-300:OP,8.333333333333333e-05,0.0025,0,2,0,3,Water binding site not found in any cryoEM maps.
 C-298:O3',0.0205,0.1275,0,0,0,0,Water binding site not found in any cryoEM maps.
-C-298:O3' A-299:O3' A-299:OP,0.0003333333333333333,0.01,0,1,0,1,Water binding site not found in any cryoEM maps.
-C-298:O3' A-299:O3' A-299:OP U-300:OP,8.333333333333333e-05,0.0025,0,2,0,3,Water binding site not found in any cryoEM maps.
+C-298:O3' A-299:O3' A-299:OP,0.0003333333333333333,0.01,0,2,0,1,Water binding site not found in any cryoEM maps.
+C-298:O3' A-299:O3' A-299:OP U-300:OP,8.333333333333333e-05,0.0025,0,3,0,3,Water binding site not found in any cryoEM maps.
 C-298:O3' A-299:O4',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
-C-298:O3' A-299:OP,0.0035,0.1,0,1,0,1,Water binding site not found in any cryoEM maps.
-C-298:O3' A-299:OP U-300:OP,0.0013333333333333333,0.04,0,2,0,3,Water binding site not found in any cryoEM maps.
+C-298:O3' A-299:OP,0.0035,0.1,0,2,0,1,Water binding site not found in any cryoEM maps.
+C-298:O3' A-299:OP U-300:OP,0.0013333333333333333,0.04,0,3,0,3,Water binding site not found in any cryoEM maps.
 C-298:OP,0.041,0.9975,0,0,0,1,Water binding site not found in any cryoEM maps.
-C-298:OP A-299:OP,0.00825,0.165,0,1,1,1,Water binding site found in only one cryoEM maps.
+C-298:OP A-299:OP,0.00825,0.165,0,2,1,1,Water binding site found in only one cryoEM maps.
 C-311:N3,0.0009166666666666666,0.0275,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-311:O2,0.07858333333333334,0.28,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-311:O2 A-359:N3,0.0005,0.015,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -4458,13 +4458,13 @@ C-311:O3' A-359:N1 G-360:N3,0.0013333333333333333,0.04,0,0,0,1,Water binding sit
 C-311:O3' G-360:N3,0.00175,0.0525,0,0,0,1,Water binding site not found in any cryoEM maps.
 C-311:O5' A-359:N1,0.0005833333333333334,0.0175,0,0,0,1,Water binding site not found in any cryoEM maps.
 C-311:O5' A-359:N1 A-359:N6,0.0016666666666666668,0.05,0,0,0,2,Water binding site not found in any cryoEM maps.
-C-311:O5' C-311:OP G-312:N7 G-312:OP,0.00016666666666666666,0.005,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-311:O5' C-311:OP G-312:OP,0.0018333333333333333,0.0325,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-311:O5' G-312:OP,0.00016666666666666666,0.005,0,0,0,1,Water binding site not found in any cryoEM maps.
+C-311:O5' C-311:OP G-312:N7 G-312:OP,0.00016666666666666666,0.005,0,1,0,2,Water binding site not found in any cryoEM maps.
+C-311:O5' C-311:OP G-312:OP,0.0018333333333333333,0.0325,0,1,0,2,Water binding site not found in any cryoEM maps.
+C-311:O5' G-312:OP,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-311:OP,0.19758333333333333,0.9975,0,1,1,2,Water binding site found in only one cryoEM maps.
 C-311:OP A-359:N1,0.0011666666666666668,0.035,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-311:OP G-312:N7 G-312:OP,8.333333333333333e-05,0.0025,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-311:OP G-312:OP,0.016166666666666666,0.2525,0,1,0,3,Water binding site not found in any cryoEM maps.
+C-311:OP G-312:N7 G-312:OP,8.333333333333333e-05,0.0025,0,1,0,2,Water binding site not found in any cryoEM maps.
+C-311:OP G-312:OP,0.016166666666666666,0.2525,0,1,0,2,Water binding site not found in any cryoEM maps.
 C-311:OP U-340:O2,0.0005,0.015,0,1,0,2,Water binding site not found in any cryoEM maps.
 C-311:OP U-340:O2',0.006083333333333333,0.1175,0,1,0,2,Water binding site not found in any cryoEM maps.
 C-315:N4,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -4648,16 +4648,16 @@ C-47:O3' C-211:OP,0.00625,0.1875,0,3,0,2,Water binding site not found in any cry
 C-47:O4',0.0004166666666666667,0.0125,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-47:O4' A-210:O4',8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 C-47:OP,0.0605,0.2625,0,1,0,0,Water binding site not found in any cryoEM maps.
-C-47:OP A-299:OP,0.008,0.1575,0,2,0,1,Water binding site not found in any cryoEM maps.
+C-47:OP A-299:OP,0.008,0.1575,0,3,0,1,Water binding site not found in any cryoEM maps.
 C-47:OP C-298:O2',0.005583333333333333,0.15,0,2,0,1,Water binding site not found in any cryoEM maps.
 C-47:OP C-298:O2' C-298:O3',0.0005833333333333334,0.01,0,2,0,1,Water binding site not found in any cryoEM maps.
 C-47:OP C-298:O3',0.00175,0.0275,0,1,0,0,Water binding site not found in any cryoEM maps.
 C-47:OP C-298:OP,0.00025,0.0075,0,1,0,1,Water binding site not found in any cryoEM maps.
-C-47:OP C-298:OP A-299:OP,0.0055,0.165,0,2,0,1,Water binding site not found in any cryoEM maps.
+C-47:OP C-298:OP A-299:OP,0.0055,0.165,0,3,0,1,Water binding site not found in any cryoEM maps.
 C-47:OP C-48:OP,0.003,0.0325,1,1,0,0,Water binding site found in only one cryoEM maps.
 C-48:OP,0.09583333333333334,0.525,1,1,0,0,Water binding site found in only one cryoEM maps.
 C-48:OP A-210:N1,0.00016666666666666666,0.005,0,1,0,0,Water binding site not found in any cryoEM maps.
-C-48:OP A-299:OP,0.00575,0.1725,0,2,0,1,Water binding site not found in any cryoEM maps.
+C-48:OP A-299:OP,0.00575,0.1725,0,3,0,1,Water binding site not found in any cryoEM maps.
 C-48:OP C-209:OP,0.003916666666666666,0.1175,0,2,0,3,Water binding site not found in any cryoEM maps.
 C-48:OP C-298:O2',8.333333333333333e-05,0.0025,0,2,0,1,Water binding site not found in any cryoEM maps.
 C-48:OP U-49:OP,0.07383333333333333,0.7925,0,1,0,0,Water binding site not found in any cryoEM maps.
@@ -4677,18 +4677,18 @@ C-55:OP,0.0035833333333333333,0.045,0,1,0,0,Water binding site not found in any 
 C-55:OP U-56:OP,0.00075,0.0225,1,1,0,0,Water binding site found in only one cryoEM maps.
 C-60:N4,0.001,0.03,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-60:O2',0.0005833333333333334,0.0175,0,0,1,1,Water binding site found in only one cryoEM maps.
-C-60:OP,0.17125,1.0,0,1,1,3,Water binding site found in only one cryoEM maps.
-C-60:OP C-278:O2',0.00016666666666666666,0.005,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-60:OP C-278:O4',0.005833333333333334,0.105,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-60:OP G-83:OP,0.0011666666666666668,0.035,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-60:OP U-277:O2,0.04708333333333333,0.5875,0,1,1,3,Water binding site found in only one cryoEM maps.
-C-60:OP U-277:O2 C-278:O4',0.00025,0.0075,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-60:OP U-277:O2 U-277:O2',0.0005833333333333334,0.0175,0,2,1,3,Water binding site found in only one cryoEM maps.
-C-60:OP U-277:O2',0.009416666666666667,0.145,0,2,1,3,Water binding site found in only one cryoEM maps.
-C-60:OP U-277:O2' C-278:O4',0.0020833333333333333,0.0325,0,2,0,3,Water binding site not found in any cryoEM maps.
-C-60:OP U-61:OP,0.00125,0.0375,0,2,0,5,Water binding site not found in any cryoEM maps.
-C-60:OP U-84:OP,0.0021666666666666666,0.05,0,1,0,3,Water binding site not found in any cryoEM maps.
-C-60:OP U-85:OP,0.016666666666666666,0.29,0,1,0,3,Water binding site not found in any cryoEM maps.
+C-60:OP,0.17125,1.0,0,1,1,4,Water binding site found in only one cryoEM maps.
+C-60:OP C-278:O2',0.00016666666666666666,0.005,0,1,0,4,Water binding site not found in any cryoEM maps.
+C-60:OP C-278:O4',0.005833333333333334,0.105,0,1,0,4,Water binding site not found in any cryoEM maps.
+C-60:OP G-83:OP,0.0011666666666666668,0.035,0,1,0,4,Water binding site not found in any cryoEM maps.
+C-60:OP U-277:O2,0.04708333333333333,0.5875,0,1,1,4,Water binding site found in only one cryoEM maps.
+C-60:OP U-277:O2 C-278:O4',0.00025,0.0075,0,1,0,4,Water binding site not found in any cryoEM maps.
+C-60:OP U-277:O2 U-277:O2',0.0005833333333333334,0.0175,0,2,1,4,Water binding site found in only one cryoEM maps.
+C-60:OP U-277:O2',0.009416666666666667,0.145,0,2,1,4,Water binding site found in only one cryoEM maps.
+C-60:OP U-277:O2' C-278:O4',0.0020833333333333333,0.0325,0,2,0,4,Water binding site not found in any cryoEM maps.
+C-60:OP U-61:OP,0.00125,0.0375,0,2,0,6,Water binding site not found in any cryoEM maps.
+C-60:OP U-84:OP,0.0021666666666666666,0.05,0,1,0,4,Water binding site not found in any cryoEM maps.
+C-60:OP U-85:OP,0.016666666666666666,0.29,0,1,0,4,Water binding site not found in any cryoEM maps.
 C-67:OP,0.03333333333333333,0.9975,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-67:OP C-68:OP,0.0055,0.165,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-68:OP,0.023083333333333334,0.6925,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -4747,7 +4747,7 @@ C-98:O5' C-99:OP,0.0009166666666666666,0.0275,0,1,0,2,Water binding site not fou
 C-98:OP,0.09158333333333334,0.395,3,5,2,5,Water binding site found in both cryoEM maps.
 C-98:OP A-301:OP,0.00225,0.0175,0,7,0,9,Water binding site not found in any cryoEM maps.
 C-98:OP C-99:OP,0.024583333333333332,0.725,0,5,0,6,Water binding site not found in any cryoEM maps.
-C-98:OP U-271:OP,0.00075,0.0225,0,8,0,6,Water binding site not found in any cryoEM maps.
+C-98:OP U-271:OP,0.00075,0.0225,0,8,0,7,Water binding site not found in any cryoEM maps.
 C-98:OP U-300:O2,0.008083333333333333,0.1125,0,5,0,5,Water binding site not found in any cryoEM maps.
 C-99:O5',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 C-99:O5' C-99:OP,8.333333333333333e-05,0.0025,0,0,0,2,Water binding site not found in any cryoEM maps.
@@ -4838,7 +4838,7 @@ G-110:N2 C-211:O2',0.00016666666666666666,0.005,0,3,0,1,Water binding site not f
 G-110:N2 G-111:N1 C-211:O2 C-211:O2',8.333333333333333e-05,0.0025,0,3,0,1,Water binding site not found in any cryoEM maps.
 G-110:N3 G-110:O2',0.0035,0.065,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-110:N7,0.011583333333333333,0.2175,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-110:N7 G-110:OP,0.00325,0.0975,0,1,0,2,Water binding site not found in any cryoEM maps.
+G-110:N7 G-110:OP,0.00325,0.0975,0,2,0,2,Water binding site not found in any cryoEM maps.
 G-110:O2',0.02925,0.18,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-110:O2' A-183:O2',0.015416666666666667,0.315,0,1,0,0,Water binding site not found in any cryoEM maps.
 G-110:O2' A-183:O2' G-188:O2',0.0010833333333333333,0.0325,0,2,0,0,Water binding site not found in any cryoEM maps.
@@ -4857,10 +4857,10 @@ G-110:O6 G-111:O6,0.006416666666666667,0.0725,0,0,0,0,Water binding site not fou
 G-110:O6 G-111:O6 G-112:O6,0.0003333333333333333,0.01,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-110:O6 G-212:O6,0.00325,0.0975,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-110:O6 G-212:O6 C-260:OP,0.0025833333333333333,0.05,0,2,0,3,Water binding site not found in any cryoEM maps.
-G-110:OP,0.087,0.9975,1,1,1,2,Water binding site found in both cryoEM maps.
-G-110:OP C-189:OP,0.00475,0.1425,0,1,0,3,Water binding site not found in any cryoEM maps.
-G-110:OP C-204:OP,0.0013333333333333333,0.04,0,2,0,4,Water binding site not found in any cryoEM maps.
-G-110:OP G-111:OP,0.0036666666666666666,0.03,0,4,1,4,Water binding site found in only one cryoEM maps.
+G-110:OP,0.087,0.9975,1,2,1,2,Water binding site found in both cryoEM maps.
+G-110:OP C-189:OP,0.00475,0.1425,0,2,0,3,Water binding site not found in any cryoEM maps.
+G-110:OP C-204:OP,0.0013333333333333333,0.04,0,3,0,4,Water binding site not found in any cryoEM maps.
+G-110:OP G-111:OP,0.0036666666666666666,0.03,1,4,1,4,Water binding site found in both cryoEM maps.
 G-111:N1 C-211:O2 C-211:O2',0.00025,0.0075,0,2,0,0,Water binding site not found in any cryoEM maps.
 G-111:N7,0.0135,0.19,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-111:N7 G-111:O6,0.0025,0.075,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -4895,7 +4895,7 @@ G-112:OP A-113:N7,0.0035,0.0825,0,0,0,1,Water binding site not found in any cryo
 G-112:OP A-113:N7 A-113:OP,0.01075,0.315,0,0,0,2,Water binding site not found in any cryoEM maps.
 G-112:OP A-113:OP,0.24983333333333332,0.81,0,0,0,2,Water binding site not found in any cryoEM maps.
 G-112:OP A-113:OP C-203:OP,0.00925,0.2225,0,0,0,2,Water binding site not found in any cryoEM maps.
-G-112:OP C-127:OP,0.002916666666666667,0.0525,0,0,0,2,Water binding site not found in any cryoEM maps.
+G-112:OP C-127:OP,0.002916666666666667,0.0525,0,0,0,3,Water binding site not found in any cryoEM maps.
 G-112:OP C-128:OP,0.042,0.4575,0,0,0,2,Water binding site not found in any cryoEM maps.
 G-112:OP C-203:OP,0.034166666666666665,0.43,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-112:OP C-203:OP C-204:OP,0.001,0.0175,0,1,0,3,Water binding site not found in any cryoEM maps.
@@ -5022,8 +5022,8 @@ G-126:OP A-324:N6,0.0009166666666666666,0.0275,0,0,0,0,Water binding site not fo
 G-126:OP A-324:O5' A-324:OP,0.0006666666666666666,0.02,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-126:OP A-324:OP,0.09616666666666666,0.975,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-126:OP C-127:N4,0.00125,0.0125,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-126:OP C-127:OP,0.17558333333333334,0.98,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-126:OP C-127:OP U-190:OP,0.041,0.4,0,0,0,2,Water binding site not found in any cryoEM maps.
+G-126:OP C-127:OP,0.17558333333333334,0.98,0,0,0,2,Water binding site not found in any cryoEM maps.
+G-126:OP C-127:OP U-190:OP,0.041,0.4,0,0,0,3,Water binding site not found in any cryoEM maps.
 G-126:OP G-191:OP,0.13783333333333334,0.5675,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-126:OP G-191:OP A-324:OP,0.026083333333333333,0.5675,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-126:OP U-190:OP,0.03575,0.52,0,0,0,1,Water binding site not found in any cryoEM maps.
@@ -5031,14 +5031,14 @@ G-126:OP U-190:OP A-324:OP,0.003,0.055,0,0,0,1,Water binding site not found in a
 G-126:OP U-190:OP G-191:OP,0.037,0.54,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-129:N2 G-194:N7,8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-129:N7,0.006,0.0725,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-129:N7 G-129:OP,0.012833333333333334,0.095,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-129:N7 G-129:OP,0.012833333333333334,0.095,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-129:N7 U-130:O4,0.001,0.03,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-129:O6,0.01775,0.22,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-129:O6 A-192:N7,0.002,0.03,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-129:OP,0.5029166666666667,1.0,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-129:OP C-189:OP,0.00525,0.0775,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-129:OP G-188:O6,0.0008333333333333334,0.025,0,1,0,1,Water binding site not found in any cryoEM maps.
-G-129:OP U-130:OP,0.020666666666666667,0.2125,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-129:OP,0.5029166666666667,1.0,0,0,0,1,Water binding site not found in any cryoEM maps.
+G-129:OP C-189:OP,0.00525,0.0775,0,0,0,2,Water binding site not found in any cryoEM maps.
+G-129:OP G-188:O6,0.0008333333333333334,0.025,0,1,0,2,Water binding site not found in any cryoEM maps.
+G-129:OP U-130:OP,0.020666666666666667,0.2125,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-134:O2',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-134:O2' A-136:OP,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-134:O2' U-135:OP,0.0003333333333333333,0.01,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -5146,10 +5146,10 @@ G-163:O6 G-164:O6,0.04858333333333333,0.3075,0,1,0,2,Water binding site not foun
 G-163:OP,0.3199166666666667,0.9725,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-163:OP A-172:OP,8.333333333333333e-05,0.0025,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-163:OP A-172:OP A-173:OP,0.0035833333333333333,0.07,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-163:OP A-178:N6,0.0009166666666666666,0.0275,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-163:OP A-178:N6,0.0009166666666666666,0.0275,0,1,0,0,Water binding site not found in any cryoEM maps.
 G-163:OP A-178:OP,0.010166666666666666,0.305,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-163:OP G-164:N7,0.11916666666666667,0.5675,0,1,0,0,Water binding site not found in any cryoEM maps.
-G-163:OP G-164:N7 A-178:N6,0.0015,0.025,0,1,0,0,Water binding site not found in any cryoEM maps.
+G-163:OP G-164:N7 A-178:N6,0.0015,0.025,0,2,0,0,Water binding site not found in any cryoEM maps.
 G-163:OP G-164:N7 G-164:O6,0.008083333333333333,0.1025,0,1,0,1,Water binding site not found in any cryoEM maps.
 G-163:OP G-164:N7 G-164:OP,0.00025,0.0075,0,2,0,0,Water binding site not found in any cryoEM maps.
 G-163:OP G-164:N7 U-177:O2,0.012583333333333334,0.24,0,1,0,0,Water binding site not found in any cryoEM maps.
@@ -5167,7 +5167,7 @@ G-164:C8 G-164:OP,0.00016666666666666666,0.005,0,1,0,0,Water binding site not fo
 G-164:C8 G-164:OP U-177:O2,0.0013333333333333333,0.04,0,1,0,0,Water binding site not found in any cryoEM maps.
 G-164:N3,0.0011666666666666668,0.035,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-164:N7,0.021333333333333333,0.12,0,1,0,0,Water binding site not found in any cryoEM maps.
-G-164:N7 A-178:N6,0.00425,0.075,0,1,0,0,Water binding site not found in any cryoEM maps.
+G-164:N7 A-178:N6,0.00425,0.075,0,2,0,0,Water binding site not found in any cryoEM maps.
 G-164:N7 A-178:N7,0.008666666666666666,0.1975,0,1,0,0,Water binding site not found in any cryoEM maps.
 G-164:N7 G-164:O6,0.006416666666666667,0.0575,0,1,0,1,Water binding site not found in any cryoEM maps.
 G-164:N7 G-164:O6 A-178:N7,0.011333333333333334,0.25,0,1,0,1,Water binding site not found in any cryoEM maps.
@@ -5189,7 +5189,7 @@ G-164:O2' G-180:N3 G-181:O4',0.0023333333333333335,0.03,0,1,0,0,Water binding si
 G-164:O2' G-180:O2',0.003916666666666666,0.045,0,1,0,1,Water binding site not found in any cryoEM maps.
 G-164:O2' G-181:O4',0.0165,0.1175,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-164:O6,0.32525,1.0,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-164:O6 A-178:N1,0.002,0.0325,0,0,0,1,Water binding site not found in any cryoEM maps.
+G-164:O6 A-178:N1,0.002,0.0325,0,1,0,1,Water binding site not found in any cryoEM maps.
 G-164:O6 A-178:N3,0.007,0.21,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-164:O6 A-178:N7,0.025916666666666668,0.1875,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-164:O6 A-178:N7 A-178:OP,0.00016666666666666666,0.005,0,0,0,1,Water binding site not found in any cryoEM maps.
@@ -5575,7 +5575,7 @@ G-23:O6 A-24:N6 U-59:OP,0.00075,0.0225,0,1,0,0,Water binding site not found in a
 G-23:O6 A-89:OP,0.0021666666666666666,0.065,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-23:O6 A-90:N1,0.0005833333333333334,0.0175,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-23:O6 A-90:N1 G-91:O6,8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-23:O6 C-60:OP,0.00075,0.0225,0,1,0,3,Water binding site not found in any cryoEM maps.
+G-23:O6 C-60:OP,0.00075,0.0225,0,1,0,4,Water binding site not found in any cryoEM maps.
 G-23:O6 G-58:O6,0.00225,0.0675,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-23:O6 G-58:OP,0.0014166666666666668,0.03,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-23:O6 G-91:N7,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -6018,24 +6018,24 @@ G-272:O2',0.033666666666666664,0.1525,0,0,0,1,Water binding site not found in an
 G-272:O2' G-272:O3',8.333333333333333e-05,0.0025,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-272:O2' U-273:O4',8.333333333333333e-05,0.0025,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-272:O3',0.0003333333333333333,0.01,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-272:O3' U-273:OP,8.333333333333333e-05,0.0025,0,1,0,0,Water binding site not found in any cryoEM maps.
+G-272:O3' U-273:OP,8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
 G-272:O4',0.014,0.115,0,1,0,1,Water binding site not found in any cryoEM maps.
 G-272:O4' A-304:O2',0.002916666666666667,0.03,0,2,0,2,Water binding site not found in any cryoEM maps.
 G-272:O5',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-272:O6,0.06675,0.415,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-272:O6 U-273:O4,0.002,0.02,0,1,0,1,Water binding site not found in any cryoEM maps.
 G-272:OP,0.7483333333333333,1.0,2,2,2,3,Water binding site found in both cryoEM maps.
-G-272:OP A-299:OP,0.00325,0.0975,0,3,0,4,Water binding site not found in any cryoEM maps.
+G-272:OP A-299:OP,0.00325,0.0975,0,4,0,4,Water binding site not found in any cryoEM maps.
 G-272:OP A-301:OP,0.06133333333333333,0.615,0,4,0,6,Water binding site not found in any cryoEM maps.
 G-272:OP A-301:OP A-302:OP,0.026166666666666668,0.365,0,5,0,7,Water binding site not found in any cryoEM maps.
 G-272:OP A-302:OP,0.03916666666666667,0.5475,0,3,0,4,Water binding site not found in any cryoEM maps.
-G-272:OP C-274:N4,0.0011666666666666668,0.025,0,3,0,4,Water binding site not found in any cryoEM maps.
+G-272:OP C-274:N4,0.0011666666666666668,0.025,0,3,0,5,Water binding site not found in any cryoEM maps.
 G-272:OP U-273:O4,0.00125,0.025,0,3,0,4,Water binding site not found in any cryoEM maps.
 G-272:OP U-273:O5',8.333333333333333e-05,0.0025,0,2,0,3,Water binding site not found in any cryoEM maps.
-G-272:OP U-273:O5' U-273:OP,0.0006666666666666666,0.02,0,3,0,3,Water binding site not found in any cryoEM maps.
-G-272:OP U-273:OP,0.6841666666666667,0.9975,0,3,0,3,Water binding site not found in any cryoEM maps.
-G-272:OP U-273:OP A-302:OP,0.006,0.18,0,4,0,4,Water binding site not found in any cryoEM maps.
-G-272:OP U-273:OP U-300:OP,0.002,0.0425,0,4,0,5,Water binding site not found in any cryoEM maps.
+G-272:OP U-273:O5' U-273:OP,0.0006666666666666666,0.02,0,3,0,4,Water binding site not found in any cryoEM maps.
+G-272:OP U-273:OP,0.6841666666666667,0.9975,0,3,0,4,Water binding site not found in any cryoEM maps.
+G-272:OP U-273:OP A-302:OP,0.006,0.18,0,4,0,5,Water binding site not found in any cryoEM maps.
+G-272:OP U-273:OP U-300:OP,0.002,0.0425,0,4,0,6,Water binding site not found in any cryoEM maps.
 G-272:OP U-300:O2',0.021333333333333333,0.3575,1,2,0,3,Water binding site found in only one cryoEM maps.
 G-272:OP U-300:O2' A-301:OP,0.0028333333333333335,0.085,0,4,1,6,Water binding site found in only one cryoEM maps.
 G-272:OP U-300:O4,0.0021666666666666666,0.06,0,2,0,3,Water binding site not found in any cryoEM maps.
@@ -6228,7 +6228,7 @@ G-280:O6 U-297:O4,0.010333333333333333,0.105,0,1,0,2,Water binding site not foun
 G-280:OP,0.19783333333333333,1.0,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-280:OP G-281:OP,0.17358333333333334,0.74,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-281:N2,0.00016666666666666666,0.005,0,0,1,1,Water binding site found in only one cryoEM maps.
-G-281:N2 U-297:O2',0.0009166666666666666,0.025,0,1,1,1,Water binding site found in only one cryoEM maps.
+G-281:N2 U-297:O2',0.0009166666666666666,0.025,0,1,1,2,Water binding site found in only one cryoEM maps.
 G-281:N7,0.135,0.5375,0,0,1,1,Water binding site found in only one cryoEM maps.
 G-281:N7 G-281:O6,0.0003333333333333333,0.0075,0,0,0,1,Water binding site not found in any cryoEM maps.
 G-281:N7 G-281:OP,0.04766666666666667,0.775,0,0,0,2,Water binding site not found in any cryoEM maps.
@@ -6344,7 +6344,7 @@ G-312:N1,0.0005,0.015,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-312:N2,0.00025,0.0075,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-312:N3,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-312:N7,0.0011666666666666668,0.015,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-312:N7 G-312:OP,0.006666666666666667,0.14,0,0,0,1,Water binding site not found in any cryoEM maps.
+G-312:N7 G-312:OP,0.006666666666666667,0.14,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-312:O2',0.008083333333333333,0.1375,1,1,1,1,Water binding site found in both cryoEM maps.
 G-312:O2' G-360:O2',0.0028333333333333335,0.07,0,1,0,1,Water binding site not found in any cryoEM maps.
 G-312:O2' G-360:O2' G-360:O3',0.0045,0.075,0,1,0,1,Water binding site not found in any cryoEM maps.
@@ -6352,22 +6352,22 @@ G-312:O2' G-360:O3',0.00025,0.005,1,1,0,1,Water binding site found in only one c
 G-312:O3',0.0018333333333333333,0.03,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-312:O4' G-360:O4',8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-312:O6,0.00075,0.0225,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-312:OP,0.202,1.0,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP C-361:O4',0.00016666666666666666,0.005,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP C-361:OP,0.0004166666666666667,0.0125,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-313:N7,0.0008333333333333334,0.025,0,0,0,2,Water binding site not found in any cryoEM maps.
-G-312:OP G-313:O6 G-408:N3,0.0009166666666666666,0.0275,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-313:OP,0.0019166666666666666,0.0575,0,0,0,2,Water binding site not found in any cryoEM maps.
-G-312:OP G-360:N2,0.0008333333333333334,0.025,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-360:O2',0.025833333333333333,0.6025,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-360:O2' C-361:O4',0.001,0.03,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-360:O2' G-408:O6,8.333333333333333e-05,0.0025,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-408:N2,0.0025833333333333333,0.0775,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-408:N3,0.008166666666666666,0.1575,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-408:N7,0.01775,0.5325,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-408:N7 G-408:O6,0.0006666666666666666,0.02,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-408:O2',0.007583333333333333,0.2275,0,0,0,1,Water binding site not found in any cryoEM maps.
-G-312:OP G-408:O6,0.02125,0.6125,0,0,0,1,Water binding site not found in any cryoEM maps.
+G-312:OP,0.202,1.0,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP C-361:O4',0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP C-361:OP,0.0004166666666666667,0.0125,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-313:N7,0.0008333333333333334,0.025,0,0,0,1,Water binding site not found in any cryoEM maps.
+G-312:OP G-313:O6 G-408:N3,0.0009166666666666666,0.0275,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-313:OP,0.0019166666666666666,0.0575,0,0,0,1,Water binding site not found in any cryoEM maps.
+G-312:OP G-360:N2,0.0008333333333333334,0.025,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-360:O2',0.025833333333333333,0.6025,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-360:O2' C-361:O4',0.001,0.03,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-360:O2' G-408:O6,8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-408:N2,0.0025833333333333333,0.0775,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-408:N3,0.008166666666666666,0.1575,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-408:N7,0.01775,0.5325,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-408:N7 G-408:O6,0.0006666666666666666,0.02,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-408:O2',0.007583333333333333,0.2275,0,0,0,0,Water binding site not found in any cryoEM maps.
+G-312:OP G-408:O6,0.02125,0.6125,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-313:N3,0.0018333333333333333,0.025,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-313:N3 G-313:O2',0.00325,0.045,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-313:N7,0.004166666666666667,0.0675,0,0,1,1,Water binding site found in only one cryoEM maps.
@@ -7201,7 +7201,7 @@ G-406:OP,0.0465,1.0,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-406:OP A-407:OP,0.010416666666666666,0.16,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-408:N1,0.0003333333333333333,0.01,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-408:N2,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-408:N3,0.0005833333333333334,0.01,0,0,0,1,Water binding site not found in any cryoEM maps.
+G-408:N3,0.0005833333333333334,0.01,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-408:N7,0.009166666666666667,0.1975,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-408:N7 G-408:O6,0.00125,0.0375,0,0,0,0,Water binding site not found in any cryoEM maps.
 G-408:O2',0.0013333333333333333,0.0325,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -7275,8 +7275,8 @@ G-54:O2',0.01025,0.21,0,0,1,1,Water binding site found in only one cryoEM maps.
 G-54:O2' C-55:O4' G-282:OP,0.0006666666666666666,0.015,0,1,0,2,Water binding site not found in any cryoEM maps.
 G-54:O2' G-282:OP,0.026333333333333334,0.145,0,1,0,2,Water binding site not found in any cryoEM maps.
 G-54:O6,0.06266666666666666,0.275,0,0,0,0,Water binding site not found in any cryoEM maps.
-G-54:OP,0.005583333333333333,0.105,1,1,0,0,Water binding site found in only one cryoEM maps.
-G-54:OP C-55:OP,0.005166666666666667,0.135,0,2,0,0,Water binding site not found in any cryoEM maps.
+G-54:OP,0.005583333333333333,0.105,1,2,0,0,Water binding site found in only one cryoEM maps.
+G-54:OP C-55:OP,0.005166666666666667,0.135,0,3,0,0,Water binding site not found in any cryoEM maps.
 G-58:N2,0.0013333333333333333,0.02,0,1,0,0,Water binding site not found in any cryoEM maps.
 G-58:N2 A-97:O4',0.00016666666666666666,0.005,0,1,0,0,Water binding site not found in any cryoEM maps.
 G-58:N2 G-58:N3,0.00016666666666666666,0.005,0,1,0,0,Water binding site not found in any cryoEM maps.
@@ -7576,7 +7576,7 @@ U-101:O4 A-270:OP G-272:N7,8.333333333333333e-05,0.0025,0,4,0,2,Water binding si
 U-101:O4 A-270:OP G-272:N7 G-272:O6,0.004833333333333334,0.1125,0,4,0,2,Water binding site not found in any cryoEM maps.
 U-101:O4 A-270:OP G-272:O6,0.34158333333333335,0.94,0,4,0,2,Water binding site not found in any cryoEM maps.
 U-101:O4 A-270:OP G-272:O6 U-273:O4,0.025583333333333333,0.1775,0,4,0,2,Water binding site not found in any cryoEM maps.
-U-101:O4 A-270:OP U-271:OP G-272:O6,8.333333333333333e-05,0.0025,0,7,0,3,Water binding site not found in any cryoEM maps.
+U-101:O4 A-270:OP U-271:OP G-272:O6,8.333333333333333e-05,0.0025,0,7,0,4,Water binding site not found in any cryoEM maps.
 U-101:O4 A-270:OP U-273:O4,0.00875,0.1475,0,4,0,2,Water binding site not found in any cryoEM maps.
 U-101:O4 C-102:N4 A-270:OP,0.004083333333333333,0.0725,0,5,0,3,Water binding site not found in any cryoEM maps.
 U-101:O4 C-102:N4 A-270:OP G-272:O6,0.003416666666666667,0.045,0,5,0,3,Water binding site not found in any cryoEM maps.
@@ -7587,11 +7587,11 @@ U-101:O4 C-102:N4 G-272:O6 U-273:O4,0.0003333333333333333,0.0075,0,3,0,3,Water b
 U-101:O4 G-272:N7 G-272:O6,0.00016666666666666666,0.005,0,2,0,2,Water binding site not found in any cryoEM maps.
 U-101:O4 G-272:O6,0.01275,0.125,0,2,0,2,Water binding site not found in any cryoEM maps.
 U-101:O4 G-272:O6 U-273:O4,0.0025,0.02,0,2,0,2,Water binding site not found in any cryoEM maps.
-U-101:O4 U-271:OP,0.0011666666666666668,0.035,0,5,0,3,Water binding site not found in any cryoEM maps.
-U-101:O4 U-271:OP G-272:O6,0.00025,0.0075,0,5,0,3,Water binding site not found in any cryoEM maps.
+U-101:O4 U-271:OP,0.0011666666666666668,0.035,0,5,0,4,Water binding site not found in any cryoEM maps.
+U-101:O4 U-271:OP G-272:O6,0.00025,0.0075,0,5,0,4,Water binding site not found in any cryoEM maps.
 U-101:O4 U-273:O4,0.11633333333333333,0.935,0,2,0,2,Water binding site not found in any cryoEM maps.
 U-101:OP,0.0145,0.16,1,3,1,2,Water binding site found in both cryoEM maps.
-U-101:OP C-102:OP,0.019833333333333335,0.3925,1,3,1,2,Water binding site found in both cryoEM maps.
+U-101:OP C-102:OP,0.019833333333333335,0.3925,1,3,1,3,Water binding site found in both cryoEM maps.
 U-101:OP U-345:OP,0.0006666666666666666,0.02,0,3,0,2,Water binding site not found in any cryoEM maps.
 U-106:N3,0.00975,0.1575,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-106:N3 A-306:N6,0.0005833333333333334,0.0175,0,0,0,1,Water binding site not found in any cryoEM maps.
@@ -7815,7 +7815,7 @@ U-162:O5' U-162:OP G-163:N7,0.0004166666666666667,0.005,0,0,0,1,Water binding si
 U-162:O5' U-162:OP G-163:N7 G-163:OP,0.007583333333333333,0.1175,0,0,0,1,Water binding site not found in any cryoEM maps.
 U-162:O5' U-162:OP G-163:OP,0.016083333333333335,0.19,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-162:OP,0.178,0.7975,0,0,0,0,Water binding site not found in any cryoEM maps.
-U-162:OP A-178:N1,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
+U-162:OP A-178:N1,0.00016666666666666666,0.005,0,1,0,0,Water binding site not found in any cryoEM maps.
 U-162:OP G-163:N7,0.016,0.2575,0,0,0,1,Water binding site not found in any cryoEM maps.
 U-162:OP G-163:N7 G-163:O6,0.0011666666666666668,0.035,0,1,0,2,Water binding site not found in any cryoEM maps.
 U-162:OP G-163:N7 G-163:O6 G-164:O6,0.0005,0.015,0,1,0,2,Water binding site not found in any cryoEM maps.
@@ -8485,11 +8485,11 @@ U-271:O4' A-302:OP G-303:O6,0.00016666666666666666,0.005,0,2,0,1,Water binding s
 U-271:O4' G-303:O6,0.0015833333333333333,0.02,0,1,0,0,Water binding site not found in any cryoEM maps.
 U-271:O4' U-271:O5',0.0008333333333333334,0.025,0,1,0,0,Water binding site not found in any cryoEM maps.
 U-271:O4' U-271:O5' G-303:O6,0.0015833333333333333,0.0475,0,2,0,0,Water binding site not found in any cryoEM maps.
-U-271:O4' U-271:OP A-301:OP G-303:N1,0.0008333333333333334,0.025,0,5,0,5,Water binding site not found in any cryoEM maps.
-U-271:O4' U-271:OP A-301:OP G-303:O6,0.0005,0.015,0,6,0,5,Water binding site not found in any cryoEM maps.
-U-271:O4' U-271:OP A-302:OP,0.001,0.03,0,4,0,2,Water binding site not found in any cryoEM maps.
-U-271:O4' U-271:OP A-302:OP G-303:O6,0.0011666666666666668,0.035,0,5,0,2,Water binding site not found in any cryoEM maps.
-U-271:O4' U-271:OP G-303:O6,8.333333333333333e-05,0.0025,0,4,0,1,Water binding site not found in any cryoEM maps.
+U-271:O4' U-271:OP A-301:OP G-303:N1,0.0008333333333333334,0.025,0,5,0,6,Water binding site not found in any cryoEM maps.
+U-271:O4' U-271:OP A-301:OP G-303:O6,0.0005,0.015,0,6,0,6,Water binding site not found in any cryoEM maps.
+U-271:O4' U-271:OP A-302:OP,0.001,0.03,0,4,0,3,Water binding site not found in any cryoEM maps.
+U-271:O4' U-271:OP A-302:OP G-303:O6,0.0011666666666666668,0.035,0,5,0,3,Water binding site not found in any cryoEM maps.
+U-271:O4' U-271:OP G-303:O6,8.333333333333333e-05,0.0025,0,4,0,2,Water binding site not found in any cryoEM maps.
 U-271:O4' U-300:O2' A-301:OP,0.00016666666666666666,0.005,0,3,0,4,Water binding site not found in any cryoEM maps.
 U-271:O5',0.00016666666666666666,0.0025,0,1,0,0,Water binding site not found in any cryoEM maps.
 U-271:O5' A-301:OP,0.0019166666666666666,0.0375,0,3,0,4,Water binding site not found in any cryoEM maps.
@@ -8497,30 +8497,30 @@ U-271:O5' U-300:O2' A-301:OP,0.0006666666666666666,0.02,0,4,0,4,Water binding si
 U-271:O5' U-300:O2' U-300:O3',8.333333333333333e-05,0.0025,0,2,0,1,Water binding site not found in any cryoEM maps.
 U-271:O5' U-300:O2' U-300:O3' A-301:OP,0.004916666666666666,0.1475,0,4,0,4,Water binding site not found in any cryoEM maps.
 U-271:O5' U-300:O3' A-301:OP,8.333333333333333e-05,0.0025,0,3,0,4,Water binding site not found in any cryoEM maps.
-U-271:OP,0.18758333333333332,0.98,1,3,0,1,Water binding site found in only one cryoEM maps.
-U-271:OP A-301:OP,0.0675,0.4675,0,5,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP A-301:OP A-302:OP,0.00075,0.0225,0,6,0,6,Water binding site not found in any cryoEM maps.
-U-271:OP A-301:OP G-303:N1,0.01725,0.315,0,5,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP A-301:OP G-303:N1 G-303:N2,0.001,0.03,0,5,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP A-301:OP G-303:N1 G-303:O6,0.0011666666666666668,0.035,0,6,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP A-301:OP G-303:N2,0.0015833333333333333,0.0475,0,5,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP A-301:OP G-303:O6,0.0075,0.1225,0,6,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP A-302:OP,0.0016666666666666668,0.05,0,4,0,2,Water binding site not found in any cryoEM maps.
-U-271:OP A-302:OP G-303:N1,0.0006666666666666666,0.02,0,4,0,2,Water binding site not found in any cryoEM maps.
-U-271:OP A-302:OP G-303:O6,0.00025,0.0075,0,5,0,2,Water binding site not found in any cryoEM maps.
-U-271:OP G-272:N7,0.012666666666666666,0.2275,0,3,0,1,Water binding site not found in any cryoEM maps.
-U-271:OP G-272:N7 G-272:O6,0.00016666666666666666,0.0025,0,3,0,1,Water binding site not found in any cryoEM maps.
-U-271:OP G-272:N7 G-272:OP,0.026583333333333334,0.7025,0,5,0,4,Water binding site not found in any cryoEM maps.
-U-271:OP G-272:O6,0.018416666666666668,0.5525,0,3,0,1,Water binding site not found in any cryoEM maps.
-U-271:OP G-272:OP,0.12616666666666668,0.665,0,5,0,4,Water binding site not found in any cryoEM maps.
-U-271:OP G-272:OP U-273:O4,0.00025,0.0075,0,6,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP G-303:N1,0.0003333333333333333,0.005,0,3,0,1,Water binding site not found in any cryoEM maps.
-U-271:OP G-303:O6,0.0016666666666666668,0.025,0,4,0,1,Water binding site not found in any cryoEM maps.
-U-271:OP U-273:O4,0.0003333333333333333,0.01,0,4,0,2,Water binding site not found in any cryoEM maps.
-U-271:OP U-300:O2',0.0015833333333333333,0.025,0,4,0,2,Water binding site not found in any cryoEM maps.
-U-271:OP U-300:O2' A-301:OP,0.07933333333333334,0.9225,0,6,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP U-300:O2' A-301:OP G-303:O6,0.003,0.09,0,7,0,5,Water binding site not found in any cryoEM maps.
-U-271:OP U-300:O2' U-300:O3' A-301:OP,0.00025,0.0075,0,6,0,5,Water binding site not found in any cryoEM maps.
+U-271:OP,0.18758333333333332,0.98,1,3,0,2,Water binding site found in only one cryoEM maps.
+U-271:OP A-301:OP,0.0675,0.4675,0,5,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP A-301:OP A-302:OP,0.00075,0.0225,0,6,0,7,Water binding site not found in any cryoEM maps.
+U-271:OP A-301:OP G-303:N1,0.01725,0.315,0,5,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP A-301:OP G-303:N1 G-303:N2,0.001,0.03,0,5,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP A-301:OP G-303:N1 G-303:O6,0.0011666666666666668,0.035,0,6,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP A-301:OP G-303:N2,0.0015833333333333333,0.0475,0,5,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP A-301:OP G-303:O6,0.0075,0.1225,0,6,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP A-302:OP,0.0016666666666666668,0.05,0,4,0,3,Water binding site not found in any cryoEM maps.
+U-271:OP A-302:OP G-303:N1,0.0006666666666666666,0.02,0,4,0,3,Water binding site not found in any cryoEM maps.
+U-271:OP A-302:OP G-303:O6,0.00025,0.0075,0,5,0,3,Water binding site not found in any cryoEM maps.
+U-271:OP G-272:N7,0.012666666666666666,0.2275,0,3,0,2,Water binding site not found in any cryoEM maps.
+U-271:OP G-272:N7 G-272:O6,0.00016666666666666666,0.0025,0,3,0,2,Water binding site not found in any cryoEM maps.
+U-271:OP G-272:N7 G-272:OP,0.026583333333333334,0.7025,0,5,0,5,Water binding site not found in any cryoEM maps.
+U-271:OP G-272:O6,0.018416666666666668,0.5525,0,3,0,2,Water binding site not found in any cryoEM maps.
+U-271:OP G-272:OP,0.12616666666666668,0.665,0,5,0,5,Water binding site not found in any cryoEM maps.
+U-271:OP G-272:OP U-273:O4,0.00025,0.0075,0,6,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP G-303:N1,0.0003333333333333333,0.005,0,3,0,2,Water binding site not found in any cryoEM maps.
+U-271:OP G-303:O6,0.0016666666666666668,0.025,0,4,0,2,Water binding site not found in any cryoEM maps.
+U-271:OP U-273:O4,0.0003333333333333333,0.01,0,4,0,3,Water binding site not found in any cryoEM maps.
+U-271:OP U-300:O2',0.0015833333333333333,0.025,0,4,0,3,Water binding site not found in any cryoEM maps.
+U-271:OP U-300:O2' A-301:OP,0.07933333333333334,0.9225,0,6,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP U-300:O2' A-301:OP G-303:O6,0.003,0.09,0,7,0,6,Water binding site not found in any cryoEM maps.
+U-271:OP U-300:O2' U-300:O3' A-301:OP,0.00025,0.0075,0,6,0,6,Water binding site not found in any cryoEM maps.
 U-273:N3,8.333333333333333e-05,0.0025,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-273:O2,0.17041666666666666,0.325,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-273:O2 C-274:O2,0.00075,0.0225,0,2,0,1,Water binding site not found in any cryoEM maps.
@@ -8533,15 +8533,15 @@ U-273:O2' C-274:O4',0.0005,0.015,0,1,0,1,Water binding site not found in any cry
 U-273:O2' U-273:O3',0.00075,0.005,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-273:O3',0.0013333333333333333,0.01,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-273:O4,0.05366666666666667,0.37,0,1,0,1,Water binding site not found in any cryoEM maps.
-U-273:O4 C-274:N4,0.0005833333333333334,0.0175,0,2,0,2,Water binding site not found in any cryoEM maps.
+U-273:O4 C-274:N4,0.0005833333333333334,0.0175,0,2,0,3,Water binding site not found in any cryoEM maps.
 U-273:O5',0.0004166666666666667,0.0075,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-273:O5' C-274:OP,0.01625,0.1425,0,1,0,3,Water binding site not found in any cryoEM maps.
-U-273:O5' U-273:OP C-274:OP,0.00275,0.0325,0,2,0,3,Water binding site not found in any cryoEM maps.
-U-273:OP,0.8021666666666667,1.0,1,1,0,0,Water binding site found in only one cryoEM maps.
-U-273:OP A-299:OP,0.03166666666666667,0.39,0,2,0,1,Water binding site not found in any cryoEM maps.
-U-273:OP A-302:OP,8.333333333333333e-05,0.0025,0,2,0,1,Water binding site not found in any cryoEM maps.
-U-273:OP C-274:OP,0.13808333333333334,0.7175,0,2,0,3,Water binding site not found in any cryoEM maps.
-U-273:OP U-300:OP,0.004083333333333333,0.085,0,2,0,2,Water binding site not found in any cryoEM maps.
+U-273:O5' U-273:OP C-274:OP,0.00275,0.0325,0,2,0,4,Water binding site not found in any cryoEM maps.
+U-273:OP,0.8021666666666667,1.0,1,1,1,1,Water binding site found in both cryoEM maps.
+U-273:OP A-299:OP,0.03166666666666667,0.39,0,3,0,2,Water binding site not found in any cryoEM maps.
+U-273:OP A-302:OP,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
+U-273:OP C-274:OP,0.13808333333333334,0.7175,0,2,0,4,Water binding site not found in any cryoEM maps.
+U-273:OP U-300:OP,0.004083333333333333,0.085,0,2,0,3,Water binding site not found in any cryoEM maps.
 U-277:N3 U-300:O4,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-277:O2,0.011166666666666667,0.13,0,1,0,2,Water binding site not found in any cryoEM maps.
 U-277:O2' C-278:O4',8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
@@ -8569,7 +8569,7 @@ U-294:OP,0.17083333333333334,0.995,0,0,0,0,Water binding site not found in any c
 U-294:OP U-295:OP,0.0095,0.2775,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-295:OP,0.15908333333333333,0.9925,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-295:OP C-296:OP,8.333333333333333e-05,0.0025,0,0,0,1,Water binding site not found in any cryoEM maps.
-U-297:O2',0.00016666666666666666,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
+U-297:O2',0.00016666666666666666,0.0025,0,1,0,2,Water binding site not found in any cryoEM maps.
 U-297:O4,0.026916666666666665,0.3325,0,0,0,1,Water binding site not found in any cryoEM maps.
 U-297:OP,0.015916666666666666,0.2025,1,1,1,1,Water binding site found in both cryoEM maps.
 U-297:OP C-298:OP,0.0011666666666666668,0.035,0,1,0,2,Water binding site not found in any cryoEM maps.
@@ -8857,9 +8857,9 @@ U-33:OP A-299:O2' A-299:O4',0.0025,0.075,0,1,0,1,Water binding site not found in
 U-33:OP A-299:O3',0.00025,0.0075,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-33:OP A-299:O3' A-299:O5',0.00025,0.0075,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-33:OP A-299:O4',0.0023333333333333335,0.0275,0,1,0,1,Water binding site not found in any cryoEM maps.
-U-33:OP A-299:O4' A-299:OP,8.333333333333333e-05,0.0025,0,2,0,2,Water binding site not found in any cryoEM maps.
+U-33:OP A-299:O4' A-299:OP,8.333333333333333e-05,0.0025,0,3,0,2,Water binding site not found in any cryoEM maps.
 U-33:OP A-299:O5',0.0008333333333333334,0.025,0,1,0,1,Water binding site not found in any cryoEM maps.
-U-33:OP A-299:OP,0.012333333333333333,0.3575,0,2,0,2,Water binding site not found in any cryoEM maps.
+U-33:OP A-299:OP,0.012333333333333333,0.3575,0,3,0,2,Water binding site not found in any cryoEM maps.
 U-33:OP C-298:O2,0.008666666666666666,0.23,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-33:OP C-298:O2 A-299:O4',0.00016666666666666666,0.005,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-33:OP C-298:O2',0.09358333333333334,0.6175,0,2,0,2,Water binding site not found in any cryoEM maps.
@@ -8870,12 +8870,12 @@ U-33:OP C-298:O2' A-299:O3' A-299:O5',0.001,0.03,0,2,0,2,Water binding site not 
 U-33:OP C-298:O2' A-299:O4',0.0005,0.015,0,2,0,2,Water binding site not found in any cryoEM maps.
 U-33:OP C-298:O2' A-299:O5',0.0028333333333333335,0.085,0,2,0,2,Water binding site not found in any cryoEM maps.
 U-33:OP C-298:O2' C-298:O3',0.005583333333333333,0.1025,0,2,0,2,Water binding site not found in any cryoEM maps.
-U-33:OP C-298:O2' C-298:O3' A-299:OP,0.0005833333333333334,0.0175,0,3,0,3,Water binding site not found in any cryoEM maps.
+U-33:OP C-298:O2' C-298:O3' A-299:OP,0.0005833333333333334,0.0175,0,4,0,3,Water binding site not found in any cryoEM maps.
 U-33:OP C-298:O3',0.004833333333333334,0.07,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-33:OP C-298:O3' A-299:O4',0.0015,0.025,0,1,0,1,Water binding site not found in any cryoEM maps.
-U-33:OP C-298:O3' A-299:O4' A-299:OP,0.0031666666666666666,0.095,0,2,0,2,Water binding site not found in any cryoEM maps.
+U-33:OP C-298:O3' A-299:O4' A-299:OP,0.0031666666666666666,0.095,0,3,0,2,Water binding site not found in any cryoEM maps.
 U-33:OP C-298:O3' A-299:O5',8.333333333333333e-05,0.0025,0,1,0,1,Water binding site not found in any cryoEM maps.
-U-33:OP C-298:O3' A-299:OP,0.0265,0.4075,0,2,0,2,Water binding site not found in any cryoEM maps.
+U-33:OP C-298:O3' A-299:OP,0.0265,0.4075,0,3,0,2,Water binding site not found in any cryoEM maps.
 U-33:OP C-47:OP,0.009333333333333334,0.28,0,2,0,1,Water binding site not found in any cryoEM maps.
 U-33:OP C-48:OP,0.0095,0.205,0,2,0,1,Water binding site not found in any cryoEM maps.
 U-33:OP U-300:OP,0.00275,0.0825,0,2,0,3,Water binding site not found in any cryoEM maps.
@@ -8976,8 +8976,8 @@ U-34:OP A-46:OP,0.0013333333333333333,0.04,0,1,0,3,Water binding site not found 
 U-34:OP C-298:O2',0.055,0.4225,1,1,1,3,Water binding site found in both cryoEM maps.
 U-34:OP C-298:O2' C-298:O4',0.0010833333333333333,0.0325,0,1,0,3,Water binding site not found in any cryoEM maps.
 U-34:OP G-281:N2,8.333333333333333e-05,0.0025,0,1,1,3,Water binding site found in only one cryoEM maps.
-U-34:OP G-281:N2 U-297:O2',0.006,0.075,0,2,1,3,Water binding site found in only one cryoEM maps.
-U-34:OP U-297:O2',0.0036666666666666666,0.0575,0,2,0,3,Water binding site not found in any cryoEM maps.
+U-34:OP G-281:N2 U-297:O2',0.006,0.075,0,2,1,4,Water binding site found in only one cryoEM maps.
+U-34:OP U-297:O2',0.0036666666666666666,0.0575,0,2,0,4,Water binding site not found in any cryoEM maps.
 U-356:N3,0.0006666666666666666,0.0075,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-356:N3 U-356:O4,0.00025,0.0075,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-356:O2,0.010166666666666666,0.0825,0,0,0,0,Water binding site not found in any cryoEM maps.
@@ -9208,20 +9208,20 @@ U-59:O2' G-92:N2 C-93:O2,0.008833333333333334,0.085,0,1,0,1,Water binding site n
 U-59:O2' G-92:N2 C-93:O2 A-97:O3',0.0009166666666666666,0.0275,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-59:O3',0.012833333333333334,0.2475,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-59:O3' C-278:O2,0.0008333333333333334,0.025,0,0,0,0,Water binding site not found in any cryoEM maps.
-U-59:O3' C-60:OP,0.0014166666666666668,0.0425,0,1,0,3,Water binding site not found in any cryoEM maps.
-U-59:O3' C-60:OP U-277:O2,0.0004166666666666667,0.0125,0,1,0,3,Water binding site not found in any cryoEM maps.
+U-59:O3' C-60:OP,0.0014166666666666668,0.0425,0,1,0,4,Water binding site not found in any cryoEM maps.
+U-59:O3' C-60:OP U-277:O2,0.0004166666666666667,0.0125,0,1,0,4,Water binding site not found in any cryoEM maps.
 U-59:O3' U-277:O2,0.007416666666666667,0.13,0,1,0,2,Water binding site not found in any cryoEM maps.
 U-59:O4,0.021416666666666667,0.1025,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-59:O4 G-91:O6,0.0008333333333333334,0.025,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-59:O4 G-91:O6 G-92:O6,0.0003333333333333333,0.01,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-59:O4 G-92:O6,0.010166666666666666,0.0825,0,0,0,0,Water binding site not found in any cryoEM maps.
-U-59:O5' C-60:OP,0.0003333333333333333,0.0075,0,1,0,3,Water binding site not found in any cryoEM maps.
+U-59:O5' C-60:OP,0.0003333333333333333,0.0075,0,1,0,4,Water binding site not found in any cryoEM maps.
 U-59:O5' U-59:OP,0.00025,0.0075,0,1,0,0,Water binding site not found in any cryoEM maps.
-U-59:O5' U-59:OP C-60:OP,0.005833333333333334,0.115,0,2,0,3,Water binding site not found in any cryoEM maps.
+U-59:O5' U-59:OP C-60:OP,0.005833333333333334,0.115,0,2,0,4,Water binding site not found in any cryoEM maps.
 U-59:OP,0.09058333333333334,0.88,1,1,0,0,Water binding site found in only one cryoEM maps.
 U-59:OP C-278:O2',0.005166666666666667,0.1225,0,1,0,0,Water binding site not found in any cryoEM maps.
-U-59:OP C-60:OP,0.057416666666666664,0.7725,0,2,0,3,Water binding site not found in any cryoEM maps.
-U-59:OP C-60:OP C-278:O2',0.0003333333333333333,0.01,0,2,0,3,Water binding site not found in any cryoEM maps.
+U-59:OP C-60:OP,0.057416666666666664,0.7725,0,2,0,4,Water binding site not found in any cryoEM maps.
+U-59:OP C-60:OP C-278:O2',0.0003333333333333333,0.01,0,2,0,4,Water binding site not found in any cryoEM maps.
 U-59:OP G-279:OP,0.0015,0.045,0,1,0,1,Water binding site not found in any cryoEM maps.
 U-61:N3,0.00016666666666666666,0.005,0,0,0,0,Water binding site not found in any cryoEM maps.
 U-61:N3 A-90:N1,0.001,0.03,0,0,0,0,Water binding site not found in any cryoEM maps.
