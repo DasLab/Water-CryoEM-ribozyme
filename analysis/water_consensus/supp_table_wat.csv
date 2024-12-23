@@ -1,0 +1,562 @@
+residue_number,Binding site,model,Overlap with alterntive model (Mg),Overlap with alterntive model (water),Overlap with previous structures (Mg),Overlap with previous structures (water),Pass criteria
+467,"A-97:C8†, A-97:O5', A-97:OP, C-98:C5†, C-98:OP, U-300:O2†",2.2Å,,#,,,
+468,"U-258:OP, C-260:C2'†, C-260:O2†, C-260:O2', C-260:O3'†, U-305:O5'",2.2Å,,#,,,
+469,"A-269:C1'†, A-269:N3†, A-270:C8†, A-270:O4', A-304:N6",2.2Å,,#,,,
+470,"A-218:N6, G-254:O2', C-255:N1†, C-255:O4', U-273:O2', U-273:O3'",2.2Å,,#,,,
+471,"G-279:O6, G-280:N7, G-280:O6",2.2Å,,#,7ez2*,,
+472,"A-105:O2', U-106:C4'†, U-106:O4'†, G-215:N2, C-216:O2†, U-258:O2, U-258:O2'",2.2Å,,#,,,
+473,"A-104:N1†, A-218:N1†, C-255:N3, C-255:O2†, G-272:N2",2.2Å,,#,,,
+474,"G-108:N7, U-259:C3'†, U-259:C4'†, U-259:O2', U-259:O3'",2.2Å,,*,,,
+475,"C-102:C5†, A-103:C8†, A-103:N7, A-269:C2'†, A-269:C8†, A-269:OP†",2.2Å,,#,,,
+476,"A-306:C2†, A-306:C4†, A-306:N3†, U-307:C4†, U-307:O4",2.2Å,,#,"7yg9*, 7yga*",,
+477,"C-98:N4†, U-300:C2†, U-300:N3†",2.2Å,,#,,,
+478,"A-306:N3, A-308:N6, A-308:N7†",2.2Å,,#,,,
+479,"C-217:N4, C-255:OP, G-257:C6†, G-257:O6",2.2Å,,#,,,
+480,"C-278:C5†, G-279:N7",2.2Å,,#,,,
+481,"G-257:O3'†, G-257:OP, U-258:OP†, A-304:O2', A-304:O3', U-305:OP†",2.2Å,,#,,,
+482,"A-256:C2†, A-256:N1†, A-302:OP, G-303:OP",2.2Å,*,,,,
+483,"A-104:N6, G-257:C4'†, G-257:O2', A-270:N6†",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+484,"U-185:C4'†, A-186:C5'†, A-186:OP",2.2Å,,#,,,
+485,"C-166:OP, U-168:OP†, G-188:O6",2.2Å,,#,,"1hr2_A#, 1hr2_B#",
+486,"C-213:C5†, C-213:N4†, A-214:N6†, A-214:N7",2.2Å,,#,,,
+487,"C-99:C5†, C-99:N4",2.2Å,,#,,,
+488,"C-99:N4†, G-100:N7",2.2Å,,#,,,
+489,"U-271:O2, G-303:C2'†, G-303:N3†, G-303:O5', G-303:OP",2.2Å,,#,,,
+490,"A-103:N3, A-104:N7, A-105:N6†, A-269:N6",2.2Å,,#,,,
+491,"U-267:O4, A-306:C2†, A-306:N1",2.2Å,,#,,,
+492,"G-309:N2, A-342:C2'†, A-342:N3, A-342:O2'",2.2Å,,#,,,
+493,"U-259:C2†, U-259:N3, U-259:O2",2.2Å,,#,"7ez2*, 7xd5*, 7xd6*, 7ygb*",,
+494,"G-58:C2†, G-58:N2†, G-58:N3, G-58:O2', U-59:O4'†, A-95:C2†, G-96:N2, G-96:N3, G-96:O2'†, A-97:O4'†",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+495,"G-215:O6, C-216:N4†",2.2Å,,#,,,
+496,U-106:O2,2.2Å,,#,,,
+497,"A-219:N3, U-273:O2",2.2Å,,#,,,
+498,"C-255:O2', A-256:C5'†, G-257:OP",2.2Å,,#,,1hr2_B*,
+499,"A-268:N6†, A-268:N7†, A-269:N6",2.2Å,,#,,,
+500,"U-168:C5'†, U-168:OP, C-170:OP, A-171:C8†, A-171:N7",2.2Å,,#,,"1hr2_A*, 1hr2_B*",
+501,"U-168:OP, A-183:N6",2.2Å,,#,,1hr2_B*,
+502,"A-139:C2†, A-139:N3, A-139:O2'†, A-140:O4'†, U-185:O2', U-185:O3'†",2.2Å,,#,,1hr2_A#,
+503,"A-218:OP, G-254:O6",2.2Å,,#,,,
+504,A-184:N6,2.2Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+505,"A-218:OP, U-253:O4",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+506,"G-100:O6, U-101:O4†, U-273:O4",2.2Å,,#,,,
+507,"U-273:OP, C-274:N4†",2.2Å,^,#,"7r6m^, 8hd6^",,
+508,G-272:OP,2.2Å,,#,,,
+509,"U-167:N3, A-171:N3, A-171:O2', A-173:N6, G-174:O6",2.2Å,,#,,1hr2_A#,
+510,"A-139:OP†, A-140:OP†, G-141:O6†, G-163:N2†",2.2Å,,#,,,
+511,"U-271:O2, U-271:O2', G-272:O4', A-304:O2'",2.2Å,,#,,,
+512,"G-215:O5', G-215:OP†, C-216:C5†, C-216:OP",2.2Å,,#,,,
+513,"A-256:N6†, U-300:OP, U-300:OP",2.2Å,^,#,,,
+514,"A-183:O2', A-183:O3', G-188:OP",2.2Å,*,,,1hr2_B*,
+515,"U-101:C5†, C-102:N4",2.2Å,,#,,,
+516,"C-260:O2, U-305:O5'†",2.2Å,,#,,,
+517,"C-274:C3'†, C-274:C6†, G-275:C8†, G-275:OP",2.2Å,^,^,,,
+518,"C-217:OP, G-254:O6",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+519,"G-303:O2', G-303:O3', A-304:OP†",2.2Å,,#,,,
+520,"U-277:C6†, U-277:O5'†, U-277:OP, C-278:OP",2.2Å,,#,,,
+521,"A-103:OP, A-218:O2', A-218:O3'",2.2Å,,#,,,
+522,U-167:O3'†,2.2Å,,#,,1hr2_B*,
+523,"G-110:N2, U-168:O2, A-183:C2†, A-183:N1",2.2Å,,#,,,
+524,"C-60:C5'†, C-60:OP†, C-98:O2, U-277:O2",2.2Å,,#,,,
+525,"C-260:C5'†, A-261:C5'†, A-261:OP, G-264:OP",2.2Å,*,,,,
+526,"G-254:O2', C-274:OP",2.2Å,,#,,,
+527,"C-166:C5†, C-166:N4, U-167:O2, A-171:O2'",2.2Å,,#,,1hr2_B*,
+528,"G-257:C4'†, G-257:O3', A-270:N6†",2.2Å,,#,,,
+529,"C-165:O2', C-165:O3', U-182:OP†",2.2Å,,#,,,
+530,"A-97:OP†, A-301:OP",2.2Å,,#,"7xd5^, 7xd6^",,
+531,"A-219:OP, G-220:N7",2.2Å,,#,,,
+532,"U-182:C5†, A-187:C2†, A-187:N1",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+533,"G-164:C5†, G-164:N7, U-177:O2', G-180:N3†",2.2Å,*,,,,
+534,"A-105:C5'†, A-105:O5'†, A-105:OP, U-106:OP",2.2Å,*,,,,
+535,"C-222:O2†, A-252:N3",2.2Å,,,,1hr2_B^,"Geometry, Density, Resolved in one half map, Resolved in full map"
+536,"U-167:C5'†, A-171:N6",2.2Å,,#,,,
+537,"G-251:N7†, A-252:N6, A-252:N7",2.2Å,,#,,,
+538,"G-275:C5'†, G-275:C8†, G-276:OP",2.2Å,,#,,,
+539,"A-103:O2', A-103:O3', A-104:OP, A-104:P†",2.2Å,*,,,,
+540,"G-108:N3, U-185:OP, U-185:OP",2.2Å,,#,,,
+541,"U-101:C3'†, U-101:C6†, U-101:O5', U-101:OP, C-102:C5†, C-102:OP",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+542,"G-276:C8†, G-276:O5', G-276:OP†, U-277:C5†, U-277:OP†",2.2Å,,#,,,
+543,C-165:OP,2.2Å,,^,,1hr2_A#,
+544,"C-165:O2†, G-176:N3†, G-176:O2', G-180:O2'",2.2Å,,#,,,
+545,"G-257:OP†, U-305:OP",2.2Å,^,#,"7ez0^, 7r6l^, 7r6m^, 7r6n^, 8hd7^",,
+546,"U-162:O4, G-163:O6",2.2Å,,,,"1hr2_A*^, 1hr2_B*",Density
+547,"A-31:O2'†, A-95:O5'†, G-96:O5'",2.2Å,,#,7xd4*,,
+548,"G-220:C2'†, G-220:O2', U-221:O4'†, C-274:O3'",2.2Å,,#,,,
+549,"U-259:O3'†, C-260:OP, C-260:P†",2.2Å,^,#,,,
+550,"A-97:OP†, C-98:OP",2.2Å,,#,,,
+551,"C-137:O2', A-186:O3', A-187:OP†",2.2Å,,,,1hr2_B#,"Geometry, Density, Resolved in one half map, Resolved in full map"
+552,"U-107:O4'†, G-215:N2",2.2Å,,#,,,
+553,"G-110:C3'†, G-110:C8†, G-110:O5'†, G-110:OP†, G-111:OP",2.2Å,,#,,,
+554,"A-105:O3'†, U-106:OP, U-106:P†, C-216:O2'†",2.2Å,^,#,,,
+555,"U-182:C6†, U-182:OP, G-188:C8†",2.2Å,,,,"1hr2_A#, 1hr2_B#","Geometry, Density, Resolved in both half maps, Resolved in full map"
+556,U-307:OP,2.2Å,,#,,,
+557,"A-304:OP, U-305:OP",2.2Å,,#,7ygb*,,
+558,"C-98:O5'†, C-98:OP, C-98:P†",2.2Å,,^,,,
+559,"A-184:N6†, G-212:O2'",2.2Å,,#,,"1hr2_A*, 1hr2_B*",
+560,"U-168:O4', A-183:N6, G-212:O2'†",2.2Å,,#,,,
+561,"A-263:N1†, G-264:C2'†, G-264:N3†, G-264:O2', A-265:O4'†",2.2Å,,#,,,
+562,"G-92:N2, G-92:N3†, C-98:OP",2.2Å,,#,,,
+563,"G-220:C4'†, G-220:O2', G-220:O3', C-274:O2', G-275:O5'†",2.2Å,,#,,,
+564,"A-256:OP, A-256:P†",2.2Å,,#,"7ez0^, 7xd7^, 7ygb^, 8hd7^",1gid_A^,
+565,"U-168:C2†, U-168:N1†, U-168:O2'",2.2Å,,#,,,
+566,"A-302:N6†, G-303:N7, G-303:O6†",2.2Å,,#,,,
+567,"U-101:O4, A-270:OP",2.2Å,,#,,,
+568,"C-216:C4†, C-216:C5†, C-216:N4",2.2Å,,#,,,
+569,C-278:N4,2.2Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+570,"A-218:OP, A-218:P†, A-219:OP",2.2Å,,#,,,
+571,"C-99:O2, G-275:N2†, G-276:N3†",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+572,"U-267:OP, A-268:OP†",2.2Å,,#,,,
+573,"G-272:OP, U-300:O2'†",2.2Å,,#,,,
+574,"A-187:O2'†, A-187:O3'†, G-188:O5'†, G-188:OP",2.2Å,,#,,,
+575,"U-267:O2, G-309:N3†",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+576,"G-119:N2†, A-125:N1†, A-324:N1†",2.2Å,,*,,,
+577,"A-270:O2', U-271:OP†",2.2Å,,#,,,
+578,C-260:OP†,2.2Å,^,^,,,
+579,"A-140:O2', A-214:C5'†, A-214:OP†",2.2Å,,#,,,
+580,"G-111:O3', U-168:C4†, U-168:O4, G-188:N2†",2.2Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+581,"G-58:C4'†, G-58:C5'†, A-95:N6†, G-279:O2', G-279:O3', G-280:C5'†",2.2Å,,#,,,
+582,"U-271:C5'†, A-301:OP",2.2Å,,#,"7xd5^, 7xd6^",,
+583,G-257:N7,2.2Å,,#,,,
+584,"G-309:N7†, U-310:C4†, U-310:C5†, U-310:O4",2.2Å,,,,,"Geometry, Density"
+585,C-98:OP,2.2Å,,^,,,
+586,U-305:O2,2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+587,"G-111:OP, G-188:N2†",2.2Å,,#,,,
+588,"A-139:C2†, A-140:N3",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+589,"U-305:N3, U-305:O2†",2.2Å,,#,,,
+590,"C-60:O3', U-61:C5'†, U-61:OP†, C-98:O2', C-98:O3', C-99:C5'†",2.2Å,,#,,,
+591,"C-48:C4†, C-48:C5†, C-48:N4",2.2Å,,#,,,
+592,"G-150:N7†, A-152:OP",2.2Å,,#,,,
+593,A-256:OP,2.2Å,,#,"7ez0^, 7xd7^, 7ygb^, 8hd7^",1gid_A^,
+594,"G-220:N2, U-221:O2†, U-253:O2†, U-253:O2'",2.2Å,,#,,,
+595,"A-265:O2', A-265:O3'",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+596,"U-56:C4'†, U-56:O3'†, G-280:C5'†",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+597,"G-111:C5'†, G-111:O3'†, G-111:OP, G-188:N2†",2.2Å,,^,,,
+598,"C-274:O2†, C-274:O2'",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+599,"C-45:C5†, C-45:OP†, A-46:N6†, A-46:N7",2.2Å,,#,,,
+600,"A-268:N3, A-268:O2'",2.2Å,,#,,,
+601,"C-166:OP, U-182:OP",2.2Å,,,,1hr2_A^,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+602,"A-256:N3, G-303:OP",2.2Å,,#,,,
+603,G-254:OP,2.2Å,,#,,,
+604,"C-55:C6†, C-55:OP†, U-56:C5†, U-56:OP",2.2Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+605,"C-211:C2'†, C-211:O2, C-211:O2'",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+606,"U-101:OP, C-102:OP",2.2Å,,#,,,
+607,"A-299:C5'†, A-299:OP†",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+608,"U-310:O5'†, U-310:OP, U-310:P†, C-311:OP",2.2Å,,#,,,
+609,A-103:OP†,2.2Å,,,7ygb^,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+610,U-107:OP,2.2Å,*^,,,,
+611,A-94:N7,2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+612,"A-270:C3'†, A-270:O5', A-270:OP†",2.2Å,,,,,"Density, Resolved in full map"
+613,"U-258:O4, U-259:O4",2.2Å,*,,,,
+614,G-282:N3,2.2Å,,*,,,
+615,"C-204:O5', C-204:OP, U-205:C5†, U-205:OP, A-206:N6",2.2Å,,*,,,
+616,U-101:OP,2.2Å,,#,,,
+617,"A-265:O4'†, G-360:OP",2.2Å,,#,,,
+618,"A-184:C5'†, A-184:OP†, G-188:OP",2.2Å,,#,,,
+619,"G-309:C8†, U-310:OP†",2.2Å,,#,,,
+620,G-110:OP,2.2Å,,#,,,
+621,"U-34:OP, C-298:O2'",2.2Å,,#,,,
+622,"G-32:OP, U-33:OP",2.2Å,,#,,,
+623,"G-176:N7, G-176:O6†",2.2Å,,,,,"Geometry, Density, Resolved in full map"
+624,"G-100:N2†, U-101:O4'†",2.2Å,,*,,,
+625,"C-211:C5'†, C-211:C6†, C-211:O5'",2.2Å,,#,,,
+626,A-299:N7,2.2Å,*^,,,,
+627,G-276:N2,2.2Å,,#,,,
+628,"A-104:OP†, A-268:OP",2.2Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+629,"U-167:C5'†, U-167:OP",2.2Å,,,,,Geometry
+630,"A-31:C4'†, A-301:O4'†",2.2Å,,*,,,
+631,"A-151:C2'†, A-151:O2', A-152:C1'†, A-152:C4'†, A-152:O4', A-225:C5'†, A-226:OP",2.2Å,,,,,Geometry
+632,"C-255:O5'†, C-255:OP",2.2Å,^,#,,,
+633,"C-204:O2, C-204:O2', G-327:C4'†",2.2Å,,#,,,
+634,"C-137:N4†, C-138:N4",2.2Å,,#,,,
+635,"G-282:O5'†, G-282:OP†, A-283:OP†",2.2Å,,*,,,
+636,"A-178:N1†, A-178:N6†",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+637,"U-295:C5†, C-296:N4†",2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+638,"U-221:C5'†, G-275:O5', G-275:OP",2.2Å,,#,,,
+639,"G-312:O2', G-360:O3'†",2.2Å,,^,,,
+640,"A-140:N3, A-140:O2', G-141:O4'†",2.2Å,,#,,,
+641,"G-27:C5†, G-27:N7, G-27:O6†, A-57:O5'†, A-57:OP",2.2Å,,,,,Geometry
+642,"C-37:C4†, C-37:C5†, A-38:N7",2.2Å,,,,,"Density, Resolved in full map"
+643,"U-307:O2†, U-307:O2'",2.2Å,,#,,,
+644,A-265:OP,2.2Å,^,^,,,
+645,U-190:O4,2.2Å,,,,1hr2_B#,"Geometry, Density, Resolved in one half map, Resolved in full map"
+646,"C-266:C5'†, C-266:O5'†, C-266:OP",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+647,"G-264:N2†, G-360:C5'†",2.2Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+648,"A-24:C2†, C-93:N4†",2.2Å,,#,,,
+649,"A-104:O5'†, A-104:OP, A-105:OP",2.2Å,,#,,,
+650,G-275:N2†,2.2Å,,,,,"Geometry, Density, Resolved in full map"
+651,"G-27:O3'†, A-94:OP†",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+652,A-219:OP,2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+653,"G-169:C2'†, G-169:N3†, G-169:O2'",2.2Å,,,,,"Resolved in both half maps, Resolved in full map"
+654,"C-204:C5†, U-205:O4",2.2Å,,,,1hr2_B*^,
+655,"G-250:OP†, G-251:C8†, G-251:OP",2.2Å,,,,1hr2_B^,"Geometry, Density, Resolved in full map"
+656,"U-221:O5'†, U-221:OP, C-222:C5†, C-222:OP",2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+657,"C-102:C5'†, A-219:O2', A-219:O3'",2.2Å,,#,,,
+658,"G-188:C1'†, G-188:C2'†, G-188:C4†, G-188:N3†, G-188:N9†, G-188:O2'†",2.2Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+659,"A-53:C8†, G-54:OP",2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+660,C-211:OP,2.2Å,,,,1hr2_A^,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+661,"U-271:OP†, U-271:OP†",2.2Å,^,#,,,
+662,"A-104:OP, U-267:OP†",2.2Å,^,#,,,
+663,"U-34:O2', U-34:O3'†, G-282:O2', G-282:O3', A-283:C5'†",2.2Å,,#,,,
+664,"U-135:O2†, A-136:C1'†, A-187:C8†",2.2Å,,#,,,
+665,"G-341:O6, G-357:C8†, G-357:N7",2.2Å,,*,,,
+666,"U-297:C5†, U-297:OP",2.2Å,,#,,,
+667,G-327:N7,2.2Å,,,7ygb*,,"Density, Resolved in both half maps, Resolved in full map"
+668,"G-331:C5†, G-331:N7†, U-403:OP",2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+669,C-208:OP,2.2Å,,#,,,
+670,C-213:OP,2.2Å,,^,,,
+671,"A-252:OP†, U-253:C5†, U-253:OP",2.2Å,,^,,,
+672,"G-111:N2†, C-209:O2†, C-211:O2'†",2.2Å,,,,,"Geometry, Resolved in one half map"
+673,"G-150:N7, G-150:O6†",2.2Å,,,,,Geometry
+674,A-171:OP,2.2Å,,,"1hr2_B^, 7ez0^, 7r6n^, 7xd7^, 7ygb^",,"Geometry, Resolved in one half map, Resolved in full map"
+675,G-215:OP,2.2Å,,#,,,
+676,"A-301:N3, A-301:O2'†, A-302:O4'†",2.2Å,,,,,"Geometry, Resolved in one half map"
+677,"G-54:OP†, C-55:C5†",2.2Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+678,G-195:N2,2.2Å,,*,,,
+679,U-297:O2'†,2.2Å,,#,,,
+680,G-188:O3'†,2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+681,"C-47:O3', A-210:O4'",2.2Å,,#,,,
+682,"U-205:OP, U-205:P†, A-206:OP",2.2Å,,#,,,
+683,"U-155:OP†, U-155:OP†",2.2Å,,,,,Geometry
+684,A-270:OP,2.2Å,,,,,Geometry
+685,G-164:OP,2.2Å,^,,,,
+686,"G-313:N1†, G-313:N2",2.2Å,,,,,Geometry
+687,"G-150:C1'†, G-150:C4'†, G-150:O4', A-153:N6†",2.2Å,,#,,1hr2_B#,
+688,U-277:OP†,2.2Å,,,,,Geometry
+689,"C-223:OP†, U-224:OP",2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+690,"U-267:C5'†, U-267:OP, G-358:O2'†",2.2Å,,#,,,
+691,"G-276:OP, G-276:OP",2.2Å,,#,,,
+692,"U-59:OP, G-279:C5'†",2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+693,"G-150:C2†, G-150:C6†, G-150:N1, G-150:N2†, G-150:O6†, A-153:OP",2.2Å,,,,1hr2_B#,
+694,U-323:O2',2.2Å,,,,,Geometry
+695,"C-298:C5'†, A-299:OP†",2.2Å,,,,,"Resolved in one half map, Resolved in full map"
+696,G-220:O3'†,2.2Å,,,,,Geometry
+697,"G-220:OP, U-221:OP†",2.2Å,,,,,"Geometry, Resolved in full map"
+698,G-32:OP,2.2Å,,^,,,
+699,A-308:O2'†,2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+700,"C-217:OP†, C-217:OP†",2.2Å,,#,,,
+701,"G-119:O6†, G-201:O6†, U-202:O4",2.2Å,,,"1hr2_A*, 7ygb*",,Geometry
+702,U-168:O2'†,2.2Å,,^,,1hr2_B*,
+703,"G-169:O2', G-169:O3', G-212:C5'†",2.2Å,,,,,Resolved in one half map
+704,G-360:OP,2.2Å,,^,,,
+705,U-156:O4†,2.2Å,,,,,Geometry
+706,"C-47:C5'†, C-47:OP†, C-48:OP",2.2Å,^,,,,
+707,"G-92:O2', G-92:O3'",2.2Å,,,,,"Geometry, Resolved in full map"
+708,"G-150:O2', G-150:O3'†, A-151:N7†",2.2Å,,#,,,
+709,"A-30:O5'†, A-30:OP, A-30:P†, A-31:N7",2.2Å,,,7ygb*,,"Geometry, Resolved in one half map, Resolved in full map"
+710,"G-276:OP, U-277:OP†",2.2Å,,^,,,
+711,"A-308:C4'†, A-308:O2'†",2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+712,"G-341:O6, G-357:O6",2.2Å,,,,,Geometry
+713,"C-193:C5†, C-193:N4",2.2Å,,,,,"Geometry, Resolved in one half map"
+714,A-115:OP,2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+715,"U-271:O5'†, U-271:OP",2.2Å,^,^,,,
+716,"U-317:O4†, C-318:N4†",2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+717,"A-308:OP, A-308:OP, G-309:OP",2.2Å,,^,,,
+718,"U-277:O2', C-278:O5'†",2.2Å,,,,,"Geometry, Resolved in full map"
+719,C-138:OP†,2.2Å,,#,,,
+720,U-185:O4',2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+721,C-208:O2'†,2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+722,A-104:OP,2.2Å,^,^,,,
+723,A-115:N7,2.2Å,,,,1hr2_A*,"Geometry, Resolved in both half maps, Resolved in full map"
+724,U-185:O4†,2.2Å,,^,,,
+725,"U-221:OP, U-221:P†",2.2Å,,,,,Geometry
+726,"A-42:O3', U-43:C5†, U-43:OP",2.2Å,,,,,Geometry
+727,U-101:O3'†,2.2Å,,^,,,
+728,"C-209:OP, C-211:OP",2.2Å,,#,,,
+729,A-171:C3'†,2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+470,"U-182:O3', A-183:OP, A-186:C3'†, A-186:OP†, A-187:OP†, G-188:OP",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+471,"A-218:N6, G-254:O2', C-255:C6†, C-255:N1†, C-255:O4', U-273:O2', U-273:O3'",2.3Å,,#,,,
+472,"C-102:C5†, A-103:C8†, A-103:N7, A-269:C2'†, A-269:C8†",2.3Å,,#,,,
+473,"A-306:C4†, U-307:O4",2.3Å,,#,"7yg9*, 7yga*",,
+474,"A-269:C1'†, A-269:N3†, A-270:C8†, A-270:O4'†, A-304:N6",2.3Å,,#,,,
+475,"A-97:C8†, A-97:O5'†, A-97:OP, C-98:C5†, C-98:OP, U-300:O2†",2.3Å,,#,,,
+476,"U-271:C4'†, G-272:OP, U-300:O2', A-301:OP",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+477,"G-279:O6, G-280:N7, G-280:O6",2.3Å,,#,"7ez2*, 7ygb*",,
+478,"C-98:N4†, U-300:C2†, U-300:N3†",2.3Å,,#,,,
+479,"A-105:C2'†, A-105:O2', U-106:O4'†, G-215:N2, C-216:O2†, U-258:O2, U-258:O2'",2.3Å,,#,,,
+480,C-99:N4†,2.3Å,,#,,,
+481,"A-306:N3, A-308:N6, A-308:N7†",2.3Å,,#,,,
+482,"U-258:OP, C-260:C2'†, C-260:O2†, C-260:O2', C-260:O3', U-305:O5'",2.3Å,,#,,,
+483,"U-107:O2', G-108:N7, U-259:C4'†, U-259:O2', U-259:O3'",2.3Å,,*,,,
+484,"G-257:O3'†, G-257:OP, U-258:OP†, A-304:O2'†, A-304:O3', U-305:OP",2.3Å,,#,,,
+485,"U-267:O4, A-306:C2†, A-306:N1",2.3Å,,#,,,
+486,"C-166:OP, U-167:O3'†, U-168:OP†, G-188:O6",2.3Å,,#,,"1hr2_A#, 1hr2_B#",
+487,"A-214:N6†, A-214:N7",2.3Å,,#,,,
+488,"A-218:C2†, A-218:N1, C-255:N3, C-255:O2†, G-272:N2",2.3Å,,#,,,
+489,"A-219:N3, U-273:O2",2.3Å,,#,,,
+490,"A-268:N7, A-269:N6",2.3Å,,#,,,
+491,"U-340:N3, G-341:C8†, G-341:N7†, A-359:N6, G-360:C6†, G-360:O6†",2.3Å,,,,,"Geometry, Density"
+492,"C-165:OP, C-166:OP, U-168:OP",2.3Å,*,,,"1hr2_A*, 1hr2_B*",
+493,"C-99:N4†, G-100:N7, G-100:O6†",2.3Å,,#,,,
+494,A-186:OP,2.3Å,,#,,,
+495,"G-163:C8†, G-163:N7, G-164:O6",2.3Å,*,,"1gid_A*, 1gid_B*, 1hr2_A*^, 1hr2_B*, 7ez0*, 7ez2*, 7r6l*, 7r6m*, 7r6n*, 7xd5*, 7xd6*, 7xd7*, 7ygb*, 8hd6*, 8hd7*, 8i7n*",,
+496,"G-164:O3'†, C-165:OP, A-183:OP, A-186:N6",2.3Å,*,,,"1hr2_A#, 1hr2_B#",
+497,"G-280:N7†, G-281:N7",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+498,"C-255:O2, G-257:C4'†, G-257:O4'†, G-272:C1'†, G-272:C2'†, G-272:N3, G-272:O2'",2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+499,"C-60:OP, C-98:O2, U-277:O2",2.3Å,,#,,,
+500,"U-271:O2†, U-271:O2', G-272:O4', A-304:O2'",2.3Å,,#,,,
+501,"G-100:O6, U-101:O4†, U-273:O4",2.3Å,,#,,,
+502,"A-256:O3', U-305:OP, U-305:OP, U-305:P†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+503,"G-215:O5', G-215:OP†, C-216:C5†, C-216:OP",2.3Å,,#,,,
+504,"A-103:N3, A-104:N7, A-105:N6†, A-269:N6",2.3Å,,#,,,
+505,G-279:N7,2.3Å,,#,,,
+506,"U-259:N3, U-259:O2",2.3Å,,#,"7ez2*, 7xd5*, 7xd6*, 7ygb*",,
+507,"U-106:O2, U-258:C5'†",2.3Å,,#,,,
+508,"C-165:O2', C-165:O3'",2.3Å,,#,,,
+509,"A-219:OP, G-220:N7, G-220:O6†",2.3Å,,#,,1gid_B*,
+510,"U-168:OP, A-183:N6",2.3Å,,#,,1hr2_B*,
+511,"U-101:C5†, C-102:N4",2.3Å,,#,,,
+512,"U-271:O2, G-303:O5'†, G-303:OP",2.3Å,,#,,,
+513,"G-110:C8†, G-110:O5'†, G-110:OP†, G-111:OP",2.3Å,,#,,,
+514,"A-308:C3'†, A-308:O5'†, A-308:OP†, G-309:C8†, G-309:OP",2.3Å,,^,,,
+515,"G-220:O2', U-221:O4'†, C-274:O3'",2.3Å,,#,,,
+516,"C-274:N4†, G-275:N7",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+517,"U-167:N3, U-167:O4†, A-171:N3, A-171:O2', A-173:N6, G-174:O6",2.3Å,,#,,1hr2_A#,
+518,"G-309:N2, A-342:C2†, A-342:C2'†, A-342:N3, A-342:O2'",2.3Å,,#,,,
+519,A-265:OP,2.3Å,^,^,,,
+520,"A-139:N1, G-164:C4'†",2.3Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+521,"A-97:OP†, C-98:OP",2.3Å,,#,,,
+522,"C-217:N4, C-255:OP, G-257:C6†, G-257:O6",2.3Å,,#,,,
+523,"A-187:OP†, A-187:OP†",2.3Å,^,,8hd6^,,
+524,G-272:OP,2.3Å,,#,,,
+525,"C-262:OP, U-305:O2', U-305:O3', A-306:OP†",2.3Å,*,,,,
+526,"G-257:OP†, U-305:OP",2.3Å,,#,"7ez0^, 7r6l^, 7r6m^, 7r6n^, 8hd7^",,
+527,"A-184:N7, C-213:O2', C-213:O3'†",2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+528,"G-110:N2, U-168:O2, A-183:C2†, A-183:N1",2.3Å,,#,,,
+529,"G-281:C8†, G-281:O5'†, G-281:OP†, G-282:N7†, G-282:OP",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+530,"A-139:OP†, A-140:OP†, G-141:O6, G-163:N2†",2.3Å,,#,,,
+531,"U-277:C6†, U-277:O5'†, U-277:OP†, C-278:OP",2.3Å,,#,,,
+532,"A-94:O3'†, A-95:O5', A-95:OP†, A-95:P†, G-96:O5'",2.3Å,,#,,,
+533,"A-139:C2†, A-139:C2'†, A-139:N3, A-139:O2'†, A-140:O4', U-185:O2', U-185:O3'†, A-186:OP†",2.3Å,,#,,1hr2_A#,
+534,"G-275:C3'†, G-275:C8†, G-276:OP",2.3Å,,#,,,
+535,"C-255:O2', G-257:OP",2.3Å,,#,,1hr2_B*,
+536,"A-97:OP†, A-301:OP",2.3Å,,#,"7xd5^, 7xd6^",,
+537,"U-168:C5'†, U-168:OP, C-170:OP, A-171:C8†, A-171:N7, A-171:OP†",2.3Å,,#,,"1hr2_A*, 1hr2_B*",
+538,"C-211:C3'†, C-211:C5†, C-211:C6†, G-212:C8†, G-212:N7, G-212:OP, C-260:N4",2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+539,"U-34:OP†, G-281:N2, G-282:N3†, U-297:O2'†",2.3Å,,*,,,
+540,"A-218:OP†, G-254:O6",2.3Å,,#,,,
+541,"U-273:OP, C-274:N4†",2.3Å,^,#,"7r6m^, 8hd6^",,
+542,"A-184:N6†, G-212:O2', C-213:C5'†",2.3Å,,#,,"1hr2_A*, 1hr2_B*",
+543,"G-215:N7†, G-215:O6",2.3Å,,#,,,
+544,G-272:OP,2.3Å,,#,,,
+545,"A-103:OP, A-218:O2', A-218:O3'",2.3Å,,#,,,
+546,C-260:O2,2.3Å,,#,,,
+547,"G-251:N7, A-252:N6, A-252:N7",2.3Å,,#,,,
+548,"A-105:O3', U-106:OP, U-106:P†, C-216:O2', C-216:O4'†",2.3Å,,#,,,
+549,"G-254:O2', C-274:OP",2.3Å,,#,,,
+550,C-166:OP,2.3Å,^,,,,
+551,"G-257:O6, U-258:O4†",2.3Å,,,,1hr2_B^,"Density, Resolved in both half maps, Resolved in full map"
+552,"A-304:OP, U-305:OP",2.3Å,,#,7ygb*,,
+553,"C-98:C5†, C-98:C6†, C-98:O5'†, C-98:OP†, C-99:OP†",2.3Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+554,"A-94:OP, A-95:OP",2.3Å,,,7ygb*,,"Density, Resolved in one half map, Resolved in full map"
+555,"G-276:C8†, G-276:O5', G-276:OP†, U-277:C5†, U-277:OP†",2.3Å,,#,,,
+556,"U-271:C5'†, A-301:OP†, A-301:OP†",2.3Å,,#,,,
+557,"A-31:N7†, G-32:C5†, G-32:N7, G-32:O6, U-33:O4†",2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+558,U-168:O2',2.3Å,,#,,,
+559,"G-117:N2†, C-204:O2, C-204:O2'†",2.3Å,,#,,,
+560,G-215:N2,2.3Å,,#,,,
+561,"G-257:C4'†, G-257:O3', A-270:N6†",2.3Å,,#,,,
+562,"C-216:OP, C-217:OP†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+563,"C-216:C4†, C-216:N4",2.3Å,,#,,,
+564,"G-111:N2†, G-111:N3†, G-111:O2'†, U-168:O2",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+565,"U-101:O4, A-270:OP",2.3Å,,#,,,
+566,"G-188:C2†, G-188:N1†, G-188:N2†",2.3Å,,,,,Density
+567,"U-59:C5†, U-59:C6†, C-60:OP†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+568,"U-167:C5'†, A-171:N6",2.3Å,,#,,,
+569,"G-215:N3†, G-215:O2'",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+570,"U-259:O3'†, C-260:OP†",2.3Å,,#,,,
+571,"U-168:O2†, U-168:O3'†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+572,"G-108:N3, U-185:OP, U-185:OP",2.3Å,,#,,,
+573,"C-223:C5†, C-223:N4",2.3Å,,,,"1hr2_A#, 1hr2_B#","Geometry, Density, Resolved in one half map, Resolved in full map"
+574,"A-183:N7, A-184:N6†",2.3Å,,,,1hr2_A*^,"Density, Resolved in both half maps, Resolved in full map"
+575,"U-168:O4', A-183:N6†, G-212:O2'†",2.3Å,,#,,,
+576,"C-266:C3'†, C-266:C5†, C-266:C6†, U-267:OP",2.3Å,,^,,,
+577,"A-153:O2'†, C-154:C5'†, G-251:N2, A-252:O4'†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+578,U-167:O3'†,2.3Å,,#,,1hr2_B*,
+579,"A-172:OP†, A-173:OP",2.3Å,*^,,"1gid_A*, 1gid_B*, 1hr2_A*, 1hr2_B*, 1x8w_B^, 1x8w_C^, 7ez2*, 7xd5*, 7xd6*, 7xd7*, 7ygb*, 8i7n*","1hr2_A^, 1hr2_B^",
+580,"G-119:N2†, U-202:O2'",2.3Å,,*,,,
+581,C-165:OP,2.3Å,^,^,,1hr2_A^,
+582,"G-32:OP, U-33:OP",2.3Å,,#,,,
+583,"A-31:O2', A-31:O3', A-301:O4'",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+584,"G-220:O2', G-220:O3', C-274:O2', G-275:O5'†",2.3Å,,#,,,
+585,A-306:N6†,2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+586,"A-256:N6†, U-300:OP†, U-300:OP†",2.3Å,,#,,,
+587,"A-299:C5'†, U-300:OP†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+588,C-213:OP,2.3Å,*^,^,,,
+589,"C-217:OP†, A-218:OP",2.3Å,,,,,"Geometry, Density, Resolved in full map"
+590,"G-303:O2', G-303:O3'",2.3Å,,#,,,
+591,"G-111:O5'†, G-111:OP†, G-112:OP",2.3Å,,,,1hr2_B^,"Geometry, Density"
+592,"U-101:OP, C-102:OP",2.3Å,,#,,,
+593,"A-265:O2'†, A-265:O4'†, G-360:OP",2.3Å,,#,,,
+594,"A-139:O2', U-185:O3'†, A-186:C5'†",2.3Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+595,"A-104:O5', A-104:OP†, A-105:OP",2.3Å,,#,,,
+596,"A-248:O2', G-250:O6†, G-251:C6†, G-251:O6",2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+597,A-225:N7,2.3Å,,,,,"Geometry, Density, Resolved in full map"
+598,"A-268:N3†, A-268:O2'",2.3Å,,#,,,
+599,"C-255:OP†, G-257:N7",2.3Å,,#,,,
+600,"A-256:N3†, G-303:OP†",2.3Å,,#,,,
+601,"C-47:C5†, C-48:N4",2.3Å,,#,,,
+602,"A-270:O2'†, U-271:OP†",2.3Å,,#,,,
+603,A-301:O4'†,2.3Å,,*,,,
+604,"A-184:C5'†, A-184:OP†, G-188:OP",2.3Å,,#,,,
+605,"U-34:OP, C-298:O2'",2.3Å,,#,,,
+606,"G-181:C8†, U-182:C5†, U-182:OP†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+607,"A-31:O4', A-95:OP",2.3Å,,,,,"Geometry, Density, Resolved in full map"
+608,"U-307:OP, U-307:OP",2.3Å,,#,,,
+609,A-256:OP,2.3Å,,#,"7ez0^, 7xd7^, 7ygb^, 8hd7^",1gid_A^,
+610,"G-303:O3', A-304:OP†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+611,"U-267:OP, A-268:OP†",2.3Å,,#,,,
+612,"A-252:O5'†, A-252:OP, A-252:P†, U-253:OP",2.3Å,,^,,,
+613,"C-166:C5†, C-166:N4, U-167:O2†, A-171:O2'",2.3Å,,#,,1hr2_B*,
+614,"C-45:C5†, C-45:OP†, A-46:N6, A-46:N7",2.3Å,,#,,,
+615,"C-211:C5'†, C-211:C6†, C-211:O5'",2.3Å,,#,,,
+616,"A-263:N1†, G-264:C2'†, G-264:N3†, G-264:O2', A-265:O4'†",2.3Å,,#,,,
+617,"A-218:OP, A-219:OP",2.3Å,,#,,,
+618,"G-309:C8†, U-310:OP†",2.3Å,,#,,,
+619,"G-329:N7†, A-330:N7",2.3Å,,,,,Geometry
+620,"C-93:O2', C-93:O4'†, C-98:OP",2.3Å,,,,,"Geometry, Density, Resolved in one half map"
+621,"G-150:C1'†, G-150:O4'†, A-153:N6",2.3Å,,#,,1hr2_B#,
+622,C-255:OP†,2.3Å,^,#,,,
+623,"C-204:OP†, U-205:OP, A-206:N6",2.3Å,,*,,,
+624,"C-60:O3', U-61:C5'†, U-61:OP, C-98:O2', C-98:O3', C-99:C5'†",2.3Å,,#,,,
+625,"U-271:O4†, U-307:O2', U-307:O3'",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+626,U-101:O4'†,2.3Å,,*,,,
+627,G-276:N2,2.3Å,,#,,,
+628,A-256:OP,2.3Å,,#,"7ez0^, 7xd7^, 7ygb^, 8hd7^",1gid_A^,
+629,"C-260:C5'†, C-260:OP",2.3Å,,^,,,
+630,"C-209:OP, U-305:C6†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+631,C-274:OP†,2.3Å,^,,,,
+632,"C-255:C5'†, C-274:OP†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+633,A-269:N1,2.3Å,,,,,"Geometry, Density, Resolved in both half maps"
+634,"U-310:O5'†, U-310:OP, U-310:P†, C-311:OP",2.3Å,,#,,,
+635,"C-223:N4†, U-224:O4, A-248:C8†, A-248:OP, G-250:O6†",2.3Å,,,,,"Geometry, Density"
+636,"C-165:O2†, G-176:N3, G-176:O2'†, G-180:O2'",2.3Å,,#,,,
+637,G-279:OP,2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+638,"G-279:O2'†, G-279:O3'",2.3Å,,#,,,
+639,"G-215:OP†, C-216:OP",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+640,G-188:OP,2.3Å,,#,,,
+641,C-216:N4†,2.3Å,,^,,,
+642,C-260:OP,2.3Å,,^,,,
+643,"U-297:C4†, U-297:C5†, U-297:O4†, C-298:N4†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+644,"C-138:O2'†, G-163:O6†",2.3Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+645,G-111:OP,2.3Å,,#,,,
+646,"C-189:OP†, U-190:C5†, U-190:OP†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+647,"C-60:O2†, C-60:O2'",2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+648,"A-113:C8†, A-113:O5'†, A-113:OP†",2.3Å,,,,,Geometry
+649,"G-150:O2', G-150:O3'†, A-151:C8†, A-151:N7",2.3Å,,#,,,
+650,"A-343:C4'†, A-343:O3'†",2.3Å,,,,,Geometry
+651,"G-150:C5†, G-150:C8†, G-150:N7, A-152:OP",2.3Å,,#,,,
+652,"U-253:OP†, G-254:OP",2.3Å,,#,,,
+653,"G-220:N2†, U-221:O2†, U-253:C2'†, U-253:O2†, U-253:O2'",2.3Å,,#,,,
+654,"G-358:O2'†, G-358:O3'†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+655,"C-99:OP, G-100:OP†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+656,G-312:O2',2.3Å,,^,,,
+657,"C-127:O5'†, C-127:OP, C-128:OP",2.3Å,,,,1hr2_A#,"Geometry, Density, Resolved in one half map, Resolved in full map"
+658,"A-301:O3'†, A-302:C5'†, A-302:OP†",2.3Å,,,,,"Geometry, Density"
+659,"G-254:OP, C-255:OP",2.3Å,*,,,,
+660,A-269:OP†,2.3Å,,,,,"Density, Resolved in full map"
+661,G-303:N7,2.3Å,,#,,,
+662,"U-310:C6†, U-310:O5'†, C-311:C5†, C-311:C6†, C-311:OP",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+663,G-110:OP,2.3Å,,#,,,
+664,"C-93:OP†, A-94:OP†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+665,"U-101:C4'†, U-101:O3'",2.3Å,,^,,,
+666,"A-140:O2', A-214:C5'†, A-214:OP†",2.3Å,^,#,,,
+667,C-217:OP,2.3Å,,#,,,
+668,U-34:OP,2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+669,G-129:OP†,2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+670,"C-204:C5†, C-204:OP",2.3Å,,,,,
+671,"G-313:N7, G-313:OP†",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+672,"A-103:O2'†, A-104:OP†, A-268:OP†",2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+673,"G-92:O5'†, G-92:OP, C-93:C5†, C-93:OP",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+674,"G-282:C8†, G-282:N7†, A-283:OP†",2.3Å,,*,,,
+675,"C-213:OP, A-214:OP",2.3Å,,,,,"Geometry, Resolved in full map"
+676,"A-104:OP†, U-106:O4",2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+677,U-101:OP,2.3Å,,#,,,
+678,"A-218:O3'†, A-219:OP†",2.3Å,,,,,"Geometry, Density, Resolved in full map"
+679,"A-359:N1†, G-360:N3†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+680,"U-205:OP, A-206:OP",2.3Å,,#,,,
+681,"G-212:OP†, C-213:OP",2.3Å,^,^,,,
+682,"G-108:O3'†, C-109:O5'†",2.3Å,,,,,"Geometry, Density, Resolved in full map"
+683,"C-137:N4†, C-138:N4†",2.3Å,,#,,,
+684,"A-104:OP, U-267:OP†",2.3Å,,#,,,
+685,"U-221:C5'†, G-275:O5'†, G-275:OP, G-275:P†",2.3Å,,#,,,
+686,U-305:N3,2.3Å,,#,,,
+687,"G-92:N2†, C-98:OP",2.3Å,,#,,,
+688,"G-169:O3'†, C-170:C5'†, C-170:OP†",2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+689,"A-24:C2†, C-93:N4†",2.3Å,,#,,,
+690,G-215:OP,2.3Å,,#,,,
+691,A-57:OP,2.3Å,^,,,,
+692,G-215:OP†,2.3Å,,^,,,
+693,"A-140:C4'†, A-140:O2', A-140:O3', A-214:O3'†, G-215:OP†",2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+694,"C-60:C3'†, C-60:C6†, C-60:O5'†, U-61:OP",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+695,"C-45:O2, C-45:O2'†, C-170:O2",2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+696,"G-169:C5'†, G-169:O4'†",2.3Å,,,,,"Geometry, Resolved in one half map"
+697,"C-296:O5'†, C-296:OP†, U-297:C5†, U-297:OP",2.3Å,,#,,,
+698,C-213:OP,2.3Å,^,^,,,
+699,A-105:OP,2.3Å,^,,,,
+700,"A-31:OP†, G-32:OP",2.3Å,,^,,,
+701,G-169:OP,2.3Å,,,,1hr2_A^,"Geometry, Resolved in both half maps, Resolved in full map"
+702,"U-135:O2†, A-136:C1'†, A-187:C8†",2.3Å,,#,,,
+703,"A-136:N6†, C-137:N4†",2.3Å,,,,,Geometry
+704,"C-203:O2'†, C-203:O3'",2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+705,"C-170:O2†, C-170:O2', A-171:O4'†, A-172:C8†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+706,U-271:OP†,2.3Å,^,#,,,
+707,"G-358:O5'†, G-358:OP†, A-359:OP",2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+708,U-107:O4'†,2.3Å,,,,,"Geometry, Resolved in both half maps, Resolved in full map"
+709,C-166:O3',2.3Å,,,,,Geometry
+710,G-50:N7†,2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+711,G-341:O6,2.3Å,,*,,,
+712,"A-248:O2', G-250:N7†, G-251:N7†",2.3Å,,,,,Geometry
+713,"U-307:O2†, U-307:O2'",2.3Å,,#,,,
+714,"A-308:OP, G-309:OP",2.3Å,,^,,,
+715,U-107:O2,2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+716,A-269:OP,2.3Å,,,,,"Geometry, Resolved in full map"
+717,G-276:OP†,2.3Å,,#,,,
+718,C-55:N4,2.3Å,,,,,Resolved in one half map
+719,G-40:O2'†,2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+720,"G-149:O6†, G-150:C6†, G-150:O6",2.3Å,,,,,"Geometry, Resolved in full map"
+721,"G-169:N2, G-169:N3†, C-170:O4'†",2.3Å,,,,,"Resolved in both half maps, Resolved in full map"
+722,"U-323:O4†, G-327:O6",2.3Å,,,,,Resolved in one half map
+723,"C-209:OP†, G-303:OP",2.3Å,,,7ygb*,,"Geometry, Resolved in both half maps, Resolved in full map"
+724,U-259:O4,2.3Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+725,C-102:OP†,2.3Å,,,,,"Geometry, Density"
+726,"C-298:OP, A-299:OP",2.3Å,,,,,"Geometry, Resolved in both half maps, Resolved in full map"
+727,G-254:OP†,2.3Å,,^,,,
+728,"A-301:N7†, A-301:OP",2.3Å,,^,"7xd5^, 7xd6^",,
+729,A-151:N7†,2.3Å,,,,,Geometry
+730,"U-34:O2', U-34:O3'†, G-282:O2', G-282:O3', A-283:C5'†",2.3Å,,#,,,
+731,C-208:OP,2.3Å,^,#,,,
+732,G-303:OP,2.3Å,,,,,Geometry
+733,U-297:O2'†,2.3Å,,#,,,
+734,"G-276:O2', G-276:O3'†",2.3Å,,,,,Geometry
+735,A-105:OP,2.3Å,^,,,,
+736,"U-185:O4, G-215:O4'†",2.3Å,,^,,,
+737,A-94:OP,2.3Å,,,7ygb^,,"Geometry, Resolved in both half maps, Resolved in full map"
+738,"A-265:O3'†, C-266:OP†",2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+739,"C-60:OP, C-60:P†, U-277:O2†, U-277:O2'†",2.3Å,*^,,,,
+740,C-138:OP,2.3Å,,#,,,
+741,"U-267:C5'†, U-267:OP, G-358:O2'†",2.3Å,,#,,,
+742,C-128:O2'†,2.3Å,,*,,,
+743,"C-47:O3', A-210:O4'†",2.3Å,,#,,,
+744,C-109:OP,2.3Å,^,,,,
+745,A-252:OP,2.3Å,,,,1hr2_A^,Geometry
+746,"C-102:C5'†, A-219:O2', A-219:O3'",2.3Å,,#,,,
+747,"C-209:OP, C-211:OP",2.3Å,,#,,,
+748,C-154:OP,2.3Å,^,,,1hr2_B^,
+749,"U-277:OP, C-278:OP",2.3Å,,^,,,
+750,"C-296:O2', U-297:O4'†",2.3Å,,,,,Geometry
+751,"A-263:O3'†, G-264:OP",2.3Å,,,,,"Geometry, Resolved in both half maps, Resolved in full map"
+752,C-362:OP†,2.3Å,,,,,"Geometry, Resolved in both half maps, Resolved in full map"
+753,C-278:O3'†,2.3Å,,,,,
+754,"G-116:N2, U-205:O2†",2.3Å,,,,,"Geometry, Resolved in both half maps, Resolved in full map"
+755,G-309:O2'†,2.3Å,,,,,Geometry
+756,A-153:OP†,2.3Å,,,,,Resolved in full map
+757,"C-154:O5'†, C-154:OP†",2.3Å,,,,1hr2_B^,Geometry
+758,"A-140:N3, A-140:O2'†, G-141:O4'",2.3Å,,#,,,
+759,"A-140:OP, G-141:OP†",2.3Å,,,,,Geometry
+760,C-127:OP†,2.3Å,,,,1hr2_A^,"Geometry, Resolved in both half maps, Resolved in full map"
+761,C-60:OP†,2.3Å,^,,,,
+762,"G-141:OP, G-215:OP†",2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+763,A-343:OP†,2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+764,"G-44:N3†, G-44:O2'",2.3Å,,,,,"Geometry, Resolved in full map"
+765,G-54:O2',2.3Å,,,,,Geometry
+766,"A-256:C4†, A-256:C5†",2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+767,G-110:C5'†,2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
