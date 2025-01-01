@@ -34,9 +34,10 @@ def main():
     parser.add_argument("--maxDistI", type=float, default=2.5, help="Maximum distance for ion placement in Angstroms.")
     parser.add_argument("--minDistW", type=float, default=2.5, help="Minimum distance for water placement in Angstroms.")
     parser.add_argument("--maxDistW", type=float, default=3.5, help="Maximum distance for water placement in Angstroms.")
-    parser.add_argument("--minCW", type=float, default=3.0, help="Minimum distance for C to be declared clash to water in Angstroms.")
-    parser.add_argument("--minCI", type=float, default=3.0, help="Minimum distance for C to be declared clash to ion in Angstroms.")
-
+    parser.add_argument("--minCW", type=float, default=3.0, help="Minimum distance for C to be declared clash to water in Angstroms.") # RCK added as was not present previously
+    parser.add_argument("--minCI", type=float, default=3.0, help="Minimum distance for C to be declared clash to ion in Angstroms.") # RCK added as was not present previously
+    parser.add_argument("--minDist_ion_ion", type=float, default=3.5, help="Minimum distance an ion can be placed near another ion.") # RCK added as was not present previously
+    
     parser.add_argument("--cycles", type=int, default=999, help="Number of cycles to continue, will automatically stop after convergence.") # RCK added as not present
 
     args = parser.parse_args()
@@ -58,6 +59,7 @@ def main():
     minDistW, maxDistW = args.minDistW, args.maxDistW
     min_C_dist_water = args.minCW # RCK added
     min_C_dist_ion = args.minCI # RCK added
+    minDist_ion_ion = args.minDist_ion_ion # RCK added 
     cycles = args.cycles # RCK added
 
     ###########################################################################
@@ -127,7 +129,6 @@ def main():
     #minDB, maxDB = qscores.MinMaxD ( hMapB )
     #for at in tqdm ( nearAtoms ) :
     # RCK actually it needs residue values
-    numNoQ = 0
     for r in tqdm(mol.residues) :
         qs = []
         for at in r.atoms :
@@ -166,6 +167,7 @@ def main():
     # RCK note that nearAtoms stays same so we only look at RNA first solvation shell as we claim to do in the paper
     for i in range(cycles):
         # RCK edited as goSWIM params changed
+        #print(minDist_ion_ion)
         addW, addI = SWIM.goSWIM ( dmap, smod, mol, nearAtoms, 
             toChain = toChain, 
             minDistI = minDistI, maxDistI = maxDistI, 
@@ -176,7 +178,8 @@ def main():
             # RCK added below as not previously present
             minWaterZ = thrSigma, minIonZ = thrSigma,
             min_C_dist_water = min_C_dist_water,
-            min_C_dist_ion = min_C_dist_ion)
+            min_C_dist_ion = min_C_dist_ion,
+            minDist_ion_ion = minDist_ion_ion)
 
         # RCK added a save with Q-based Bfactors
         for at in addW+addI:

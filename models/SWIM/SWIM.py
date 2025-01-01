@@ -945,7 +945,7 @@ class SWIM_Dialog ( chimera.baseDialog.ModelessDialog ):
                 ionType = adds.upper()
 
             msg, msgFull, atName, resName, closestAt, clr = GuessAtom (mol, [P[0],P[1],P[2]], atGrid=None, nearAtMap=None, doMsg=True, minDistI=minDistI, 
-                maxDistI=maxDistI, minDistW=minDistW, maxDistW=maxDistW, ionType=ionType ) # RCK should add min_C_dist but unclear where these varibales come from
+                maxDistI=maxDistI, minDistW=minDistW, maxDistW=maxDistW, ionType=ionType ) # RCK should add min_C_dist minDist_ion_ion but unclear where these varibales come from
 
             if chainId == None or len(chainId) == 0 :
                 chainId = closestAt.residue.id.chainId
@@ -4883,10 +4883,12 @@ def RegsData ( regs ) :
 
 
 def GuessAtom ( mol, P, atGrid=None, nearAtMap=None, doMsg=True, minDistI=1.8, maxDistI=2.5, minDistW=2.5, maxDistW=3.4, ionType="MG" ,
-                min_C_dist_water = 2.6, min_C_dist_ion = 2.6 ) : # RCK added
-
+                min_C_dist_water = 2.6, min_C_dist_ion = 2.6,
+                minDist_ion_ion=3.5 ) : # RCK added
+    # RCK note, does not seem to check previously added water/ions eg for clashes!
     nearAts = None
 
+    # RCK these are all atoms in mol, not the nearAtoms
     # find the nearest atoms (in mol)
     if atGrid != None :
         # if a grid is given, use it as it will be quick
@@ -4896,7 +4898,7 @@ def GuessAtom ( mol, P, atGrid=None, nearAtMap=None, doMsg=True, minDistI=1.8, m
     else :
         # otherwise do slower all-atom search
         #nearAts = [None] * len(mol.atoms)
-        nearAts = []
+        nearAts = [] 
         P = chimera.Point ( P[0], P[1], P[2] )
         for i, at in enumerate(mol.atoms) :
             if not at.element.name == "H" :
@@ -4923,6 +4925,7 @@ def GuessAtom ( mol, P, atGrid=None, nearAtMap=None, doMsg=True, minDistI=1.8, m
     for at, v in nearAts :
 
         dist = v.length
+        collide_ion = False # RCK
         if at.element.name == "H" : continue
         #if hasattr ( at, 'Q' ) and at.Q < 0.1 : continue
         #if at.altLoc != '' : continue
@@ -4934,28 +4937,37 @@ def GuessAtom ( mol, P, atGrid=None, nearAtMap=None, doMsg=True, minDistI=1.8, m
             collidingAtoms_water.append ( [dist, at] )
         if at.element.name in ["C"] and dist < min_C_dist_ion : # RCK changed 
             collidingAtoms_ion.append ( [dist, at] )
+            collide_ion = True # RCK
             #print "c",
 
         # for other atoms, if closer than minDistI, mark as collision
         if dist < minDistI :
             collidingAtoms_water.append ( [dist, at] )
             collidingAtoms_ion.append ( [dist, at] )
-
-        # check if close to a selected atom, only placing water/ions next to these
-        if nearAtMap != None and at in nearAtMap :
-            isNearAtMap = True
+            collide_ion = True # RCK
 
         # keep track of which atom is closest
         #if dist < closestAtD : # RCK should have to be nucleotide??? 
-        if dist < closestAtD and at.residue.type.upper() not in ['HOH','MG']:
+        if dist < closestAtD and not (at.residue.type.upper() == "HOH" or at.residue.type.upper() in chargedIons) :
             closestAt, closestAtD = at, dist
 
         # add to count depending on nearby atom type and distance
         if at.residue.type.upper() in chargedIons :
-            if dist < maxDistI : ionAtomsIonD.append ( [dist, at] )
-            elif dist < maxDistW : ionAtomsWaterD.append ( [dist, at] )
+            # RCK we only want first coordination shell so we should not be adding these
+            # if dist < maxDistI : ionAtomsIonD.append ( [dist, at] )
+            # elif dist < maxDistW : ionAtomsWaterD.append ( [dist, at] )
+            # RCK added this, note this code is messy, it will not be robust of other (eg not just cations) ions are being used.
+            if dist < minDist_ion_ion: 
+                # print("ion-ion hit")
+                collidingAtoms_ion.append ( [dist, at] )
+                collide_ion = True
 
-        elif at.element.name == "N" :
+        # check if close to a selected atom, only placing water/ions next to these
+        if nearAtMap != None and at in nearAtMap and dist < max([maxDistI,maxDistW]) and not collide_ion: # RCK this is just nearAtoms not all in mol, so if one atom nearby is in nearAtoms we good (eg binds one RNA atom), added in the dist check
+            # RCK add, really shouldn't be ok if one is colliding
+            isNearAtMap = True
+
+        if at.element.name == "N" and not at.residue.type.upper() in chargedIons : # RCK just had to change because of logic order change to get all collidinAtoms list before saying isNearAtMap
             #hAts = [a for a in at.bondsMap.keys() if a.element.name == "H"]
             #if len(hAts) > 0 :
             # RCK updated because will not work without H present
@@ -4966,14 +4978,16 @@ def GuessAtom ( mol, P, atGrid=None, nearAtMap=None, doMsg=True, minDistI=1.8, m
             else :
                 if dist < maxDistI : negAtomsIonD.append ( [dist, at] )
                 elif dist < maxDistW : negAtomsWaterD.append ( [dist, at] )
-        elif at.element.name == "O" and at.residue.type.upper() == "HOH" :
+
+        elif (at.element.name == "O" and at.residue.type.upper() == "HOH") or at.residue.type.upper() in chargedIons:
+            # RCK only one first solvent shell
             #if dist < maxDistI : pass
             #elif dist < maxDistW : negAtomsWaterD.append ( [dist, at] )
             pass
         elif at.element.name == "O" or (at.element.name == "S" and at.residue.type == "CYS") :
-            if 0 :
+            if 0 : # RCK without H the H criteria never hits, ok for now? allows O2' binding?
                 hAts = [a for a in at.bondsMap.keys() if a.element.name == "H"]
-                if len(hAts) > 0 :
+                if len(hAts) > 0 : # RCK this incorrectly labeled O2' as not binding Mg when H are modeled RCK, ok here as a delete H
                     if dist < maxDistI : posAtomsIonD.append ( [dist, at] )
                     elif dist < maxDistW : posAtomsWaterD.append ( [dist, at] )
             if dist < maxDistI : negAtomsIonD.append ( [dist, at] )
@@ -5034,20 +5048,29 @@ def GuessAtom ( mol, P, atGrid=None, nearAtMap=None, doMsg=True, minDistI=1.8, m
     else:
     #elif len(collidingAtoms) == 0 :
 
-        if len(negAtomsIonD) > 0 and len(posAtomsIonD) == 0 : # and len(posAtomsWaterD) == 0 :
+        # RCK the collindingAtoms for ions now also checks too close ion-ion interactions
+
+        # RCK if close enough to a polar atom for an ion, but not near a postive we put Mg2+
+        #if len(negAtomsIonD) > 0 and len(posAtomsIonD) == 0 : # and len(posAtomsWaterD) == 0 :
+        # RCK I think the above commented out line is it!! Not sure why it was commented out between v10 and v12. In v10 it also checked none of the NH* were iwth 3.5A !!!
+        # RCK restore v10 behavior!
+        if len(negAtomsIonD) > 0 and len(posAtomsIonD) == 0 and len(posAtomsWaterD) == 0: 
             if len(collidingAtoms_ion) == 0:
                 # next to atom, ion distance away, no positive atoms nearby (H atoms)
                 atName, atRes = ionType, ionType
                 placedType = "2+ ion"
                 clr = (0,1,0)
+        # RCK if close enough to a polar atom for an ion, but near a postive we put nothing
         elif len(negAtomsIonD) > 0 :
             pass
+        # RCK for placing Cl, but will never be hit in this code, clean-up?
         elif 0 and len (posAtomsIonD) > 0 :
             if len(collidingAtoms_ion) == 0:
                 # next to positive atom
                 atName, atRes = "CL", "CL"
                 placedType = "1- ion"
                 clr = (0,1,0)
+        # RCK if near a ion put a water
         elif len(ionAtomsIonD) > 0 or len(ionAtomsWaterD) > 0 :
             if len(collidingAtoms_water) == 0:
                 # next to ion, put water
@@ -5059,6 +5082,8 @@ def GuessAtom ( mol, P, atGrid=None, nearAtMap=None, doMsg=True, minDistI=1.8, m
         #    atName, atRes = ionType, ionType
         #    placedType = "2+ ion"
         #    clr = (0,1,0)
+
+        # RCK if near H-doner or acceptor and not ion distance to a H-donor put water,
         elif (len(negAtomsWaterD) > 0 or len(posAtomsWaterD) > 0) and len(posAtomsIonD) == 0 :
             if len(collidingAtoms_water) == 0:
                 # next to at least 1 atom, water distance away
@@ -5229,7 +5254,7 @@ def goSWIM ( segMap, smod, mol, nearAtoms, toChain='', \
                 minQ=None, sigQ=0.6, minQRes=None, \
                 ionType="MG", \
                 task=None ,
-                min_C_dist_water = 2.6,min_C_dist_ion = 2.6) : # RCK added
+                min_C_dist_water = 2.6,min_C_dist_ion = 2.6, minDist_ion_ion = 3.5) : # RCK added
 
     #ats = [at for at in mol.atoms if not at.element.name == "H"]
     ats = []
@@ -5243,7 +5268,7 @@ def goSWIM ( segMap, smod, mol, nearAtoms, toChain='', \
 
     import gridm; reload(gridm)
     atGrid = gridm.Grid ()
-    atGrid.FromAtomsLocal ( ats, maxDistW )
+    atGrid.FromAtomsLocal ( ats, max([maxDistW,minDist_ion_ion,maxDistI,min_C_dist_water,min_C_dist_ion ]) ) # RCK edited, this could have been risky if eg ax distanc eof ion was larger etc
     print " - made atoms grid with %d atoms" % len(ats)
 
     nearAtMap = {}
@@ -5345,8 +5370,9 @@ def goSWIM ( segMap, smod, mol, nearAtoms, toChain='', \
                     continue
 
         msg, msgFull, atName, resName, closestAt, clr = GuessAtom ( mol, P, atGrid=atGrid, nearAtMap=nearAtMap, doMsg=False, minDistI=minDistI, maxDistI=maxDistI, 
-            minDistW=minDistW, maxDistW=maxDistW, ionType=ionType , min_C_dist_water = min_C_dist_water, min_C_dist_ion = min_C_dist_ion) # RCK added min_C_dist
+            minDistW=minDistW, maxDistW=maxDistW, ionType=ionType , min_C_dist_water = min_C_dist_water, min_C_dist_ion = min_C_dist_ion, minDist_ion_ion = minDist_ion_ion) # RCK added min_C_dist, minDist_ion_ion
 
+        #print(minQRes,closestAt.residue.type)
 
         if atName != None :
             #print " - guessed atom: %s" % atName
@@ -5372,7 +5398,7 @@ def goSWIM ( segMap, smod, mol, nearAtoms, toChain='', \
             if minQRes != None :
                 r = closestAt.residue # RCK tried just atom, did not work
                 if not hasattr (r,"Q"): # RCK added as never warns you is just ignore your minQRes if you have not previously calculated and stored Q score
-                    print('WARNING no Q assinged') # RCK
+                    print('WARNING not Q assinged') # RCK
                 if hasattr (r,"Q") and r.Q != None and r.Q < minQRes :
                     print " -x- rejecting point, nearest residue Q is %.3f min is %.3f" % (r.Q, minQRes)
                     continue
@@ -5431,11 +5457,19 @@ def goSWIM ( segMap, smod, mol, nearAtoms, toChain='', \
         for nearAt, v in nearAts :
             if nearAt.name == "H" :
                 continue
-            if v.length < minDistI :
-                if 1 :
-                    print " - skipping ion, too close to already placed ion..."
-                    addI = False
-                    continue
+            if v.length < minDistI : # RCK this could be were to put the ion criteria, but it seems like all these checks are now done in GuessAtom so that is the more proper location?
+                # RCK but it also appear that all that code checking water and ions in GuessAtom is futile as they are not yet in mol?
+                # RCK so this should be the place, but only want to check for the specific mg-mg interaction so add new clause
+                #if 1 :
+                print " - skipping ion, too close to already placed ion..."
+                addI = False
+                continue
+            elif v.length < minDist_ion_ion and nearAt.residue.type.upper() in chargedIons :
+                # RCK added this, note this is jsut copying logic from GuessAtom, it is messy, it will not be robust of other (eg not just cations) ions are being used.
+                print " - skipping ion, too close (%.2f) to already placed ion..." % (minDist_ion_ion)
+                addI = False
+                continue
+
                 #print " %d.%s -- %.2f -- %d.%s " %  (nres.id.position, nres.type, v.length, nearAt.residue.id.position, nearAt.residue.type)
                 #nat.occupancy = nat.occupancy / 2.0
                 #nearAt.occupancy = nearAt.occupancy / 2.0
@@ -5503,10 +5537,10 @@ def goSWIM ( segMap, smod, mol, nearAtoms, toChain='', \
             elif nearAt.residue.type.upper() in chargedIons :
                 continue
             if v.length < minDistW :
-                if 1 :
-                    print " - skipping water, too close to already placed atom..."
-                    addW = False
-                    continue
+                # if 1 :
+                print " - skipping water, too close to already placed atom..."
+                addW = False
+                continue
                 #print " %d.%s -- %.2f -- %d.%s " %  (nres.id.position, nres.type, v.length, nearAt.residue.id.position, nearAt.residue.type)
                 #nat.occupancy = nat.occupancy / 2.0
                 #nearAt.occupancy = nearAt.occupancy / 2.0
