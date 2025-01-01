@@ -6,3 +6,8 @@ __pycache__
 
 simulations/simulations
 models/SWIM/models_*
+models/aligned_solvent
+analysis/water_consensus/?_?_all_solvent_consensus_status.csv
+analysis/water_consensus/?_??_all_solvent_consensus_status.csv
+analysis/water_consensus/??_?_all_solvent_consensus_status.csv
+analysis/water_consensus/??_??_all_solvent_consensus_status.csv

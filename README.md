@@ -20,6 +20,7 @@ Code to create figures used in this paper can be found in [chimerax_code](chimer
 
 - Fig 4A-B  [get_MD_density_values.ipynb](analysis/simulations/get_MD_density_values.ipynb)
 - ED Fig 1H-I [Bfactor-plot.ipynb](analysis/bfactor/Bfactor-plot.ipynb)
+- ED Fig 2C [Qscore_22_23_31.ipynb](analysis/per_residue_comparison/Qscore_22_23_31.ipynb)
 - ED Fig 4I [analysis/water_consensus/swim_criteria_compare](analysis/water_consensus/swim_criteria_compare)
 - ED Fig 9A,C,D,F [MD_summary_plots.ipynb](analysis/simulations/MD_summary_plots.ipynb)
 - ED Fig 9E [get_MD_density_values.ipynb](analysis/simulations/get_MD_density_values.ipynb)
