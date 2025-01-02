@@ -4,11 +4,16 @@ __pycache__
 .ipynb_checkpoints
 temp*
 *_old.pdb
+*_old.csv
 
 simulations/simulations
 models/SWIM/models_*
 models/aligned_solvent
+
+
 analysis/water_consensus/?_?_all_solvent_consensus_status.csv
 analysis/water_consensus/?_??_all_solvent_consensus_status.csv
 analysis/water_consensus/??_?_all_solvent_consensus_status.csv
 analysis/water_consensus/??_??_all_solvent_consensus_status.csv
+analysis/water_consensus/?_all_solvent_consensus_status.csv
+analysis/water_consensus/?row_all_solvent_consensus_status.csv

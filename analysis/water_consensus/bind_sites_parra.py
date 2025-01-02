@@ -111,9 +111,9 @@ compare_mg_bind_close = compare_mg["close_binding_site"].to_numpy()
 
 # for all ions and water get whether it is within 1A of current solvent
 if MODEL_RENAME_R[ref] == PDB22_F and MODEL_RENAME_R[model] == PDB23_F:
-    save_pdb = "../models/aligned_solvent/22in23"
+    save_pdb = "../../models/aligned_solvent/22in23"
 elif MODEL_RENAME_R[ref] == PDB23_F and MODEL_RENAME_R[model] == PDB22_F:
-    save_pdb = "../models/aligned_solvent/23in22"
+    save_pdb = "../../models/aligned_solvent/23in22"
 else:
     save_pdb = None
 dftemp =  df[df.model==ref].copy()
