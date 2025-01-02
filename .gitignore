@@ -2,7 +2,8 @@
 __pycache__
 *pyc
 .ipynb_checkpoints
-
+temp*
+*_old.pdb
 
 simulations/simulations
 models/SWIM/models_*
