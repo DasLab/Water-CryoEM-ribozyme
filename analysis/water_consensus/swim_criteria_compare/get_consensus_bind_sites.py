@@ -27,28 +27,28 @@ MODEL_RENAME ={f'{model_dir}2.2A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0
                f'{model_dir}2.2A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.8_Qres0.6_cycle999.pdb':'2.2_5_0.8',
                f'{model_dir}2.2A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.9_Qres0.6_cycle999.pdb':'2.2_5_0.9',
 
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.3_5_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.3_5_0.7',
 
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens2_Q0.7_Qres0.6_cycle999.pdb':'2.3_2_0.7',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens3_Q0.7_Qres0.6_cycle999.pdb':'2.3_3_0.7',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens4_Q0.7_Qres0.6_cycle999.pdb':'2.3_4_0.7',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens6_Q0.7_Qres0.6_cycle999.pdb':'2.3_6_0.7',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens7_Q0.7_Qres0.6_cycle999.pdb':'2.3_7_0.7',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens10_Q0.7_Qres0.6_cycle999.pdb':'2.3_10_0.7',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens15_Q0.7_Qres0.6_cycle999.pdb':'2.3_15_0.7',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens20_Q0.7_Qres0.6_cycle999.pdb':'2.3_20_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens2_Q0.7_Qres0.6_cycle999.pdb':'2.3_2_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens3_Q0.7_Qres0.6_cycle999.pdb':'2.3_3_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens4_Q0.7_Qres0.6_cycle999.pdb':'2.3_4_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens6_Q0.7_Qres0.6_cycle999.pdb':'2.3_6_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens7_Q0.7_Qres0.6_cycle999.pdb':'2.3_7_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens10_Q0.7_Qres0.6_cycle999.pdb':'2.3_10_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens15_Q0.7_Qres0.6_cycle999.pdb':'2.3_15_0.7',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens20_Q0.7_Qres0.6_cycle999.pdb':'2.3_20_0.7',
 
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.5_Qres0.6_cycle999.pdb':'2.3_5_0.5',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.6_Qres0.6_cycle999.pdb':'2.3_5_0.6',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.8_Qres0.6_cycle999.pdb':'2.3_5_0.8',
-               f'{model_dir}2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.9_Qres0.6_cycle999.pdb':'2.3_5_0.9',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.5_Qres0.6_cycle999.pdb':'2.3_5_0.5',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.6_Qres0.6_cycle999.pdb':'2.3_5_0.6',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.8_Qres0.6_cycle999.pdb':'2.3_5_0.8',
+               f'{model_dir}/aligned/2.3A-G414_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.9_Qres0.6_cycle999.pdb':'2.3_5_0.9',
 
                f'{model_dir}2.2A-G414-halfA_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.2_halfA',
                f'{model_dir}2.2A-G414-halfB_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.2_halfB',
                f'{model_dir}2.2A-G414-nohalf_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.2_nohalf',
-               f'{model_dir}2.3A-G414-halfA_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.3_halfA',
-               f'{model_dir}2.3A-G414-halfB_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.3_halfB',
-               f'{model_dir}2.3A-G414-nohalf_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.3_nohalf'}
+               f'{model_dir}/aligned/2.3A-G414-halfA_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.3_halfA',
+               f'{model_dir}/aligned/2.3A-G414-halfB_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.3_halfB',
+               f'{model_dir}/aligned/2.3A-G414-nohalf_cdist3.2_distI4.5_maxwatD3.4_seg3_dens5_Q0.7_Qres0.6_cycle999.pdb':'2.3_nohalf'}
 MODEL_RENAME_R = {y:x for x,y in MODEL_RENAME.items()}
 
 def get_if_subset(siteA,siteB):
@@ -89,6 +89,7 @@ def get_consensus(row,model,df,solv):
     compare = df[(df.residue_number == int(resnum)) & (df.model == model)]
     cB = compare["close_binding_site"].item()
     fB = compare["binding_site"].item()
+    # this check is redudant
     #if compare[f'within 1A of {solv} in {row.model}'].item() == 0:
     #	return False
     if fB != fB or fB == "":

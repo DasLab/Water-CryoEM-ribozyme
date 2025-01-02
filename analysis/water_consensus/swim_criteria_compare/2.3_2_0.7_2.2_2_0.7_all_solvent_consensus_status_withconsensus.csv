@@ -94,7 +94,7 @@ model,solvent,residue_number,close_binding_site,binding_site,within 1A of mg in 
 2.2_2_0.7,HOH,554,G-212:O2',A-184:N6 G-212:O2',0,HOH-542:O,0,1,3,0,0,0,False,True
 2.2_2_0.7,HOH,555,U-168:O4' A-183:N6,U-168:O4' A-183:N6 G-212:O2',0,HOH-575:O,0,1,3,0,0,0,False,True
 2.2_2_0.7,HOH,556,G-264:O2',A-263:N1 G-264:C2' G-264:N3 G-264:O2' A-265:O4',0,HOH-615:O,0,1,2,0,0,0,False,True
-2.2_2_0.7,HOH,557,G-92:N2 C-98:OP,G-92:N2 G-92:N3 C-98:OP,0,HOH-645:O,0,1,5,0,0,0,False,False
+2.2_2_0.7,HOH,557,G-92:N2 C-98:OP,G-92:N2 G-92:N3 C-98:OP,0,HOH-681:O,0,1,5,0,0,0,False,True
 2.2_2_0.7,HOH,558,G-220:O2' G-220:O3' C-274:O2',G-220:C4' G-220:O2' G-220:O3' C-274:O2' G-275:O5',0,HOH-584:O,0,1,4,0,0,0,False,True
 2.2_2_0.7,HOH,559,A-256:OP,A-256:OP A-256:P,0,HOH-627:O,0,2,2,1,0,0,False,True
 2.2_2_0.7,HOH,560,U-168:O2',U-168:C2 U-168:N1 U-168:O2',0,HOH-558:O,0,1,1,0,0,0,False,True
@@ -242,7 +242,7 @@ model,solvent,residue_number,close_binding_site,binding_site,within 1A of mg in 
 2.2_2_0.7,HOH,702,A-115:OP,A-115:OP,0,0,0,0,0,0,0,0,False,False
 2.2_2_0.7,HOH,703,U-271:OP,U-271:O5' U-271:OP,0,0,1,0,1,1,0,0,False,False
 2.2_2_0.7,HOH,704,,U-317:O4 C-318:N4,0,0,0,0,0,0,0,0,False,False
-2.2_2_0.7,HOH,705,A-308:OP G-309:OP,A-308:OP A-308:OP G-309:OP,0,HOH-705:O,0,2,3,1,0,0,False,True
+2.2_2_0.7,HOH,705,A-308:OP G-309:OP,A-308:OP A-308:OP G-309:OP,0,HOH-755:O,0,2,3,1,0,0,False,False
 2.2_2_0.7,HOH,706,U-277:O2',U-277:O2' C-278:O5',0,0,0,1,2,0,0,0,False,False
 2.2_2_0.7,HOH,707,,C-138:OP,0,HOH-728:O,0,1,1,0,0,0,False,True
 2.2_2_0.7,HOH,708,U-185:O4',U-185:O4',0,0,0,0,0,0,0,0,False,False
