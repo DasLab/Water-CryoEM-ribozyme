@@ -16,26 +16,26 @@ MRC22A=../../maps/Con2-2.2A_sh_half_A.mrc
 MRC22B=../../maps/Con2-2.2A_sh_half_B.mrc
 
 # Need to generate these first run 
-W23in22=../../models/23in22.pdb
-W22in23=../../models/22in23.pdb
+W23in22=../23in22.pdb
+W22in23=../22in23.pdb
 
 # the 2.3A map and half maps
 python $MAPQ_CMD $CHIMERA_LOC map=$MRC23 $PDB23 np=24
-python $MAPQ_CMD $CHIMERA_LOC map=$MRC23A $PDB23 np=24
-python $MAPQ_CMD $CHIMERA_LOC map=$MRC23B $PDB23 np=24
+python $MAPQ_CMD $CHIMERA_LOC map=$MRC23A $PDB23 np=24 
+python $MAPQ_CMD $CHIMERA_LOC map=$MRC23B $PDB23 np=24 
 
 # the 2.2A map and half maps
 python $MAPQ_CMD $CHIMERA_LOC map=$MRC22 $PDB22 np=24
-python $MAPQ_CMD $CHIMERA_LOC map=$MRC22A $PDB22 np=24
+python $MAPQ_CMD $CHIMERA_LOC map=$MRC22A $PDB22 np=24 
 python $MAPQ_CMD $CHIMERA_LOC map=$MRC22B $PDB22 np=24
 
 # the 2.2 A water and mg aligned to the 2.3 A model and  vice versa
-python $MAPQ_CMD $CHIMERA_LOC map=$MRC22 $W23in22 np=24
-python $MAPQ_CMD $CHIMERA_LOC map=$MRC22A $W23in22 np=24
-python $MAPQ_CMD $CHIMERA_LOC map=$MRC22B $W23in22 np=24
+python $MAPQ_CMD $CHIMERA_LOC map=$MRC22 $W23in22 np=24 
+python $MAPQ_CMD $CHIMERA_LOC map=$MRC22A $W23in22 np=24 
+python $MAPQ_CMD $CHIMERA_LOC map=$MRC22B $W23in22 np=24 
 
-python $MAPQ_CMD $CHIMERA_LOC map=$MRC23 $W22in23 np=24
-python $MAPQ_CMD $CHIMERA_LOC map=$MRC23A $W22in23 np=24
+python $MAPQ_CMD $CHIMERA_LOC map=$MRC23 $W22in23 np=24 
+python $MAPQ_CMD $CHIMERA_LOC map=$MRC23A $W22in23 np=24 
 python $MAPQ_CMD $CHIMERA_LOC map=$MRC23B $W22in23 np=24
 
 # the previous 3.1 A map

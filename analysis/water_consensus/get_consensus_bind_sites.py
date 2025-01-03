@@ -47,28 +47,14 @@ def get_consensus(row,model,df,solv):
     compare = df[(df.residue_number == int(resnum)) & (df.model == model)]
     cB = compare["close_binding_site"].item()
     fB = compare["binding_site"].item()
-    if compare[f'within 1A of {solv} in {row.model}'].item() == 0:
-    	return False
+    # this check is redudant
+    #if compare[f'within 1A of {solv} in {row.model}'].item() == 0:
+    #	return False
     if fB != fB or fB == "":
         return False
     if cB != cB or cB == "":
         cB = fB
     return get_if_subset(fB,cA) and get_if_subset(fA,cB)
-
-'''
-137
-138
-25
-25
-108
-112
-11
-9
-138
-138
-25
-25
-'''
 
 from biopandas.pdb import PandasPdb
 

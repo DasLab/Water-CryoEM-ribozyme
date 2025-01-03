@@ -5,6 +5,7 @@ __pycache__
 temp*
 *_old.pdb
 *_old.csv
+*_mapqScript.py
 
 simulations/simulations
 models/SWIM/models_*
@@ -17,3 +18,5 @@ analysis/water_consensus/??_?_all_solvent_consensus_status.csv
 analysis/water_consensus/??_??_all_solvent_consensus_status.csv
 analysis/water_consensus/?_all_solvent_consensus_status.csv
 analysis/water_consensus/?row_all_solvent_consensus_status.csv
+*.pdb__Q__*.mrc_All.txt
+*.pdb__Q__*.mrc.pdb
