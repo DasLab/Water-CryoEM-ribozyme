@@ -18,6 +18,8 @@ Code to create figures used in this paper can be found in [chimerax_code](chimer
 
 #### Locations of graphing code:
 
+- Fig 2A-B [models_water_mg_by_consensus.cxc](chimerax_code/models_water_mg_by_consensus.cxc)
+- Fig 2C-E [consensus_nonconsensus_compare.ipynb](analysis/water_consensus/consensus_nonconsensus_compare.ipynb)
 - Fig 4A-B  [get_MD_density_values.ipynb](analysis/simulations/get_MD_density_values.ipynb)
 - ED Fig 1H-I [Bfactor-plot.ipynb](analysis/bfactor/Bfactor-plot.ipynb)
 - ED Fig 2C [Qscore_22_23_31.ipynb](analysis/per_residue_comparison/Qscore_22_23_31.ipynb)
