@@ -31,10 +31,12 @@ Code to create figures used in this paper can be found in [chimerax_code](chimer
 - ED Fig 4J,K,N,O [SWIM_summary_Qscore_distances.ipynb](analysis/binding_motifs/SWIM_summary_Qscore_distances.ipynb)
 - ED Fig 5A-E [models_water_mg_by_agreement.cxc](chimerax_code/models_water_mg_by_agreement.cxc)
 - ED Fig 5F-G [water_mg_consensus_tables.ipynb](analysis/water_consensus/water_mg_consensus_tables.ipynb)
-- ED Fig 6B-D [interaction_types.ipynb](analysis/binding_motifs/interaction_types.ipynb)
-- ED Fig 6E [avg_around_nuc](chimerax_code/avg_around_nuc)
+- ED Fig 7B-D [interaction_types.ipynb](analysis/binding_motifs/interaction_types.ipynb)
+- ED Fig 7E [avg_around_nuc](chimerax_code/avg_around_nuc)
+- ED Fig 8A,B [categorize_water_ions.ipynb](analysis/water_consensus/categorize_water_ions.ipynb)
 - ED Fig 9A,C,D,F [MD_summary_plots.ipynb](analysis/simulations/MD_summary_plots.ipynb)
 - ED Fig 9E [get_MD_density_values.ipynb](analysis/simulations/get_MD_density_values.ipynb)
+- Supp Table 1 [categorize_water_ions.ipynb](analysis/water_consensus/categorize_water_ions.ipynb)
 
 #### Revision response tables or figures
 - Response #3.1 - running SWIM on half maps [swim_criteria_compare](analysis/water_consensus/swim_criteria_compare)
