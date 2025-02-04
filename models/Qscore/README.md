@@ -6,9 +6,7 @@ Note to enable no loss of significant figures in Q-score, a function was added t
 
 To calculate the Q-score of water, magnesium, and RNA atoms, of our and previous models we used the simply command `python $MAPQ_CMD $CHIMERA_LOC map=$MRC $PDB np=24`, full commands used can be found in [Qscore.sh](Qscore.sh).
 
-
-
-### Local resolution and density value calcualtions
+### Local resolution and density value calculations
 We also calculated the density values and local resolution values of each atom using [get_map_value.py](get_map_value.py).
 
 ```

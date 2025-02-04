@@ -1,6 +1,14 @@
-# Water-CryoEM-ribozyme
+# Complex Water Networks Visualized by Cryogenic Electron Microscopy of RNA
 
 Repository accompanying the manuscript: 
+
+[preprint]
+
+Complex Water Networks Visualized through 2.2-2.3 Å Cryogenic Electron Microscopy of RNA
+
+Rachael C. Kretsch, Shanshan Li, Grigore Pintilie, Michael Z. Palo, David A. Case, Rhiju Das, Kaiming Zhang, Wah Chiu
+
+bioRxiv 2025.01.23.634578; doi: https://doi.org/10.1101/2025.01.23.634578
 
 ## Maps and models
 
@@ -11,10 +19,7 @@ The code for the automated identification of water and ions used in this work to
 Simulation input files, analysis, links for raw simulations, and data files used in analysis elsewhere in this repository can be found in [simulations](simulations).
 
 ## Analysis
-All required data to recreate figures is included in this repository, in order to recreate these files, scripts in the [analysis](analysis).
-
-## Figures
-Code to create figures used in this paper can be found in [chimerax_code](chimerax_code) for figures of maps and models, and in [graphs_code](graphs_code) for graphical figures. See README in those respetive folders for more details.
+All required data to recreate figures is included in this repository, in order to recreate these files, scripts in the [analysis](analysis). Code to create figures of atomic models are maps can be found in [chimerax_code](chimerax_code). See README in those respective folders for more details.
 
 #### Locations of graphing code:
 
