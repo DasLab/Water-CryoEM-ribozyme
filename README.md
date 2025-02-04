@@ -4,16 +4,11 @@ Repository accompanying the manuscript:
 
 [preprint]
 
-Complex Water Networks Visualized through 2.2-2.3 Å Cryogenic Electron Microscopy of RNA
-
-Rachael C. Kretsch, Shanshan Li, Grigore Pintilie, Michael Z. Palo, David A. Case, Rhiju Das, Kaiming Zhang, Wah Chiu
-
-bioRxiv 2025.01.23.634578; doi: https://doi.org/10.1101/2025.01.23.634578
+Rachael C. Kretsch, Shanshan Li, Grigore Pintilie, Michael Z. Palo, David A. Case, Rhiju Das, Kaiming Zhang, Wah Chiu. Complex Water Networks Visualized through 2.2-2.3 Å Cryogenic Electron Microscopy of RNA. bioRxiv 2025.01.23.634578; doi: https://doi.org/10.1101/2025.01.23.634578
 
 ## Maps and models
 
-### SWIM
-The code for the automated identification of water and ions used in this work to create the models used in this repository can be found at, [SWIM](models/SWIM) they were based on [https://github.com/gregdp/segger](https://github.com/gregdp/segger).
+The atomic coordinates used in this study can be found in [models](models). The code for the automated identification of water and ions used in this work to create the models used in this repository can be found at, [SWIM](models/SWIM) they were based on [https://github.com/gregdp/segger](https://github.com/gregdp/segger).
 
 ## Molecular dynamics
 Simulation input files, analysis, links for raw simulations, and data files used in analysis elsewhere in this repository can be found in [simulations](simulations).
