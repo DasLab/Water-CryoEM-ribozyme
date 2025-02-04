@@ -20,3 +20,7 @@ analysis/water_consensus/?_all_solvent_consensus_status.csv
 analysis/water_consensus/?row_all_solvent_consensus_status.csv
 *.pdb__Q__*.mrc_All.txt
 *.pdb__Q__*.mrc.pdb
+
+# large files
+chimerax_code/visualize_water_networks/*cxs
+chimerax_code/visualize_water_networks/*mp4

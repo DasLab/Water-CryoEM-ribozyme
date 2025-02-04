@@ -21,6 +21,7 @@ All required data to recreate figures is included in this repository, in order t
 - Fig 2A-B [models_water_mg_by_consensus.cxc](chimerax_code/models_water_mg_by_consensus.cxc)
 - Fig 2C-E [consensus_nonconsensus_compare.ipynb](analysis/water_consensus/consensus_nonconsensus_compare.ipynb)
 - Fig 4A-B  [get_MD_density_values.ipynb](analysis/simulations/get_MD_density_values.ipynb)
+- Fig 5 [Visualize_water_networks](chimerax_code/visualize_water_networks)
 - ED Fig 1H-I [Bfactor-plot.ipynb](analysis/bfactor/Bfactor-plot.ipynb)
 - ED Fig 2C [Qscore_22_23_31.ipynb](analysis/per_residue_comparison/Qscore_22_23_31.ipynb)
 - ED Fig 3A-D [localres_rmsd_rmsf_q.cxc](chimerax_code/localres_rmsd_rmsf_q.cxc)
