@@ -1,0 +1,20 @@
+
+
+def SaveQAll(mol,dmap_name):  
+    import numpy as np
+    
+    # order data saved ['atom_name','residue_number','residue_name','x_coord','y_coord','z_coord','Qscore']
+    
+    outMolPath = os.path.basename(mol.openedAs[0]) + "__Q__" + os.path.basename(dmap_name) + ".csv"
+    atoms = mol.atoms
+    Qscore = np.array([a.Q for a in atoms])
+    atom_name = np.array([str(a.name) for a in atoms])
+    x = np.array([np.array(a.coord()) for a in atoms])
+    x_coord,y_coord,z_coord = np.array([np.array(a.coord()) for a in atoms]).T
+    residue_number = [a.residue.id for a in atoms]
+    residue_name = [a.residue.type for a in atoms]
+    data = np.array([atom_name,residue_number,residue_name,x_coord,y_coord,z_coord,Qscore]).T
+    np.savetxt(outMolPath,data,delimiter=',', fmt="%s")
+
+    
+    

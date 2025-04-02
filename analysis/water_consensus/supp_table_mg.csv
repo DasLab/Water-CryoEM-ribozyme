@@ -1,0 +1,95 @@
+residue_number,Binding site,model,Overlap with alterntive model (Mg),Overlap with alterntive model (water),Overlap with previous structures (Mg),Overlap with previous structures (water),Pass criteria
+409,"G-257:OP, U-258:OP, U-305:OP†",2.2Å,#,,"7yga*, 7ygb*, 7r6l*, 7yg8*, 7xd5*, 7xd6#, 7ygd#, 7yg9#, 8hd6*, 7xd7*, 7ez0*, 1x8w_C#, 7r6n#, 8hd7#, 7ygc#, 7ez2#, 7xd3#, 7r6m*, 7xd4*, 8i7n#",,
+410,"A-183:OP, A-184:OP, A-186:OP",2.2Å,#,,"7ygb*, 7r6l#, 1x8w_B#, 1gid_B*, 7xd5#, 7xd6*^, 1hr2_B*^, 8hd6*^, 1gid_A*, 7xd7#, 7ez0#, 8hd7*, 7ez2#, 7xd3*, 7xd4#, 1hr2_A*^, 8i7n*",,
+411,"A-184:OP, A-186:OP, A-187:OP",2.2Å,#,,"7yga#, 7ygb#, 7r6l#, 1x8w_B#, 1x8w_D#, 1gid_B#, 1x8w_A*^, 7xd5#, 7xd6#, 1hr2_B#, 8hd6*, 1gid_A*^, 7xd7#, 7ez0#, 1x8w_C*, 7ez2#, 1hr2_A*^, 8i7n#","1hr2_B^, 1hr2_A^",
+412,"A-301:OP, A-302:OP",2.2Å,#,,"7ygb*, 7r6l*, 7xd5#, 7xd6#, 1hr2_B#, 7yg9#, 8hd6#, 7xd7#, 7ez0#, 1x8w_C#, 7r6n*^, 8hd7*^, 7ez2#, 7xd3*^, 7xd4*, 1hr2_A#, 8i7n*",,
+413,G-96:N7†,2.2Å,#,,,,
+414,C-166:OP,2.2Å,,*^,,"1hr2_B*, 1hr2_A*",
+415,"A-256:OP†, U-273:OP",2.2Å,#,^,"7ygb*, 7r6l*, 7xd5*, 7xd6*, 1hr2_B#, 7ygd#, 7yg9#, 8hd6*^, 7xd7*, 7ez0*, 7r6n*, 8hd7*, 7ez2#, 7xd3*, 7r6m*^, 7xd4#, 8i7n#",,
+416,A-308:OP,2.2Å,*,,"7yga*^, 7ygb*, 7r6l*, 7yg8*, 7xd5*, 7xd6*, 1hr2_B#, 7ygd*, 7yg9*, 8hd6*, 7xd7*, 7ez0#, 7r6n*, 8hd7#, 7ygc#, 7ez2#, 7xd3*, 7r6m#, 7xd4*, 1hr2_A#, 8i7n#",,
+417,"A-304:OP, A-306:OP",2.2Å,#,,"7yga*, 7ygb*^, 7r6l*^, 7yg8*, 7xd5*, 7xd6*^, 1hr2_B#, 7yg9*^, 8hd6#, 7xd7*, 7ez0#, 7r6n*, 8hd7#, 7ygc*^, 7ez2#, 7xd3#, 7xd4*, 1hr2_A#, 8i7n#",,
+418,U-277:O4†,2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+419,C-262:OP†,2.2Å,^,*,"7ygb^, 7r6l^, 7xd5^, 7xd6^, 7xd7^, 8hd7^, 7xd3^, 7r6m^",,
+420,A-97:OP,2.2Å,#,,,,
+421,G-164:O6†,2.2Å,,*,"7yga#, 7ygb#, 7r6l#, 1gid_B*^, 7xd5#, 7xd6#, 1hr2_B#, 7ygd#, 7yg9#, 8hd6*^, 1gid_A*^, 7xd7#, 7ez0#, 1x8w_C#, 7r6n*^, 8hd7*, 7ez2#, 7xd3*, 7r6m*^, 7xd4#, 1hr2_A*^, 8i7n*",,
+422,"A-28:OP†, A-95:OP†",2.2Å,,,,,"Geometry, Density"
+423,C-170:OP†,2.2Å,,,,1hr2_A^,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+424,A-269:N7†,2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+425,A-299:OP,2.2Å,#,,,,
+426,C-255:OP,2.2Å,#,^,,,
+427,C-213:OP†,2.2Å,,#,,,
+428,G-272:O6†,2.2Å,#,,,,
+429,A-173:OP†,2.2Å,,#,"7yga#, 7ygb#, 7r6l#, 1x8w_B#, 1gid_B#, 7yg8#, 7xd5*, 7xd6*, 1hr2_B*, 1gid_A*, 7xd7*, 1x8w_C*^, 7ez2*, 1hr2_A*, 8i7n*","1hr2_B^, 1hr2_A^",
+430,A-187:OP†,2.2Å,#,^,8hd6^,,
+431,U-33:OP†,2.2Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+432,G-32:N7†,2.2Å,,,,,"Density, Resolved in one half map, Resolved in full map"
+433,C-255:OP†,2.2Å,^,*^,,,
+434,A-178:N1†,2.2Å,#,,,"7r6l#, 1hr2_B*, 1hr2_A*^",
+435,U-271:OP†,2.2Å,#,,,,
+436,U-56:O4†,2.2Å,,,,,"Density, Resolved in both half maps, Resolved in full map"
+437,G-313:O2'†,2.2Å,#,,,,
+438,A-207:OP,2.2Å,,,"8hd6^, 7ez0^, 8i7n^",,"Density, Resolved in full map"
+439,U-224:O4†,2.2Å,,,,"7r6l#, 1x8w_B#, 1hr2_B*^, 1hr2_A*^",Geometry
+440,A-304:OP†,2.2Å,,,"7ygb^, 7yg8^, 7xd6^, 7ygd^, 7r6n^",,"Density, Resolved in both half maps, Resolved in full map"
+441,G-358:O6†,2.2Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+442,G-275:O2'†,2.2Å,#,,,,
+443,U-107:OP†,2.2Å,^,,,,
+444,U-326:O4,2.2Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+445,A-140:O2'†,2.2Å,,^,,,
+446,C-60:OP†,2.2Å,,#,,,
+447,G-164:OP†,2.2Å,#,,,,
+448,A-105:OP†,2.2Å,,^,,,
+449,A-103:OP†,2.2Å,,,7ygb^,,"Geometry, Resolved in one half map, Resolved in full map"
+450,A-270:N1†,2.2Å,,,,,"Geometry, Density, Resolved in one half map"
+451,A-57:OP,2.2Å,,^,,,
+452,C-109:OP,2.2Å,,^,,,
+453,U-155:O2'†,2.2Å,,,,,"Geometry, Resolved in full map"
+454,C-154:OP,2.2Å,,^,,1hr2_B^,
+455,U-205:OP†,2.2Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+409,"G-257:OP, U-258:OP†",2.3Å,#,,"7yga*, 7ygb*, 7r6l*, 7yg8*, 7xd5*, 7xd6*, 7ygd*, 7yg9*, 8hd6*, 7xd7*, 7ez0*, 8hd7#, 7ygc*, 7ez2*, 7xd3#, 7r6m*, 7xd4#, 8i7n*",,
+410,"A-183:OP, A-184:OP†, A-186:OP",2.3Å,#,,"7ygb*, 7r6l#, 1x8w_B#, 1gid_B*, 7xd5#, 7xd6*, 1hr2_B#, 8hd6*, 1gid_A*, 7xd7#, 7ez0#, 8hd7*, 7ez2#, 7xd3*, 7xd4#, 1hr2_A*, 8i7n*",,
+411,"A-184:OP, A-186:OP†, A-187:OP",2.3Å,#,,"7yga#, 7ygb#, 7r6l#, 1x8w_B#, 1x8w_D#, 1gid_B#, 1x8w_A#, 7xd5#, 7xd6#, 1hr2_B#, 8hd6*^, 1gid_A*^, 7xd7#, 7ez0#, 1x8w_C*, 7ez2#, 7xd4#, 1hr2_A*^, 8i7n#",,
+412,G-96:N7†,2.3Å,#,,,,
+413,"A-301:OP, A-302:OP",2.3Å,#,,"7ygb*, 7r6l*, 7xd5#, 7xd6#, 1hr2_B#, 7yg9#, 8hd6#, 7xd7#, 7ez0#, 1x8w_C#, 7r6n*^, 8hd7*^, 7ez2#, 7xd3*^, 7xd4*, 1hr2_A#, 8i7n*",,
+414,U-259:OP†,2.3Å,,,"7yga^, 7r6l^, 7yg9^, 8hd6^, 7ez0^, 7r6n^, 8hd7^, 7xd3^, 7r6m^, 7xd4^",,"Geometry, Density, Resolved in one half map, Resolved in full map"
+415,"A-256:OP†, U-273:OP",2.3Å,#,^,"7ygb*, 7r6l*, 7xd5*, 7xd6*, 1hr2_B#, 7ygd#, 7yg9#, 8hd6*^, 7xd7*, 7ez0*, 7r6n*, 8hd7*, 7ez2#, 7xd3*, 7r6m*^, 7xd4#, 8i7n#",,
+416,"A-304:OP, A-306:OP",2.3Å,#,,"7yga*, 7ygb*^, 7r6l*^, 7yg8*, 7xd5*, 7xd6*^, 1hr2_B#, 7yg9*^, 7xd7*, 7ez0#, 7r6n*, 8hd7#, 7ygc*^, 7ez2#, 7xd3#, 7xd4*, 1hr2_A#, 8i7n#",,
+417,"U-307:OP†, A-308:OP†",2.3Å,*,,"7yga*^, 7ygb*, 7r6l*, 7yg8*, 7xd5#, 7xd6#, 7ygd*, 7yg9#, 8hd6*, 7xd7#, 7ez0*, 7r6n*^, 8hd7*, 7ygc#, 7ez2*, 7xd3*, 7xd4*, 8i7n*",,
+418,G-188:O6†,2.3Å,,,"7ygb*, 7r6l*^, 1x8w_B#, 1gid_B^, 7xd5*, 7xd6#, 1hr2_B#, 7ygd#, 7yg9#, 8hd6*, 1gid_A^, 7xd7*, 7ez0*, 7r6n*^, 7ez2*^, 7r6m*^, 7xd4*, 8i7n^",,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+419,U-168:OP†,2.3Å,,,,1hr2_B^,"Geometry, Density, Resolved in one half map, Resolved in full map"
+420,A-302:OP†,2.3Å,,*,"8hd6^, 7ez0^, 7xd4^",,
+421,U-273:OP†,2.3Å,^,^,"8hd6^, 7r6m^",,
+422,A-183:O2'†,2.3Å,,*,,,
+423,G-272:O6†,2.3Å,#,,,,
+424,U-305:OP†,2.3Å,,^,"7yga*, 7r6l*^, 7yg8*, 7xd5*, 7xd6*, 1hr2_B#, 7ygd#, 7yg9#, 8hd6*, 7xd7#, 7ez0*^, 1x8w_C#, 7r6n*^, 8hd7*^, 7ygc#, 7ez2*, 7r6m#, 7xd4*, 1hr2_A#, 8i7n*",,
+425,A-97:OP,2.3Å,#,,,,
+426,G-112:N7,2.3Å,,,,"7r6l#, 1hr2_A*^","Density, Resolved in full map"
+427,C-213:O2'†,2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+428,A-178:N1†,2.3Å,#,,,"7r6l#, 1hr2_B*, 1hr2_A*^",
+429,U-106:OP†,2.3Å,,*^,,,
+430,A-299:OP,2.3Å,#,,,,
+431,A-187:OP†,2.3Å,#,,8hd6^,,
+432,U-177:O2'†,2.3Å,,*,,,
+433,A-299:O2'†,2.3Å,,,,,"Geometry, Density, Resolved in one half map, Resolved in full map"
+434,G-264:OP†,2.3Å,,*,,,
+435,A-104:OP,2.3Å,,*^,,,
+436,G-275:O2'†,2.3Å,#,,,,
+437,C-262:OP†,2.3Å,^,,"7yga*, 7ygb^, 7r6l^, 7xd5^, 7xd6^, 7yg9*, 7xd7^, 8hd7^, 7xd3^, 7r6m^",,
+438,C-255:OP,2.3Å,#,^,,,
+439,G-275:OP†,2.3Å,,^,,,
+440,G-313:O2'†,2.3Å,#,,,,
+441,G-164:OP†,2.3Å,#,^,,,
+442,U-185:OP†,2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+443,C-260:OP†,2.3Å,,^,,,
+444,A-187:O2'†,2.3Å,,,,,Density
+445,U-271:OP,2.3Å,#,^,,,
+446,A-46:OP†,2.3Å,,,,,"Geometry, Resolved in one half map, Resolved in full map"
+447,U-107:OP†,2.3Å,^,#,,,
+448,U-271:O4†,2.3Å,,,,,"Geometry, Density, Resolved in both half maps, Resolved in full map"
+449,G-328:OP†,2.3Å,,,,,Geometry
+450,U-258:O4,2.3Å,,*,,,
+451,A-248:OP,2.3Å,,,,"7r6l#, 1hr2_A*^",Geometry
+452,A-299:OP,2.3Å,^,,,,
+453,G-112:OP†,2.3Å,,,,1hr2_B^,"Density, Resolved in one half map"
+454,G-212:OP†,2.3Å,,,8hd7^,"1hr2_B^, 1hr2_A^","Geometry, Resolved in full map"
+455,C-48:OP†,2.3Å,,^,,,

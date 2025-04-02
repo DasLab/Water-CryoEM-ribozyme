@@ -1,0 +1,82 @@
+# make image of local resolution, Qscore, RMSD and RMSF
+
+# open files
+close all
+open bfactor_models/22_rmsf.pdb
+open bfactor_models/22_rmsd.pdb
+open bfactor_models/22_q.pdb
+open ../maps/2.2A-cryosparc_P5_J1243_map_locres.mrc
+open ../maps/Con2-2.2A_sh.mrc 
+open ../maps/2.3A-cryosparc_P5_J1242_map_locres.mrc
+open ../maps/Con1_2.3A_sh.mrc 
+
+
+# make basic settings
+set bgColor white
+hide ~:HOH,MG atoms 
+hide pseudobonds 
+hide :HOH,MG
+lighting soft
+cartoon style ~:HOH,MG  xsect oval width 2.5 thick 1.5
+lighting shadows false
+
+# color by range with bfactors
+color byattribute bfactor #1&~:HOH,MG palette blue:white:#FF8C00 range 0,12 key true
+color byattribute bfactor #2&~:HOH,MG palette blue:white:#FF8C00 range 0,4 key true
+color byattribute bfactor #3&~:HOH,MG palette #FF8C00:white:blue range 0,0.9 key true
+graphics silhouettes true width 10 color grey
+
+# depending on screen may need to zoom in and out from these values
+# make images of models for rmsd, rmsf and 1 for both views
+view matrix camera -0.87796,0.096473,0.46891,232.27,-0.28088,0.68936,-0.66775,-72.871,-0.38767,-0.71797,-0.57814,-42.305
+hide all models,cartoon
+show #8
+show #!1 models
+show #1 cartoon
+save figure_panels/legend_resolvability_v_flexibility.png pixelsize 0.05 transparentBackground true
+hide #8
+save figure_panels/RMSF_view1.png pixelsize 0.05 transparentBackground true
+hide #1 cartoon
+show #!2 models
+show #2 cartoon
+save figure_panels/RMSD_view1.png pixelsize 0.05 transparentBackground true
+hide #2 cartoon
+show #!3 models
+show #3 cartoon
+save figure_panels/Q_view1.png pixelsize 0.05 transparentBackground true
+
+view matrix camera -0.87796,-0.46891,0.09648,129.73,-0.28088,0.66775,0.68936,297.77,-0.38767,0.57813,-0.71797,-75.717
+hide all cartoon
+show #!1 models,cartoon
+save figure_panels/RMSF_view2.png pixelsize 0.05 transparentBackground true
+hide #1 cartoon
+show #!2 models
+show #2 cartoon
+save figure_panels/RMSD_view2.png pixelsize 0.05 transparentBackground true
+hide #2 cartoon
+show #!3 models,cartoon
+save figure_panels/Q_view2.png pixelsize 0.05 transparentBackground true
+hide #3 cartoon
+
+# color by localresolution
+volume #4 voxelSize 0.82
+volume #6 voxelSize 0.82
+measure mapvalues  #4  atoms  #1 attribute mapvalue
+vol zone  #5  nearAtoms  #1&~:MG,HOH range 1.75 minimalBounds true newMap true
+wait 10
+color sample #9 map #4 range 1.9,3.5 palette blue:white:#FF8C00
+color byattribute mapvalue #1&~:HOH,MG palette blue:white:#FF8C00 range 1.9,3.5
+
+# save images for local resolution
+lighting full
+graphics silhouettes false
+view matrix camera -0.87796,0.096473,0.46891,232.27,-0.28088,0.68936,-0.66775,-72.871,-0.38767,-0.71797,-0.57814,-42.305
+hide #8
+show #!9 models
+show #9
+show #!1 models,cartoon
+volume #5 sdlevel 3 
+save figure_panels/localres_view1.png pixelsize 0.05 transparentBackground true
+view matrix camera -0.87796,-0.46891,0.09648,129.73,-0.28088,0.66775,0.68936,297.77,-0.38767,0.57813,-0.71797,-75.717
+save figure_panels/localres_view2.png pixelsize 0.05 transparentBackground true
+

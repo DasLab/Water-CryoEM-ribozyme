@@ -1,0 +1,140 @@
+# create images of atomic models for agreement of mg2+ and water
+# between the 2A structure and other structure
+
+# open all applicable models
+close all
+open bfactor_models/22_colored_2.3A_agreement_Q.pdb
+open bfactor_models/22_colored_3A_agreement_Q.pdb
+open bfactor_models/22_colored_xray_agreement_Q.pdb
+open bfactor_models/22_colored_2.3A_agreement_RMSD.pdb
+open bfactor_models/22_colored_3A_agreement_RMSD_avg.pdb
+open bfactor_models/22_colored_xray_agreement_num_structs.pdb
+open bfactor_models/23_colored_3A_agreement.pdb
+open bfactor_models/23_colored_xray_agreement.pdb
+
+# set up look
+set bgColor white
+hide pseudobonds 
+nucleotides #!4 fill
+cartoon style ~:HOH,MG  xsect oval width 2.5 thick 1.5
+hide ~:MG,HOH atoms
+size :MG atomRadius 2 
+style :HOH sphere
+size :HOH atomRadius 1
+lighting soft
+lighting shadows false
+graphics silhouettes false
+
+# color mg and water by agreement
+color byattribute bfactor :MG palette 0,#b2e7bf:0.25,#c679f6:0.5,#3e00fc:0.75,#901cd8:1,#00af2b key false
+color byattribute bfactor :HOH palette 0,#f29a9a:0.25,#ffae89:0.5,#976032:0.75,#ff6924:1,#df0303 key false
+color byattribute bfactor :MG palette 0,#ffffff:0.25,#c679f6:0.5,#3e00fc:0.75,#901cd8:1,#00af2b key false
+color byattribute bfactor :HOH palette 0,#ffffff:0.25,#ffae89:0.5,#976032:0.75,#ff6924:1,#df0303 key false
+
+# color rna by rmsd/number of nucleotides and save legens
+color ~:MG,HOH lightgrey
+color byattribute bfactor #4,5&~:HOH,MG palette 0,white:4,black key true
+color byattribute bfactor #6&~:HOH,MG palette 8,white:0,black key true
+save figure_panels/legend_water_mg_agreement.png pixelsize 0.05 transparentBackground true
+
+# color by q and save legend
+color byattribute bfactor #1-3&~:HOH,MG palette 0,black:0.6,lightgrey:1,white key true
+
+# save images for 2 views (for xray hide residues not present in any xray)
+view matrix camera -0.87796,0.096473,0.46891,232.27,-0.28088,0.68936,-0.66775,-72.871,-0.38767,-0.71797,-0.57814,-42.305
+hide all models
+hide all cartoon
+show #!4 models
+show #4 cartoon
+hide ~:MG atoms
+show :MG atoms
+#hide @@bfactor=0
+save figure_panels/water_mg_agreement_23_colored_rmsd_mg_A.png pixelsize 0.05 transparentBackground true
+hide all models
+hide all cartoon
+show #!5,7 models
+show #5,7 cartoon
+hide ~:MG atoms
+hide #7&~:MG cartoon
+show :MG atoms
+#hide @@bfactor=0
+save figure_panels/water_mg_agreement_3_colored_rmsd_mg_A.png pixelsize 0.05 transparentBackground true
+hide all models
+hide all cartoon
+show #!6,8 models
+show #6,8 cartoon
+hide ~:MG atoms
+hide #8&~:MG cartoon
+show :MG atoms
+#hide @@bfactor=0
+hide #6:22,23,24,25,26,27,28,29,30,31,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51,52,57,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,287,288,289,290,291,332,333,334,335,336,337,338,339,340,341,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401 cartoon
+color byattribute bfactor #6&~:HOH,MG palette 8,white:0,black key true
+save figure_panels/water_mg_agreement_xray_colored_num_mg_A.png pixelsize 0.05 transparentBackground true
+hide all models
+hide all cartoon
+show #!4 models
+show #4 cartoon
+hide ~:HOH atoms
+show :HOH atoms
+#hide @@bfactor=0
+save figure_panels/water_mg_agreement_23_colored_rmsd_wat_A.png pixelsize 0.05 transparentBackground true
+hide all models
+hide all cartoon
+show #!6,8 models
+show #6,8 cartoon
+hide ~:MG,HOH atoms
+hide #8&~:HOH cartoon
+show :HOH atoms
+#hide @@bfactor=0
+hide #6:22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,143,144,260,262,263,264,266,267,268,270,271,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408 cartoon
+color byattribute bfactor #6&~:HOH,MG palette 4,white:0,black key true
+save figure_panels/water_mg_agreement_xray_colored_num_wat_A.png pixelsize 0.05 transparentBackground true
+
+view matrix camera -0.87796,-0.46891,0.09648,129.73,-0.28088,0.66775,0.68936,297.77,-0.38767,0.57813,-0.71797,-75.717
+hide all models
+hide all cartoon
+show #!4 models
+show #4 cartoon
+hide ~:MG atoms
+show :MG atoms
+#hide @@bfactor=0
+save figure_panels/water_mg_agreement_23_colored_rmsd_mg_B.png pixelsize 0.05 transparentBackground true
+hide all models
+hide all cartoon
+show #!5,7 models
+show #5,7 cartoon
+hide ~:MG atoms
+hide #7&~:MG cartoon
+show :MG atoms
+#hide @@bfactor=0
+save figure_panels/water_mg_agreement_3_colored_rmsd_mg_B.png pixelsize 0.05 transparentBackground true
+hide all models
+hide all cartoon
+show #!6,8 models
+show #6,8 cartoon
+hide ~:MG atoms
+hide #8&~:MG cartoon
+show :MG atoms
+#hide @@bfactor=0
+hide #6:22,23,24,25,26,27,28,29,30,31,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51,52,57,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,287,288,289,290,291,332,333,334,335,336,337,338,339,340,341,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401 cartoon
+color byattribute bfactor #6&~:HOH,MG palette 8,white:0,black key true
+save figure_panels/water_mg_agreement_xray_colored_num_mg_B.png pixelsize 0.05 transparentBackground true
+hide all models
+hide all cartoon
+show #!4 models
+show #4 cartoon
+hide ~:HOH atoms
+show :HOH atoms
+#hide @@bfactor=0
+save figure_panels/water_mg_agreement_23_colored_rmsd_wat_B.png pixelsize 0.05 transparentBackground true
+hide all models
+hide all cartoon
+show #!6,8 models
+show #6,8 cartoon
+hide ~:HOH atoms
+hide #8&~:MG,HOH cartoon
+show :HOH atoms
+#hide @@bfactor=0
+hide #6:22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,143,144,260,262,263,264,266,267,268,270,271,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408 cartoon
+color byattribute bfactor #6&~:HOH,MG palette 4,white:0,black key true
+save figure_panels/water_mg_agreement_xray_colored_num_wat_B.png pixelsize 0.05 transparentBackground true

@@ -1,0 +1,450 @@
+RNA_atoms,avg_time,max_time,2.2A exact match,2.2A partial match,2.3A exact match,2.3A partial match,2A category
+A-103:OP,0.026583333333333334,0.7975,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-104:OP,0.11075,1.0,0,0,1,1,Mg binding site found in only one cryoEM maps.
+A-104:OP A-105:OP,0.00175,0.0375,0,1,0,1,Mg binding site not found in any cryoEM maps.
+A-104:OP A-105:OP U-106:O4,0.08658333333333333,0.9875,0,1,0,1,Mg binding site not found in any cryoEM maps.
+A-104:OP U-106:O4,0.0069166666666666664,0.2075,0,0,0,1,Mg binding site not found in any cryoEM maps.
+A-104:OP U-267:OP,0.029166666666666667,0.7975,0,0,0,1,Mg binding site not found in any cryoEM maps.
+A-105:OP,0.0003333333333333333,0.0075,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-105:OP U-106:O4,0.02775,0.585,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-113:OP,0.17175,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-114:OP,0.07708333333333334,0.89,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-114:OP A-115:OP,0.14925,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-115:OP,0.047,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-122:OP,0.19933333333333333,0.9375,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-125:O2' G-126:OP A-324:OP,0.012666666666666666,0.38,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-125:OP,0.32616666666666666,1.0,1,1,0,0,Mg binding site found in only one cryoEM maps.
+A-133:OP,0.028333333333333332,0.85,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-136:OP,0.04558333333333333,0.74,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-139:OP,0.00125,0.0375,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-139:OP A-140:OP,0.19258333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-140:OP,0.19641666666666666,0.9925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-146:OP,0.04833333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-151:OP,0.0055,0.165,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-159:OP,0.01875,0.3375,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-171:OP,0.0135,0.3775,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-172:OP,0.0009166666666666666,0.005,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-172:OP A-173:OP,0.82025,1.0,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-173:OP,0.0013333333333333333,0.0125,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-178:OP,0.0003333333333333333,0.01,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-183:OP A-184:OP,0.001,0.01,0,2,0,2,Mg binding site not found in any cryoEM maps.
+A-183:OP A-184:OP A-186:OP,0.8160833333333334,1.0,1,2,1,2,Mg binding site found in both cryoEM maps.
+A-183:OP A-184:OP A-187:OP,0.00025,0.0075,0,3,0,3,Mg binding site not found in any cryoEM maps.
+A-183:OP A-184:OP A-187:OP G-188:OP,0.031166666666666665,0.935,0,3,0,3,Mg binding site not found in any cryoEM maps.
+A-183:OP A-184:OP G-188:OP,0.00016666666666666666,0.005,0,2,0,2,Mg binding site not found in any cryoEM maps.
+A-183:OP A-186:OP,0.0004166666666666667,0.0025,0,2,1,2,Mg binding site found in only one cryoEM maps.
+A-183:OP A-187:OP G-188:OP,0.0011666666666666668,0.035,0,3,0,3,Mg binding site not found in any cryoEM maps.
+A-184:OP A-186:OP,0.005416666666666667,0.0225,0,2,0,2,Mg binding site not found in any cryoEM maps.
+A-184:OP A-186:OP A-187:OP,0.7683333333333333,1.0,1,3,1,3,Mg binding site found in both cryoEM maps.
+A-184:OP A-186:OP A-187:OP G-188:OP,0.019583333333333335,0.5875,0,3,0,3,Mg binding site not found in any cryoEM maps.
+A-184:OP A-187:OP,0.0004166666666666667,0.005,0,3,1,3,Mg binding site found in only one cryoEM maps.
+A-184:OP A-187:OP G-188:OP,0.0004166666666666667,0.0125,0,3,0,3,Mg binding site not found in any cryoEM maps.
+A-186:OP,0.0013333333333333333,0.04,0,2,0,2,Mg binding site not found in any cryoEM maps.
+A-186:OP A-187:OP,0.03225,0.9525,0,3,0,3,Mg binding site not found in any cryoEM maps.
+A-187:OP,0.00025,0.0075,0,2,0,2,Mg binding site not found in any cryoEM maps.
+A-187:OP G-188:OP,8.333333333333333e-05,0.0025,0,2,0,2,Mg binding site not found in any cryoEM maps.
+A-192:OP,0.0008333333333333334,0.025,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-196:OP,0.06241666666666667,0.9325,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-206:OP,0.018666666666666668,0.49,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-206:OP A-263:OP,0.13791666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-207:O2',0.018083333333333333,0.5425,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-207:OP,8.333333333333333e-05,0.0025,1,1,0,0,Mg binding site found in only one cryoEM maps.
+A-207:OP A-263:OP,0.0195,0.585,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-210:OP,0.15516666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-214:OP,0.001,0.0275,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-214:OP G-215:OP,0.06858333333333333,1.0,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-218:OP,0.1975,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-219:OP,0.15716666666666668,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-219:OP G-220:OP,0.12558333333333332,0.9725,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-225:OP,0.7165833333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-226:OP,0.09991666666666667,0.945,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-226:OP U-228:O4,0.077,0.995,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-230:OP,0.06583333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-231:OP,0.013333333333333334,0.4,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-233:OP,0.024666666666666667,0.7075,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-246:OP,0.026916666666666665,0.8075,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-248:OP,0.12866666666666668,1.0,0,0,1,1,Mg binding site found in only one cryoEM maps.
+A-24:OP,0.02675,0.8025,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-252:OP,0.06016666666666667,0.7525,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-256:OP,0.0014166666666666668,0.01,0,1,0,1,Mg binding site not found in any cryoEM maps.
+A-256:OP U-273:OP,0.8204166666666667,1.0,1,1,1,2,Mg binding site found in both cryoEM maps.
+A-263:OP,0.08416666666666667,0.8,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-265:OP,0.111,1.0,1,1,1,1,Mg binding site found in both cryoEM maps.
+A-268:OP,0.022916666666666665,0.4175,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-269:OP,0.26375,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-270:OP,0.45208333333333334,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-283:OP,0.015833333333333335,0.47,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-284:N7,0.006833333333333334,0.085,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-286:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-28:OP,0.033916666666666664,0.9975,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-28:OP A-95:OP,0.229,1.0,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-290:OP,0.023,0.69,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-299:OP,0.025416666666666667,0.4775,1,1,2,2,Mg binding site found in both cryoEM maps.
+A-29:OP,0.033916666666666664,0.6925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-301:OP,0.07858333333333334,0.9925,0,1,0,1,Mg binding site not found in any cryoEM maps.
+A-301:OP A-302:OP,0.0013333333333333333,0.03,1,1,1,2,Mg binding site found in both cryoEM maps.
+A-301:OP G-303:O6,0.021,0.63,0,1,0,1,Mg binding site not found in any cryoEM maps.
+A-302:OP,0.033416666666666664,1.0,0,1,0,2,Mg binding site not found in any cryoEM maps.
+A-304:OP,0.09391666666666666,0.9975,0,2,0,1,Mg binding site not found in any cryoEM maps.
+A-304:OP A-306:OP,0.00025,0.0025,1,2,1,1,Mg binding site found in both cryoEM maps.
+A-306:OP,0.033916666666666664,1.0,0,1,0,1,Mg binding site not found in any cryoEM maps.
+A-308:OP,0.002416666666666667,0.015,1,1,0,1,Mg binding site found in only one cryoEM maps.
+A-30:OP,0.2385,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-314:OP,0.019916666666666666,0.335,0,0,0,1,Mg binding site not found in any cryoEM maps.
+A-314:OP G-406:O6,0.00475,0.1425,0,0,0,1,Mg binding site not found in any cryoEM maps.
+A-31:O2' A-95:OP G-96:OP,0.0069166666666666664,0.2075,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-31:OP,0.12591666666666668,0.8925,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-31:OP G-32:OP,0.09725,1.0,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-324:OP,0.11258333333333333,0.99,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-325:OP,0.05475,0.89,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-330:OP,0.19733333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-342:OP,0.14408333333333334,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-342:OP A-343:OP,0.14558333333333334,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-343:OP,0.11533333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-347:OP U-348:OP,0.09725,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-351:OP,0.024583333333333332,0.7375,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-352:OP,0.033166666666666664,0.995,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-354:OP,0.029333333333333333,0.465,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-359:OP,0.226,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-35:OP,0.13241666666666665,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-369:OP,0.14033333333333334,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-369:OP A-370:OP,0.278,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-370:OP,0.00075,0.01,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-370:OP C-371:OP,0.028666666666666667,0.86,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-373:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-374:OP,0.010583333333333333,0.315,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-374:OP U-389:OP,0.014916666666666667,0.4475,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-380:OP,0.021416666666666667,0.6425,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-387:OP,0.06441666666666666,0.8175,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-38:OP,0.006333333333333333,0.19,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-390:OP,0.042583333333333334,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-392:OP,0.09983333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-396:OP,0.0795,0.9575,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-399:OP,0.03266666666666666,0.98,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-407:OP,0.04066666666666666,0.6625,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-42:OP,0.060333333333333336,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-46:OP,0.2579166666666667,1.0,0,0,0,1,Mg binding site not found in any cryoEM maps.
+A-57:OP,0.011083333333333334,0.2575,1,1,0,0,Mg binding site found in only one cryoEM maps.
+A-64:OP,0.132,0.9925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-65:OP,0.09725,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-66:OP,0.063,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-69:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-70:OP,0.007666666666666666,0.23,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-74:OP,0.04325,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-88:OP,0.020916666666666667,0.5875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-90:OP,0.014333333333333333,0.43,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-94:OP,0.2715,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+A-95:OP,0.017666666666666667,0.5275,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-95:OP G-96:OP,0.026416666666666668,0.7925,0,1,0,0,Mg binding site not found in any cryoEM maps.
+A-97:OP,0.0004166666666666667,0.005,1,1,1,1,Mg binding site found in both cryoEM maps.
+A-97:OP A-301:OP,0.5304166666666666,1.0,0,2,0,2,Mg binding site not found in any cryoEM maps.
+A-97:OP U-300:O2 A-301:OP,0.0005,0.015,0,2,0,2,Mg binding site not found in any cryoEM maps.
+A-97:OP U-300:O2' A-301:OP,0.19066666666666668,0.8125,0,2,0,2,Mg binding site not found in any cryoEM maps.
+C-102:OP,0.07858333333333334,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-109:OP,0.06625,1.0,1,1,0,0,Mg binding site found in only one cryoEM maps.
+C-121:OP,0.0026666666666666666,0.08,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-124:OP,0.027583333333333335,0.66,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-127:OP,0.0003333333333333333,0.005,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-128:OP,0.09866666666666667,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-132:OP,0.0005833333333333334,0.0075,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-137:OP,0.03183333333333333,0.955,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-138:OP,0.17816666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-143:OP,0.03308333333333333,0.9925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-145:O2',0.00125,0.0375,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-154:OP,0.06366666666666666,0.9875,1,1,0,0,Mg binding site found in only one cryoEM maps.
+C-166:OP,0.027083333333333334,0.415,1,1,0,0,Mg binding site found in only one cryoEM maps.
+C-170:OP,0.012416666666666666,0.37,0,1,0,0,Mg binding site not found in any cryoEM maps.
+C-170:OP A-171:OP,0.043083333333333335,1.0,0,1,0,0,Mg binding site not found in any cryoEM maps.
+C-189:OP,0.5380833333333334,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-189:OP U-190:OP,0.16491666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-203:OP,0.09725,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-204:OP,0.19591666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-208:OP,0.017833333333333333,0.535,1,1,0,0,Mg binding site found in only one cryoEM maps.
+C-208:OP A-304:OP A-306:OP,0.19308333333333333,1.0,0,3,0,1,Mg binding site not found in any cryoEM maps.
+C-208:OP A-306:OP,0.015833333333333335,0.47,0,2,0,1,Mg binding site not found in any cryoEM maps.
+C-209:OP,0.024416666666666666,0.69,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-209:OP C-211:OP,0.638,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-211:OP,0.10725,0.9625,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-213:OP,0.18333333333333332,1.0,0,1,0,0,Mg binding site not found in any cryoEM maps.
+C-213:OP A-214:OP,0.0425,0.7675,0,2,0,0,Mg binding site not found in any cryoEM maps.
+C-216:OP,0.19691666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-216:OP U-253:OP,0.027166666666666665,0.815,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-217:OP,0.04533333333333334,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-223:O2,0.2605,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-223:OP,0.050916666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-229:OP,0.11975,0.9925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-232:OP,0.03325,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-237:O2,0.033166666666666664,0.995,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-255:OP,0.003,0.09,1,2,1,1,Mg binding site found in both cryoEM maps.
+C-262:OP,0.05266666666666667,1.0,0,2,0,1,Mg binding site not found in any cryoEM maps.
+C-262:OP A-263:OP,0.09725,1.0,0,2,0,1,Mg binding site not found in any cryoEM maps.
+C-262:OP A-306:OP,0.2628333333333333,1.0,0,3,0,2,Mg binding site not found in any cryoEM maps.
+C-262:OP U-305:O2' A-306:OP,0.0019166666666666666,0.0575,0,3,0,2,Mg binding site not found in any cryoEM maps.
+C-266:OP,0.15941666666666668,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-278:OP,0.1285,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-298:OP,0.035166666666666666,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-311:OP,0.09891666666666667,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-315:OP,0.05566666666666667,0.99,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-315:OP C-316:OP,0.025916666666666668,0.7775,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-316:OP,0.029083333333333333,0.8025,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-332:OP,0.0145,0.43,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-332:OP U-403:OP,0.13175,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-336:OP,0.0115,0.345,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-353:OP,0.0145,0.435,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-355:OP,0.03166666666666667,0.95,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-361:OP,0.04958333333333333,0.86,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-362:OP,0.09791666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-362:OP A-407:OP,0.009583333333333333,0.2875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-364:OP,0.019916666666666666,0.5975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-371:OP,0.052583333333333336,0.9575,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-383:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-41:O2,0.135,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-41:O2 U-43:OP,0.014416666666666666,0.4325,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-41:OP,0.041916666666666665,0.815,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-45:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-60:OP,0.1305,1.0,0,1,0,0,Mg binding site not found in any cryoEM maps.
+C-67:OP,0.03325,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-68:OP,0.023083333333333334,0.6925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-78:OP,0.0005,0.015,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-81:OP,0.012166666666666666,0.3625,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-93:OP,0.01125,0.3325,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-93:OP A-94:OP,0.017583333333333333,0.5275,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-98:OP,0.011833333333333333,0.355,0,0,0,0,Mg binding site not found in any cryoEM maps.
+C-99:OP,0.09725,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-100:OP,0.12583333333333332,0.99,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-108:OP,0.012166666666666666,0.365,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-110:OP,0.04533333333333334,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-111:OP,0.5330833333333334,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-112:OP,0.16,1.0,0,0,0,1,Mg binding site not found in any cryoEM maps.
+G-118:O6,0.11025,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-119:OP A-324:OP,0.00016666666666666666,0.005,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-126:OP,0.12733333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-126:OP A-324:OP,0.08458333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-126:OP C-127:OP,0.09866666666666667,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-129:OP,0.481,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-141:OP,0.254,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-148:OP G-149:OP,0.03275,0.9825,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-149:OP,0.06616666666666667,0.8,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-150:O6,0.02666666666666667,0.39,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-150:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-160:OP,0.011,0.33,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-163:OP,0.22491666666666665,0.9825,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-164:O6,0.2940833333333333,0.9975,0,1,0,0,Mg binding site not found in any cryoEM maps.
+G-169:OP,0.0865,0.8875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-174:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-175:OP,0.035166666666666666,0.64,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-180:OP,0.062,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-181:OP,0.07766666666666666,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-188:O2',0.026916666666666665,0.8075,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-188:O2' C-189:OP,0.006833333333333334,0.1375,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-188:O6,0.04491666666666667,0.855,0,0,0,1,Mg binding site not found in any cryoEM maps.
+G-188:OP,0.25858333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-191:OP,0.029083333333333333,0.8725,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-194:OP,0.033166666666666664,0.995,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-195:OP,0.00125,0.0375,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-200:OP,0.15883333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-201:OP,0.0018333333333333333,0.03,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-201:OP U-202:OP,0.0975,0.9675,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-212:OP,0.2689166666666667,1.0,0,0,0,1,Mg binding site not found in any cryoEM maps.
+G-215:OP,0.177,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-220:OP,0.2345,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-22:O2' G-58:OP,0.006583333333333333,0.1975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-234:OP,0.05333333333333334,0.765,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-23:OP,0.06225,0.5325,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-23:OP A-88:OP,0.15933333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-23:OP G-58:OP,0.0009166666666666666,0.0275,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-242:OP,0.1555,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-245:OP,0.015333333333333332,0.46,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-250:OP,0.011,0.33,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-251:OP,0.00975,0.2925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-254:OP,0.012,0.36,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-257:OP,0.03141666666666667,0.765,0,1,1,1,Mg binding site found in only one cryoEM maps.
+G-257:OP C-260:O2 U-305:OP,0.00025,0.0025,0,1,0,2,Mg binding site not found in any cryoEM maps.
+G-257:OP U-258:OP,0.003416666666666667,0.0275,1,1,1,1,Mg binding site found in both cryoEM maps.
+G-257:OP U-258:OP C-260:O2,0.0003333333333333333,0.005,0,1,0,1,Mg binding site not found in any cryoEM maps.
+G-257:OP U-258:OP C-260:O2 U-305:OP,0.058916666666666666,0.755,0,1,0,2,Mg binding site not found in any cryoEM maps.
+G-257:OP U-258:OP U-305:OP,0.753,1.0,1,1,0,2,Mg binding site found in only one cryoEM maps.
+G-257:OP U-259:O4,0.00775,0.2325,0,1,0,1,Mg binding site not found in any cryoEM maps.
+G-257:OP U-305:OP,0.005416666666666667,0.1475,0,1,0,2,Mg binding site not found in any cryoEM maps.
+G-25:O6 G-58:OP,0.008833333333333334,0.265,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-264:OP,0.063,0.9975,0,0,0,1,Mg binding site not found in any cryoEM maps.
+G-264:OP G-329:OP,0.03216666666666667,0.965,0,0,0,1,Mg binding site not found in any cryoEM maps.
+G-26:OP,8.333333333333333e-05,0.0025,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-26:OP G-27:OP,0.12691666666666668,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-272:OP,0.13516666666666666,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-272:OP U-273:OP,0.6856666666666666,1.0,0,1,0,2,Mg binding site not found in any cryoEM maps.
+G-275:OP,0.01225,0.3675,0,0,0,1,Mg binding site not found in any cryoEM maps.
+G-279:O6,0.021583333333333333,0.6325,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-279:OP,0.09858333333333333,0.985,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-27:O6 A-57:OP,0.1,0.7875,0,1,0,0,Mg binding site not found in any cryoEM maps.
+G-27:OP,0.10175,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-280:OP,0.16966666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-281:OP,0.16508333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-282:OP,0.7325833333333334,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-285:OP,0.06375,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-288:OP,0.0745,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-303:O6,0.0003333333333333333,0.01,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-303:OP,0.02666666666666667,0.4025,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-303:OP U-305:OP,0.11058333333333334,1.0,0,1,0,1,Mg binding site not found in any cryoEM maps.
+G-312:OP,0.18566666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-313:OP,0.051833333333333335,0.7225,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-313:OP A-314:OP,0.08508333333333333,0.9825,0,0,0,1,Mg binding site not found in any cryoEM maps.
+G-327:OP,0.16183333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-328:OP,0.24216666666666667,1.0,0,0,0,1,Mg binding site not found in any cryoEM maps.
+G-329:OP,0.21516666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-32:OP,0.35475,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-331:OP,0.13641666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-331:OP C-332:OP,0.09725,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-335:OP,0.026583333333333334,0.7975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-337:O6,0.014166666666666666,0.425,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-337:OP,0.022083333333333333,0.6625,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-338:OP,0.099,0.99,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-341:OP,0.025416666666666667,0.7625,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-344:OP,0.257,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-346:OP,0.0005,0.0075,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-346:OP U-348:OP,0.0085,0.255,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-349:OP,0.056416666666666664,0.885,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-357:OP,0.00725,0.2175,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-358:OP,0.03675,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-358:OP A-359:OP,0.09858333333333333,0.9825,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-360:OP,0.0215,0.645,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-363:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-366:OP,0.11191666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-367:OP,0.14983333333333335,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-367:OP G-368:O6,0.09725,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-367:OP U-397:OP,0.02,0.6,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-368:OP,0.042166666666666665,0.7325,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-382:OP,0.016833333333333332,0.505,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-384:OP,0.04033333333333333,0.74,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-388:OP,0.01425,0.4275,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-395:OP,0.033666666666666664,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-395:OP A-396:OP,0.09791666666666667,0.97,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-405:OP,0.16258333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-406:O6,0.00016666666666666666,0.005,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-406:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-44:OP,0.03325,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-50:OP,0.025583333333333333,0.7675,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-51:OP,0.012666666666666666,0.38,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-58:OP,0.60875,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-73:OP,0.13391666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-77:OP,0.03675,0.7775,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-82:OP,0.023916666666666666,0.7175,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-83:OP,0.0135,0.405,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-91:OP,0.0011666666666666668,0.035,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-92:OP,0.06041666666666667,0.9275,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-96:O6,0.0015,0.035,0,0,0,0,Mg binding site not found in any cryoEM maps.
+G-96:O6 G-279:O6,0.06766666666666667,0.98,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-101:O4,0.14791666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-101:O4 A-270:OP,0.18383333333333332,0.995,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-101:OP,0.005166666666666667,0.155,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-106:O4,0.17066666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-106:OP,0.03325,0.9975,0,0,0,1,Mg binding site not found in any cryoEM maps.
+U-107:OP,0.15841666666666668,1.0,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-107:OP G-264:OP,0.0009166666666666666,0.0275,0,1,0,2,Mg binding site not found in any cryoEM maps.
+U-107:OP U-259:OP,0.026333333333333334,0.79,0,1,0,3,Mg binding site not found in any cryoEM maps.
+U-120:O4,0.009583333333333333,0.2875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-131:OP,0.033666666666666664,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-131:OP C-132:OP,0.09825,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-135:OP,0.032,0.96,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-135:OP A-136:OP,0.008833333333333334,0.265,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-142:OP,0.24141666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-157:OP,0.0125,0.375,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-162:OP,0.06508333333333334,0.8,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-168:OP,0.04908333333333333,1.0,0,0,0,1,Mg binding site not found in any cryoEM maps.
+U-168:OP A-171:OP,0.3224166666666667,1.0,0,0,0,1,Mg binding site not found in any cryoEM maps.
+U-168:OP C-170:OP,0.00225,0.0225,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-168:OP C-170:OP A-171:N7 A-171:OP,0.012,0.36,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-168:OP C-170:OP A-171:OP,0.42883333333333334,1.0,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-177:OP,0.03325,0.9925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-177:OP A-178:OP,0.03283333333333333,0.985,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-179:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-182:OP,0.006333333333333333,0.19,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-185:OP,0.015833333333333335,0.475,0,0,0,2,Mg binding site not found in any cryoEM maps.
+U-190:OP,0.20916666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-202:O4,0.027,0.3575,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-202:OP,0.029833333333333333,0.87,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-205:OP,0.0005,0.0075,0,1,0,0,Mg binding site not found in any cryoEM maps.
+U-205:OP A-206:OP,0.19366666666666665,1.0,0,1,0,0,Mg binding site not found in any cryoEM maps.
+U-224:OP,0.07858333333333334,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-224:OP A-225:OP,0.0265,0.795,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-228:OP,0.029083333333333333,0.8725,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-238:OP,0.03191666666666667,0.9575,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-239:OP,0.03766666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-241:OP,0.12025,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-244:OP,0.050833333333333335,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-247:OP,0.14433333333333334,0.995,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-249:OP,0.03333333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-253:OP,0.149,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-258:OP,8.333333333333333e-05,0.0025,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-258:OP A-261:OP,0.003916666666666666,0.09,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-258:OP C-260:O2 U-305:OP,0.00016666666666666666,0.0025,0,1,0,2,Mg binding site not found in any cryoEM maps.
+U-258:OP U-259:OP,0.0025833333333333333,0.03,0,1,0,3,Mg binding site not found in any cryoEM maps.
+U-258:OP U-259:OP A-261:OP,0.08975,0.855,0,1,0,3,Mg binding site not found in any cryoEM maps.
+U-258:OP U-259:OP C-260:O2' A-261:OP,0.0013333333333333333,0.04,0,1,0,3,Mg binding site not found in any cryoEM maps.
+U-258:OP U-305:OP,0.0009166666666666666,0.0075,0,1,0,2,Mg binding site not found in any cryoEM maps.
+U-259:OP,0.04583333333333333,0.9975,0,0,1,2,Mg binding site found in only one cryoEM maps.
+U-259:OP A-261:OP,0.04058333333333333,0.645,0,0,0,2,Mg binding site not found in any cryoEM maps.
+U-259:OP A-261:OP A-306:N7,0.00125,0.0375,0,0,0,2,Mg binding site not found in any cryoEM maps.
+U-267:OP,0.17841666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-271:OP,0.02375,0.7125,0,1,1,1,Mg binding site found in only one cryoEM maps.
+U-273:OP,0.00225,0.0125,1,1,1,2,Mg binding site found in both cryoEM maps.
+U-277:OP,0.18375,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-287:OP,0.04041666666666666,0.6475,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-289:OP,0.009083333333333334,0.2725,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-294:OP,0.0985,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-295:OP,0.10883333333333334,0.99,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-300:OP A-301:OP,0.0011666666666666668,0.025,0,1,0,3,Mg binding site not found in any cryoEM maps.
+U-300:OP A-301:OP A-302:OP,0.096,0.93,0,1,0,4,Mg binding site not found in any cryoEM maps.
+U-300:OP A-302:OP,0.0005833333333333334,0.0075,0,1,0,4,Mg binding site not found in any cryoEM maps.
+U-305:OP,0.059083333333333335,0.99,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-307:OP,0.0004166666666666667,0.0025,0,0,0,1,Mg binding site not found in any cryoEM maps.
+U-307:OP A-308:OP,0.8196666666666667,1.0,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-310:OP C-311:OP,0.09725,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-322:OP,0.04783333333333333,0.725,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-322:OP A-324:OP,0.003416666666666667,0.1025,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-323:O4,0.027666666666666666,0.83,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-323:OP A-324:OP,0.11191666666666666,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-326:OP,0.13383333333333333,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-333:OP,0.009166666666666667,0.275,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-33:OP,0.13716666666666666,0.99,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-33:OP C-298:O2',0.04133333333333333,0.7125,0,1,0,1,Mg binding site not found in any cryoEM maps.
+U-340:OP,0.023083333333333334,0.6925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-345:OP,0.03941666666666667,0.7225,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-345:OP G-346:OP,0.09766666666666667,0.9775,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-348:OP,0.16316666666666665,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-348:OP G-349:OP,0.072,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-34:OP,0.02075,0.6225,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-356:OP,0.013,0.39,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-36:OP,0.0019166666666666666,0.0575,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-372:OP,0.102,0.9875,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-375:OP,0.03675,0.8925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-376:O4,0.0015,0.045,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-379:OP,0.26825,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-381:OP,0.025333333333333333,0.76,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-389:OP,0.09175,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-389:OP A-390:OP,0.09766666666666667,0.985,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-391:OP,0.057666666666666665,0.8525,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-391:OP A-392:OP,0.24041666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-393:OP,0.0265,0.795,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-394:OP,0.02075,0.6225,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-397:OP,0.04025,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-398:OP,0.0026666666666666666,0.08,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-401:OP,0.112,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-401:OP U-402:OP,0.07125,0.9775,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-402:OP,0.165,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-403:OP,0.19925,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-404:OP,0.17491666666666666,0.9975,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-43:OP,0.02266666666666667,0.6175,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-49:OP,0.12008333333333333,0.9925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-52:OP,0.004416666666666667,0.1325,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-59:OP,0.049166666666666664,0.8925,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-61:OP,0.010916666666666667,0.3275,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-62:OP,0.09483333333333334,0.865,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-62:OP C-81:OP,0.004166666666666667,0.125,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-62:OP U-63:OP,0.09725,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-63:OP,0.041833333333333333,0.8725,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-75:OP,0.02225,0.66,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-75:OP U-76:OP,0.27466666666666667,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-76:OP,0.033416666666666664,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-80:OP,0.02975,0.5125,0,0,0,0,Mg binding site not found in any cryoEM maps.
+U-84:OP,0.1205,1.0,0,0,0,0,Mg binding site not found in any cryoEM maps.

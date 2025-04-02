@@ -1,0 +1,26 @@
+*svg
+__pycache__
+*pyc
+.ipynb_checkpoints
+temp*
+*_old.pdb
+*_old.csv
+*_mapqScript.py
+
+simulations/simulations
+models/SWIM/models_*
+models/aligned_solvent
+
+
+analysis/water_consensus/?_?_all_solvent_consensus_status.csv
+analysis/water_consensus/?_??_all_solvent_consensus_status.csv
+analysis/water_consensus/??_?_all_solvent_consensus_status.csv
+analysis/water_consensus/??_??_all_solvent_consensus_status.csv
+analysis/water_consensus/?_all_solvent_consensus_status.csv
+analysis/water_consensus/?row_all_solvent_consensus_status.csv
+*.pdb__Q__*.mrc_All.txt
+*.pdb__Q__*.mrc.pdb
+
+# large files
+chimerax_code/visualize_water_networks/*cxs
+chimerax_code/visualize_water_networks/*mp4
